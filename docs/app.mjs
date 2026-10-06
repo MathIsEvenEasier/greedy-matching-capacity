@@ -1,4 +1,5 @@
 import {matchingDistribution,tails,pairCoefficients,cappedLaw,waitingLaw,quantile,referenceHazard,refinement} from './math.mjs';
+import {initProofMap} from './proof-map.mjs';
 const $=id=>document.getElementById(id), pct=x=>(100*x).toFixed(2)+'%', num=(x,n=4)=>(Math.abs(x)<1e-12?0:x).toFixed(n);
 const repo='https://github.com/MathIsEvenEasier/greedy-matching-capacity/blob/main/formal/';
 const locations={source_matching_tail_comparison:'SourceModel.lean#L95',normalizedPairCoeff_convex:'PairCoefficients.lean#L128',capped_categorical_concentration:'CategoricalConcentration.lean#L75',ordered_vs_uniform_saturation:'UniformCappedLaw.lean#L108',historyFiberEquiv:'HistoryFiber.lean#L53',actual_ordered_transition_coupling:'BoundedNextCoupling.lean#L81'};
@@ -10,6 +11,7 @@ function setStep(n,focus=false){step=Math.max(0,Math.min(6,n));document.querySel
 document.querySelectorAll('[data-step]').forEach(b=>b.addEventListener('click',()=>setStep(+b.dataset.step)));
 document.querySelectorAll('[data-jump]').forEach(b=>b.addEventListener('click',()=>setStep(+b.dataset.jump,true)));
 $('previous').addEventListener('click',()=>setStep(step-1,true));$('next').addEventListener('click',()=>setStep(step===6?0:step+1,true));
+initProofMap(n=>{setStep(n,true);const heading=$('step-'+n).querySelector('h3');heading.tabIndex=-1;heading.focus({preventScroll:true});});
 const svg=(label,content,w=500,h=260)=>`<svg role="img" aria-label="${label}" viewBox="0 0 ${w} ${h}">${content}</svg>`;
 function lineChart(series,labels,{title,highlight=-1,max=1,yLabel='Probability'}={}){
  const W=500,H=270,l=48,r=20,t=26,b=39,x=i=>l+i*(W-l-r)/Math.max(1,labels.length-1),y=v=>H-b-v/max*(H-t-b);

@@ -5,11 +5,11 @@
   <meta name="description" content="An interactive explanation and Lean proof of RANDOM-VERTEX versus RANKING for equal-capacity bipartite random matching.">
   <meta name="theme-color" content="#f5f3eb">
   <title>Random choice, better matching · MathIsEvenEasier</title>
-  <link rel="stylesheet" href="style.css"><script type="module" src="app.mjs"></script>
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="proof-map.css"><script type="module" src="app.mjs"></script>
 </head>
 <body>
 <a class="skip" href="#proof">Skip to the proof</a>
-<header><a class="brand" href="#">MathIsEvenEasier<span> / research notes</span></a><nav aria-label="Resources"><a href="#sources">References</a><a href="research-note.tex" download>Manuscript ↗</a><a href="https://github.com/MathIsEvenEasier/greedy-matching-capacity">GitHub ↗</a></nav></header>
+<header><a class="brand" href="#">MathIsEvenEasier<span> / research notes</span></a><nav aria-label="Resources"><a href="#proof-map">Proof map</a><a href="#sources">References</a><a href="research-note.tex" download>Manuscript ↗</a><a href="https://github.com/MathIsEvenEasier/greedy-matching-capacity">GitHub ↗</a></nav></header>
 <main>
 <section class="hero">
  <div class="eyebrow"><span class="dot"></span> Equal-capacity bipartite matching</div>
@@ -18,8 +18,38 @@
  <div class="hero-bottom"><div class="formula">Pr(M<sub>RV</sub> ≥ K) ≥ Pr(M<sub>RANKING</sub> ≥ K)</div><p>Every finite size. Every positive integer capacity.<br>Every matching-size threshold K.</p></div>
  <p class="scope">This is a comparison of probability distributions over random graphs and choices. It does not say that RANDOM-VERTEX wins on every individual run.</p>
 </section>
+<section id="proof-map" class="proof-map" aria-labelledby="map-heading">
+ <div class="section-top"><div><span class="eyebrow">How the proof fits together</span><h2 id="map-heading">Two branches. One comparison.</h2></div></div>
+ <p class="map-intro">Choose a result to read its statement and see what its proof uses. An arrow points from an ingredient to a result that uses it.</p>
+ <div class="map-layout">
+  <div>
+   <div class="map-legend"><span class="selected-key">Selected result</span><span class="dependency-key">Used directly</span></div>
+   <div class="proof-graph" id="proof-graph" role="group" aria-label="Main proof dependencies" aria-describedby="map-caption">
+    <svg id="proof-edges" aria-hidden="true" focusable="false"></svg>
+    <button class="proof-node" data-result="association" aria-pressed="false" aria-controls="map-detail"><span class="node-kind">Lemma 2</span><strong>Capped association</strong></button>
+    <button class="proof-node" data-result="pair" aria-pressed="false" aria-controls="map-detail"><span class="node-kind">Lemma 3</span><strong>Two-bin coefficients</strong></button>
+    <button class="proof-node" data-result="concentration" aria-pressed="false" aria-controls="map-detail"><span class="node-kind">Theorem 4</span><strong>Conditional concentration</strong></button>
+    <button class="proof-node" data-result="next" aria-pressed="false" aria-controls="map-detail"><span class="node-kind">Lemma 5</span><strong>Uniform next choice</strong></button>
+    <button class="proof-node merged" data-result="hazard" aria-pressed="false" aria-controls="map-detail"><span class="node-kind">Corollary 6</span><strong>Conditional hazard bound</strong></button>
+    <button class="proof-node merged" data-result="transition" aria-pressed="false" aria-controls="map-detail"><span class="node-kind">Lemma 7</span><strong>Actual conditional transition</strong></button>
+    <button class="proof-node merged" data-result="coupling" aria-pressed="false" aria-controls="map-detail"><span class="node-kind">Proof · Section 4</span><strong>Accepted-count coupling</strong></button>
+    <button class="proof-node merged" data-result="main" aria-pressed="false" aria-controls="map-detail"><span class="node-kind">Theorem 1</span><strong>Matching-size dominance</strong></button>
+   </div>
+   <p id="map-caption" class="caption">Six supporting results, the coupling argument, and the main conclusion. Numbers match the manuscript; Theorem 8 states the formal source-model version of the conclusion. The arrows show the main mathematical dependencies.</p>
+  </div>
+  <article class="map-detail" id="map-detail" aria-labelledby="map-title">
+   <div class="tag" id="map-kind"></div><h3 id="map-title" tabindex="-1"></h3>
+   <p id="map-statement"></p><div class="equation" id="map-formula"></div>
+   <h4>What this proof uses</h4><div id="map-inputs"></div>
+   <h4>Where it is used next</h4><div id="map-outputs"></div>
+   <div class="map-actions"><button class="primary" id="map-explore">Explore this result ↓</button><a href="#proof-map">View the graph ↑</a></div>
+   <p class="small" id="map-context"></p>
+  </article>
+ </div>
+ <p class="sr-only" id="map-announcement" role="status"></p>
+</section>
 <section id="proof" class="proof" aria-label="Interactive proof guide">
- <div class="section-top"><div><span class="eyebrow">The argument, made visible</span><h2>From two bins to the full theorem.</h2></div><span class="counter" id="step-count">01 / 07</span></div>
+ <div class="section-top"><div><span class="eyebrow">The argument, made visible</span><h2>From two bins to the full theorem.</h2><a class="map-return" href="#proof-map">↑ Proof dependency map</a></div><span class="counter" id="step-count">01 / 07</span></div>
  <nav class="steps" aria-label="Proof steps">
   <button data-step="0" aria-current="step">01 <span>The claim</span></button><button data-step="1">02 <span>Two-bin lemma</span></button><button data-step="2">03 <span>Capped loads</span></button><button data-step="3">04 <span>Saturation</span></button><button data-step="4">05 <span>History fibers</span></button><button data-step="5">06 <span>Coupling</span></button><button data-step="6">07 <span>The conclusion</span></button>
  </nav>
@@ -49,12 +79,12 @@
  </article>
  <article class="panel" id="step-6" hidden>
   <div class="explanation"><div class="tag">The final implication</div><h3>Reaching K is the same as matching at least K.</h3><div class="equation">{M ≥ K} = {σ<sub>K</sub> ≤ n}</div><p>The coupled hitting-time order gives every matching-size tail inequality. Relabeling bins preserves uniform neighborhoods and the number accepted. Finally, average over the independent uniform arrival and priority permutations.</p><p>This closes Arnosti’s equal-capacity conjecture in the stated random-neighborhood model. The final Lean statement has no unproved comparison, association, coupling or Markov premise.</p><div class="carry"><b>Where it can help</b>For jobs or requests with uniformly random feasible sets and identical resource capacities, the theorem justifies fresh random tie-breaking over a persistent global priority. Correlated feasibility, unequal capacities, and fixed adversarial graphs require separate analysis.</div><a class="lean-link" data-lean="source_matching_tail_comparison">Inspect the complete source-model theorem ↗</a></div>
-  <div class="visual conclusion"><h4>The dependency chain</h4><div class="dependency-map"><button data-jump="1">Two-bin coefficients<span>monotonicity + convexity</span></button><div class="arrow">↓</div><button data-jump="2">Density + association<span>conditional concentration</span></button><div class="arrow">↓</div><button data-jump="3">Saturation inequality<span>a uniform reference hazard</span></button><div class="arrow">↓</div><button data-jump="4">Refined matching histories<span>the inequality applies to the algorithms</span></button><div class="arrow">↓</div><button data-jump="5">Accepted-count coupling<span>ordered hitting times → ordered tails</span></button></div><p class="caption">Click any ingredient to revisit its explanation. These displays illustrate the proof’s operations; the linked manuscript and Lean sources contain the general arguments.</p></div>
+  <div class="visual conclusion"><h4>The two branches meet</h4><p>The two-bin identity supplies convexity for the concentration comparison and monotonicity for the next-choice comparison. Together they give the saturation bound.</p><p>The history lemma transfers that bound to the algorithms. Coupling then turns the local transition comparison into an inequality for every matching-size tail.</p><a class="map-return" href="#proof-map">Revisit the proof dependency map ↑</a><p class="caption">Select any result on the map to see its direct prerequisites and how each one is used. The linked manuscript and Lean sources contain the general arguments.</p></div>
  </article>
  <div class="step-footer"><button id="previous" class="secondary">← Previous</button><p id="step-summary">First see what stochastic dominance means.</p><button id="next" class="primary">Two-bin lemma →</button></div>
 </section>
 <section class="verification" id="verification"><div><span class="eyebrow">Check the result</span><h2>A proof you can inspect.</h2><p>The full source-model theorem was checked with Lean 4.34.0 in Azure. The record covers <strong>91 modules, 714 named theorems and 929 audited declarations</strong>. Its axiom dependencies are propext, Classical.choice and Quot.sound.</p><p>No admitted goals, custom axioms, unsafe declarations or native_decide occur in the positive proof. A deliberately false control was rejected. The package includes source hashes, compiler logs and a metadata checker.</p><p class="small">Independent external review is pending. The kernel checks the formal statement; the manuscript and review guide explain its correspondence with the source conjecture.</p></div><div class="resource-links"><a href="https://github.com/MathIsEvenEasier/greedy-matching-capacity/blob/main/formal/SourceModel.lean">The final Lean theorem <span>↗</span></a><a href="research-note.tex" download>Complete manuscript · LaTeX <span>↓</span></a><a href="https://github.com/MathIsEvenEasier/greedy-matching-capacity/blob/main/review/README.rst">Source-model review guide <span>↗</span></a><a href="https://github.com/MathIsEvenEasier/greedy-matching-capacity/blob/main/REPRODUCE.rst">Verification and reproduction <span>↗</span></a></div></section>
 <section id="sources" class="sources"><span class="eyebrow">References</span><h2>The two source papers.</h2><ol><li><b>Nick Arnosti.</b> <a href="https://doi.org/10.1287/stsy.2021.0082">Greedy Matching in Bipartite Random Graphs.</a> <i>Stochastic Systems</i> 12(2), 133–150, June 2022. First published online 2 November 2021.<p>Algorithms: p. 135, §1.1. Random graph: p. 136, Definition 2. Equal-capacity conjecture: p. 136, following Theorem 2.</p></li><li><b>Arthur Cohen and Harold B. Sackrowitz.</b> <a href="https://doi.org/10.1214/aos/1176350376">Unbiasedness of Tests for Homogeneity.</a> <i>The Annals of Statistics</i> 15(2), 805–816, 1987.<p>Conditional association: Lemma 4.1, pp. 811–812. The integer-valued extension is stated on p. 809 and developed in §5. Lean proves the required specialization directly.</p></li></ol></section>
 </main><footer><span>MathIsEvenEasier · October 2026</span><span>Prepared with OpenAI Codex (GPT-6 Astra).</span></footer>
-<noscript><p class="noscript">The theorem statement and explanations are readable without JavaScript. Enable JavaScript to explore the interactive proof steps.</p><style>.panel[hidden]{display:grid!important}.steps,.step-footer{display:none}</style></noscript>
+<noscript><p class="noscript">The theorem statement and explanations are readable without JavaScript. Enable JavaScript to explore the interactive proof steps and dependency map.</p><style>.panel[hidden]{display:grid!important}.steps,.step-footer,.proof-map{display:none}</style></noscript>
 </body></html>

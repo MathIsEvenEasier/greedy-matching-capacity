@@ -49,7 +49,9 @@ Read and check
 --------------
 
 * research-note.tex: concise manuscript and both bibliographic references.
-* docs/: interactive illustrations of the theorem and proof ingredients.
+* docs/: interactive illustrations and a clickable dependency map of the
+  six supporting results, coupling argument, and main conclusion. Select
+  a result to see its statement, direct prerequisites, and their roles.
 * formal/SourceModel.lean: final explicit probability laws and theorem.
 * formal/verification-source-azure.json: build, axiom audit and source hashes.
 * review/README.rst: model correspondence and questions for external review.
