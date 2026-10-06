@@ -1,5 +1,5 @@
 import {matchingDistribution,tails,pairCoefficients,cappedLaw,waitingLaw,quantile,referenceHazard,refinement} from './math.mjs';
-import {initProofMap} from './proof-map.mjs?v=2';
+import {initProofMap} from './proof-map.mjs?v=3';
 const $=id=>document.getElementById(id), pct=x=>(100*x).toFixed(2)+'%', num=(x,n=4)=>(Math.abs(x)<1e-12?0:x).toFixed(n);
 const repo='https://github.com/MathIsEvenEasier/greedy-matching-capacity/blob/main/formal/';
 const locations={source_matching_tail_comparison:'SourceModel.lean#L95',normalizedPairCoeff_convex:'PairCoefficients.lean#L128',capped_categorical_concentration:'CategoricalConcentration.lean#L75',ordered_vs_uniform_saturation:'UniformCappedLaw.lean#L108',historyFiberEquiv:'HistoryFiber.lean#L53',actual_ordered_transition_coupling:'BoundedNextCoupling.lean#L81'};
