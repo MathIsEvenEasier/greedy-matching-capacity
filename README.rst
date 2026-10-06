@@ -1,5 +1,5 @@
 Arnosti's RANDOM-VERTEX versus RANKING conjecture
-================================================
+=================================================
 
 For independent uniform job neighborhoods of prescribed sizes and equal
 positive integer bin capacities, RANDOM-VERTEX has a stochastically larger
@@ -97,8 +97,14 @@ browser illustrations do not start cloud compute jobs.
 Public source build
 -------------------
 
-The manually dispatched Azure workflow compiles the displayed commit and
-prints the final theorem and its axioms. See PUBLIC-CI.rst for the resource
-limits, source provenance, logs and reproduction procedure.
+A public GitHub Actions build on 6 October 2026 rebuilt all
+91 positive modules from commit c521b8d45bfa8a38b60a8e55b5ab104634d48b49
+and rejected 1 deliberately invalid control. The final theorem's
+printed axioms are propext, Classical.choice and Quot.sound.
 
-https://github.com/MathIsEvenEasier/greedy-matching-capacity/actions/workflows/lean.yml
+https://github.com/MathIsEvenEasier/greedy-matching-capacity/actions/runs/37468519145
+
+Permanent copies of the compiler records, exact source hashes, final axiom
+output and confirmed Azure cleanup are in evidence/public-ci-2026-10-06/.
+The proof-source hashes still match this checkout. See PUBLIC-CI.rst for
+the resource limits, trust boundary and reproduction procedure.

@@ -1,0 +1,67 @@
+{
+  "conclusion": "success",
+  "headSha": "c521b8d45bfa8a38b60a8e55b5ab104634d48b49",
+  "jobs": [
+    {
+      "completedAt": "2026-10-06T14:14:51Z",
+      "conclusion": "success",
+      "databaseId": 112285596394,
+      "name": "verify",
+      "startedAt": "2026-10-06T14:07:01Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-06T14:07:02Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-06T14:07:01Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T14:07:03Z",
+          "conclusion": "success",
+          "name": "Check out the dispatched commit",
+          "number": 2,
+          "startedAt": "2026-10-06T14:07:02Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T14:14:28Z",
+          "conclusion": "success",
+          "name": "Rebuild proofs and print axioms",
+          "number": 3,
+          "startedAt": "2026-10-06T14:07:03Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T14:14:28Z",
+          "conclusion": "success",
+          "name": "Preserve compiler records",
+          "number": 4,
+          "startedAt": "2026-10-06T14:14:28Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T14:14:29Z",
+          "conclusion": "success",
+          "name": "Post Check out the dispatched commit",
+          "number": 8,
+          "startedAt": "2026-10-06T14:14:28Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T14:14:29Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 9,
+          "startedAt": "2026-10-06T14:14:29Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/MathIsEvenEasier/greedy-matching-capacity/actions/runs/37468519145/job/112285596394"
+    }
+  ],
+  "status": "completed",
+  "url": "https://github.com/MathIsEvenEasier/greedy-matching-capacity/actions/runs/37468519145"
+}

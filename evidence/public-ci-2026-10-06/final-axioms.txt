@@ -1,0 +1,5 @@
+'MatchingCapacity.source_matching_tail_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+MatchingCapacity.source_matching_tail_comparison {n m : ℕ} (degree : Fin n → ℕ) (hd : ∀ (j : Fin n), degree j ≤ m)
+  (q K : ℕ) :
+  MatchingCapacity.matchingTail (MatchingCapacity.sourceRankingHistory degree q) K ≤
+    MatchingCapacity.matchingTail (MatchingCapacity.sourceRVHistory degree q) K

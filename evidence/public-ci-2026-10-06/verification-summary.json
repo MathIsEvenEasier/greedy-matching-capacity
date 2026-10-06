@@ -1,0 +1,21 @@
+{
+  "status": "VERIFIED_PUBLIC_CI",
+  "repository": "greedy-matching-capacity",
+  "run_url": "https://github.com/MathIsEvenEasier/greedy-matching-capacity/actions/runs/37468519145",
+  "commit": "c521b8d45bfa8a38b60a8e55b5ab104634d48b49",
+  "positive_modules": 91,
+  "negative_controls": 1,
+  "final_theorem": "MatchingCapacity.source_matching_tail_comparison",
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "source_hashes_match_current_checkout": true,
+  "files_sha256": {
+    "provenance.json": "c47e8172f99c519cacfb9c92b1456c711e8bf1829253da215da9a431c954363c",
+    "rebuild-record.json": "9e9989b83c294ae0d9566ad1c4e3d89df1b206f8ee9dceda0220ae703b625801",
+    "github-run.json": "ea0d17d0f6cf82baf3233c587c4ad3244296cb7911a6433ce17981dfce32fd2e",
+    "final-axioms.txt": "fdc4f10ca6caf24f2f18f2af647945afa37174e4f5e2e2b5da65edd12f22dbf2"
+  }
+}

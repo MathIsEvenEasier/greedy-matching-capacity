@@ -1,0 +1,554 @@
+[
+  {
+    "module": "FiniteCovariance",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 6.7709893599999305
+  },
+  {
+    "module": "AssociationStep",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.5451537100002497
+  },
+  {
+    "module": "TieBias",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.2377447670000947
+  },
+  {
+    "module": "CappedCarrier",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.4411015629998474
+  },
+  {
+    "module": "MarkedLaw",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.345747962999667
+  },
+  {
+    "module": "AssociationTarget",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.203203583999766
+  },
+  {
+    "module": "CappedTies",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.298980183999902
+  },
+  {
+    "module": "FiniteTransport",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.438802631999806
+  },
+  {
+    "module": "FiniteLikelihood",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.4570653380001204
+  },
+  {
+    "module": "EfronTwo",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.619604633000108
+  },
+  {
+    "module": "CappedEfron",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.6637285150000025
+  },
+  {
+    "module": "ConvolutionMinor",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.693139052999868
+  },
+  {
+    "module": "CarrierConvolution",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.68467660899978
+  },
+  {
+    "module": "CarrierEfron",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.355863434999719
+  },
+  {
+    "module": "ProductEfron",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.6078722319998633
+  },
+  {
+    "module": "EfronBand",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.7297624620000533
+  },
+  {
+    "module": "PinnedMajorization",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.5214729099998294
+  },
+  {
+    "module": "PinnedLaw",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.313308447000054
+  },
+  {
+    "module": "CappedSymmetry",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.4012555519998386
+  },
+  {
+    "module": "CappedPinnedLaw",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.403761038999619
+  },
+  {
+    "module": "FiberRegression",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.5334769490000326
+  },
+  {
+    "module": "CappedTieComparison",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.343612828000005
+  },
+  {
+    "module": "CappedStrata",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 3.0290678199999093
+  },
+  {
+    "module": "CappedProduct",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 4.9417710050001915
+  },
+  {
+    "module": "CappedPrefix",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.55633226000009
+  },
+  {
+    "module": "CappedAssociationTools",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.678785324999808
+  },
+  {
+    "module": "CappedCapRegression",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 3.0940949060000094
+  },
+  {
+    "module": "CappedAssociation",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.5663406849998864
+  },
+  {
+    "module": "PairCoefficients",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.8303126910000174
+  },
+  {
+    "module": "PairApplications",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.370144769000035
+  },
+  {
+    "module": "LoadBalancing",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.6569353480003883
+  },
+  {
+    "module": "LoadMajorization",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.3387205190001623
+  },
+  {
+    "module": "CategoricalLaw",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.4843730000002324
+  },
+  {
+    "module": "CategoricalPair",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.7868063329997312
+  },
+  {
+    "module": "CategoricalBoundary",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.480721442000231
+  },
+  {
+    "module": "CategoricalNextChoice",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.395635758000026
+  },
+  {
+    "module": "CategoricalLoadPair",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.59515101199986
+  },
+  {
+    "module": "LoadSymmetrization",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.2387330469996414
+  },
+  {
+    "module": "CategoricalDensity",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.221071732999917
+  },
+  {
+    "module": "CategoricalConcentration",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.431467402999715
+  },
+  {
+    "module": "CategoricalConditioning",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.287634385000274
+  },
+  {
+    "module": "CategoricalHazard",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.4584844760001943
+  },
+  {
+    "module": "UniformLoadMass",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.516379874999984
+  },
+  {
+    "module": "UniformCappedLaw",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.397519249999732
+  },
+  {
+    "module": "HistoryRefinement",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.31715316699956
+  },
+  {
+    "module": "NeighborhoodChoice",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.4823808060000374
+  },
+  {
+    "module": "HistoryFactorization",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.6428358399998615
+  },
+  {
+    "module": "HistoryFiber",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.7299128019999443
+  },
+  {
+    "module": "NeighborhoodPermutation",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.2301788300001135
+  },
+  {
+    "module": "NeighborhoodOrder",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.3142724549998093
+  },
+  {
+    "module": "ResidualKernelRows",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.588763785000083
+  },
+  {
+    "module": "CategoricalRelabel",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.295266551000168
+  },
+  {
+    "module": "ConstantRows",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.247627257000204
+  },
+  {
+    "module": "HistorySaturation",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.480449285999839
+  },
+  {
+    "module": "WaitingKernel",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.2957901380000294
+  },
+  {
+    "module": "RejectionKernel",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.271951111999897
+  },
+  {
+    "module": "HistoryExtension",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.2822597909998876
+  },
+  {
+    "module": "WaitingRefinement",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.818843044999994
+  },
+  {
+    "module": "AcceptedCount",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.4790863770003853
+  },
+  {
+    "module": "CanonicalRefinement",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.2811685440001384
+  },
+  {
+    "module": "CoarseRefinement",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.3919112359999417
+  },
+  {
+    "module": "FiniteMixture",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.1627059530001134
+  },
+  {
+    "module": "RefinementMixture",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.220293374999983
+  },
+  {
+    "module": "CoarseSaturation",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.317692755999815
+  },
+  {
+    "module": "CoarseWaiting",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.3569123729998864
+  },
+  {
+    "module": "CoarseHistorySupport",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.155231785000069
+  },
+  {
+    "module": "HistoryPrefix",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.189603317000092
+  },
+  {
+    "module": "StoppingState",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.4017595119998987
+  },
+  {
+    "module": "StoppingLaw",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.3198650509998515
+  },
+  {
+    "module": "StoppingJointLaw",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.2526047140004266
+  },
+  {
+    "module": "StoppingExtensions",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.304713730000003
+  },
+  {
+    "module": "StoppingTransitionBridge",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.459110222000163
+  },
+  {
+    "module": "StoppingTransitionLaws",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.5849859879999713
+  },
+  {
+    "module": "FiniteQuantile",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.367004283999904
+  },
+  {
+    "module": "FiniteWaitingLaw",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.2482049939999342
+  },
+  {
+    "module": "WaitingOrder",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.277203887000269
+  },
+  {
+    "module": "BernoulliCoupling",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.2332963000003474
+  },
+  {
+    "module": "StoppingWaitingCoupling",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.330813367000246
+  },
+  {
+    "module": "TwoPointMoments",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.287158384000122
+  },
+  {
+    "module": "MarkedTimeCoupling",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.292395750999731
+  },
+  {
+    "module": "StoppingMarkMoments",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.3949230420003005
+  },
+  {
+    "module": "NextStateMoments",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.33987802799993
+  },
+  {
+    "module": "ActualNextCoupling",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.2288484629998493
+  },
+  {
+    "module": "FiniteJointPush",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.2247381610000048
+  },
+  {
+    "module": "BoundedNextCoupling",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.3306826580001143
+  },
+  {
+    "module": "CouplingInduction",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.303414155000155
+  },
+  {
+    "module": "FixedPriorityComparison",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.2029964379999
+  },
+  {
+    "module": "PriorityRelabeling",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.3320757649998995
+  },
+  {
+    "module": "IndependentNeighborhoods",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.3242166749996613
+  },
+  {
+    "module": "SourceModel",
+    "exit_code": 0,
+    "log": "",
+    "seconds": 2.437342551000256
+  },
+  {
+    "module": "Audit",
+    "exit_code": 0,
+    "log": "'MatchingCapacity.total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.CovNonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.total_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.moment_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.covariance_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.covariance_of_pairwise' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.moment_mono_on_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.covariance_on_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.weighted_chebyshev' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.jointWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.joint_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.joint_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.association_step' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.joint_covariance_of_fibers' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.association_step_on_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.expectation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.sizeBias' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.sizeBias_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.expectation_le_sizeBias' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialWeight' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.cappedCarrier' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.factorialWeight_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialWeight_step' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialWeight_logconcave' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedCarrier_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedCarrier_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedCarrier_logconcave' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.marking_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.marking_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.expectation_marked_eq_sizeBias' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.expectation_count_le_marked' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.LoadLE' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.loadLE_refl' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.loadLE_trans' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.CappedLoad' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedWeight_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.CappedAssociation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxMark' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxCount' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.total_maxMark' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximumWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximumWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.marked_maximum_eq_sizeBias' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximum_count_le_marked' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cumMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prefix_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prefix_succ' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stayMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.riseMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.transport_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.transport_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.adjacent_transport_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.CrossLE' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.likelihood_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.likelihood_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prefix_indicator' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prefix_tail' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.likelihood_cdf' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalized' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prefix_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalized_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalized_cross' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.StepLogConcave' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.sumLayer' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.shiftedLayer' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rightShift' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.prefix_rightShift' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalized_rightShift' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.shiftedLayer_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.layer_cross' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.shifted_layer_cross' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.twoExpectation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.efron_two_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialWeight_cross' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedCarrier_cross' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.integerCarrier' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.integerCarrier_nat' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.integerCarrier_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.integerCarrier_neg_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.integerCarrier_step_logconcave' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_layer_mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_efron_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_efron_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.WideLogConcave' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.wide_implies_step' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.minor_composition_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cross_composition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteConv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.convolution_extend' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.convolution_shift' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.convolution_wide_logconcave' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialWeight_succ_div' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialWeight_wide' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedCarrier_wide' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.integerCarrier_wide' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.FiniteCarrier' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.FiniteCarrier.zero_outside' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialCarrier' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.conv_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.conv_zero_outside' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.conv_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.carrierConv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.totalCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.carrierProduct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.carrierProduct_cap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capProduct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.totalCap_factorial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capProduct_cap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capProduct_step' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.conv_eq_layer' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.carrier_layer_mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.carrier_efron_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.carrier_efron_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.CoordLE' depends on axioms: [propext]\n'MatchingCapacity.CoordinateIncreasing' depends on axioms: [propext]\n'MatchingCapacity.coordLE_refl' depends on axioms: [propext]\n'MatchingCapacity.productMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMean' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMoment_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMean_mono_function' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMoment_zero_large' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMoment_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMean_split' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMean_split_clamped' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.product_efron_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_product_efron' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.FitsCaps' depends on axioms: [propext]\n'MatchingCapacity.capBox' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.mem_capBox' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.clampCaps' does not depend on any axioms\n'MatchingCapacity.clampCaps_fits' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.clampCaps_eq' depends on axioms: [propext]\n'MatchingCapacity.clampCaps_mono' depends on axioms: [propext]\n'MatchingCapacity.coordLE_sum' depends on axioms: [propext]\n'MatchingCapacity.fitsCaps_length' depends on axioms: [propext]\n'MatchingCapacity.fitsCaps_sum' depends on axioms: [propext]\n'MatchingCapacity.boxBound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.boxBound_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.boxBound_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bandValue' depends on axioms: [propext]\n'MatchingCapacity.bandValue_eq' depends on axioms: [propext]\n'MatchingCapacity.bandValue_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedMoment_congr' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMoment_neg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMean_neg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_efron_band' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_efron_band_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadLE_of_reservoir' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coordLE_getD' depends on axioms: [propext]\n'MatchingCapacity.fitsCaps_getD' depends on axioms: [propext]\n'MatchingCapacity.sum_getD' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.completeLoad' depends on axioms: [propext]\n'MatchingCapacity.completeLoad_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.completeLoad_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pinned_efron_majorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.headSlice' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.productMoment_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.headSlice_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pinnedMean' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pinnedMean_eq_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.headSlice_mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pinnedMean_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.labelled_maximum_conditioning_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.labelled_maximum_regression' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.permuteCapped' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedPermEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedWeight_permute' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxCount_permute' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadLE_reindex' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_increasing_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedMaximumWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxCount_pos_of_mark' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximum_mark_eq_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedMaximum_moment_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieBias_moment_eq_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedMaximum_expectation_eq_tieBias' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prependCapped' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.HeadMaxLoad' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.deleteHeadMax' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.headMaxEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedWeight_prepend' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxCount_prepend' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedMaximum_moment_delete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedMaximum_total_delete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedMaximum_expectation_delete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieBias_expectation_delete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiberWeight' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.fiberWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.moment_eq_total_mul_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.sum_fiber_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_mass_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_class_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_mixed_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_mean_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.covariance_of_regression' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.expectation_sizeBias_eq_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.expectation_le_bias_of_regression' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxClass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximumFiberWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximum_tie_mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximum_expectation_le_tieBias' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximum_count_le_residual' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximum_expectation_le_residual' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residual_mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieGate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieGate_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieBias_moment_gate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedMaximum_moment_gate_delete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieStratum_moment_delete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieStratum_total_delete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieStratum_expectation_delete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieStratum_mass_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxCount_eq_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.raiseCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxCount_raiseCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.NoMaxLoad' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.lowerCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.strictCapEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedWeight_raiseCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.zeroTie_moment_lowerCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.zeroTie_total_lowerCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.zeroTie_expectation_lowerCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixFirstPerm' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.permuteCapped_prepend' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prepend_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximumFiber_eq_tieWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieTotal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieMean' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieStratum_total_closed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieStratum_all_mass_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxCount_zeroCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.repeatMaxima' depends on axioms: [propext]\n'MatchingCapacity.cons_symmetric' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.prependCapped_values' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieStratum_expectation_allDelete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.boxList' does not depend on any axioms\n'MatchingCapacity.boxWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.boxMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.headTailBoxEquiv' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.boxList_cons' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.boxWeight_cons' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.boxMoment_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.boxMoment_succ' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.sum_truncated_rectangle' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMoment_eq_boxMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedMoment_eq_boxMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMoment_eq_cappedMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_total_eq_product' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_total_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.boxList_getD' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedMean' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedMean_eq_productMean' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_vector_efron' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_vector_pinned_majorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieStratum_feasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_pinned_residual_masses_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximum_mass_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadLE_cons' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadLE_repeatMaxima' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.repeatMaxima_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.repeatMaxima_increasing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_prefixed_pinned_majorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.SchurIncreasing' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.schur_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.schur_cons' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.schurCandidates' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.schurCandidates_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.schurExtension' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.schurExtension_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.schurExtension_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxCount_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_sizeBias_eq_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.expectation_le_bias_of_covariance' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_pin_of_association' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.covariance_iff_mean' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.covariance_of_fiber_association' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieTotal_pos_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieTotal_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieTotal_pos_between' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieMean_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieMean_succ_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieMean_succ' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieMean_zero_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieMean_adjacent_of_lower_association' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieMean_regression_of_lower_association' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieMean_covariance_of_lower_association' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedFiber_eq_tieWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedAssociation_succ_ambient' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedAssociation_succ' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedAssociation_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedAssociation_all' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_tie_regression' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_pin_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_tie_regression_all' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_maxCount_covariance' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairPolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairBasis' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalizedPairCoeff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairPolynomial_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.choose_ratio_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalizedPairCoeff_eq_basis' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.choose_second_difference_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairBasis_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairBasis_convex' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalizedPairCoeff_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalizedPairCoeff_convex' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairBasis_difference_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalizedPairCoeff_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pair_boundary_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pair_boundary_conditional' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pair_factorial_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pair_factorial_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pair_factorial_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.balanceLoad' does not depend on any axioms\n'MatchingCapacity.loadExcess' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.PrefixLE' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.balanceLoad_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.balanceLoad_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.balanceLoad_excess' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.exists_first_deficit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.exists_prefix_donor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.balanceLoad_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prefix_mono_of_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadLE_balance' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.antitone_prefix_max' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prefixLE_of_loadLE' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadLE_permute_both' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadLE_mono_of_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadLE_mono_iff_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentLoad' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentEventMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalLoadMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentEventMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentWeight_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentWeight_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentLoad_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalLoadMass_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.restrictedAssignmentWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rowMarkedPolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedProduct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.restrictedAssignmentWeight_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedProduct_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedProduct_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentEventMass_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentEventMass_congr' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.PairOutside' does not depend on any axioms\n'MatchingCapacity.pairLabel' does not depend on any axioms\n'MatchingCapacity.pairPattern' does not depend on any axioms\n'MatchingCapacity.pairActive' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairOutsideWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairSliceMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairLabel_none_iff' depends on axioms: [propext]\n'MatchingCapacity.pairLabel_some_iff' depends on axioms: [propext]\n'MatchingCapacity.pairOutsideWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pair_row_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pair_fiber_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairSliceMass_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairSliceMass_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairSliceMass_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairSliceMass_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairPattern_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairOutsideLoad' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairPattern_outside_load' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentCapped' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundaryMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairOutsideCapped' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairBoundaryAllowed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentCapped_pattern' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundary_pattern_left' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundary_pattern_right' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairSliceMass_partition_event' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundaryMass_left' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundaryMass_right' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundaryMass_ordered' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundaryProbability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundaryProbability_ordered' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.nextSaturationMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.nextSaturationProbability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.nextSaturationMass_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.nextSaturationProbability_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundaryProbability_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_next_minimizes_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.replacePair' does not depend on any axioms\n'MatchingCapacity.replacePair_swap' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.pairLoadAllowed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentLoad_replacePair' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalLoadMass_pair' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categorical_pair_balancing_ordered' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categorical_pair_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadFactorial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialLoadMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadFactorial_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadFactorial_pair' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialLoadMass_pair_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.symmetrizeLoad' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.symmetrizeLoad_permute' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.replacePair_original' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.replacePair_exchange' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.replacePair_permute' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.symmetrizeLoad_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.symmetrizeLoad_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.symmetrizedLoadMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalDensity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadFactorial_permute' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalDensity_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalDensity_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalDensity_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalDensity_majorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedCategoricalWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedSymmetrizedWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_symmetrized_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_symmetrized_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_density_weight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_density_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_density_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_categorical_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedAssignment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedAssignmentMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedAssignment_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_categorical_assignment_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_categorical_assignment_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categorical_conditional_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_assignment_maxCount' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_next_saturation_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categorical_saturation_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadExponent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadExponent_apply' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignment_loadExponent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignment_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignment_polynomial_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.unitLoadMass_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.unitLoadMass_multinomial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalLoadMass_row_constant' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.constantRowLoadMass_factorial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniformRows' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniformLoadScale' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniformLoadScale_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniformRows_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_assignment_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_capped_weight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_capped_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_capped_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_capped_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_assignment_cap_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_cap_feasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.positive_assignment_cap_feasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_cap_positive_of_positive' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_conditional_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_saturation_reference' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ordered_vs_uniform_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ordered_vs_uniform_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ResidualJobs' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ResidualBins' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyLoad' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyAvailable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedHistory' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.completeHistory' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.FixedSupported' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ResidualCapped' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyLoad_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyLoad_final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.completeHistory_free' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.completeHistory_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.completeHistory_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.complete_load_in_D' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixed_load_outside_D' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.complete_final_residual' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.complete_residual_cap_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.complete_availability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvResponse' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingPick' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingResponse' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.neighborhoodKernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvKernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingKernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvResponse_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvResponse_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingResponse_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingResponse_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.neighborhoodKernel_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.neighborhoodKernel_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvKernel_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingKernel_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvKernel_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingKernel_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvResponse_reject_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingResponse_reject' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.kernels_same_rejection' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvResponse_unavailable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingResponse_unavailable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvKernel_unavailable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingKernel_unavailable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedPathFactor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residualRows' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refinedPathWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyLoad_snoc' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyAvailable_snoc' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyWeight_snoc' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyWeight_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_history_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_history_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyLoad_snoc_final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyWeight_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_history_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_history_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedPathFactor_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residualRows_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_weight_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refined_path_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refined_path_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refined_path_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refined_positive_factors' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refined_conditional_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_history_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_history_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.HistoryRefines' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.extractResidual' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.extractResidual_spec' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.complete_refines' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.complete_extract' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.extract_complete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyFiber' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyFiberEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_fiber_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_fiber_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_fiber_conditional_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyFreeJobs' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyFullBins' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_anchor_supported' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_anchor_refines' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_anchor_capped' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_anchor_member' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_full_bin_load' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_anchor_fixed_load' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_fiber_full_bins' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_refined_history_law' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_refined_history_law' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.permuteBins' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.mem_permuteBins' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.mem_permuteBins_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.permuteBins_card' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.permuteBins_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.permuteBinsEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.permuteBins_inter' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.neighborhood_sum_permutation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvResponse_permutation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvKernel_permutation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.swap_preserves_available' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvKernel_constant_on_available' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingPick_eq_some_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_swap_improves' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingResponse_swap_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingKernel_ordered_on_available' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residualOrder' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residual_always_available' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_residual_rows_constant' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_residual_rows_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residualNextRow' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residualNextRow_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_residual_next_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_residual_next_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentRelabel' depends on axioms: [Quot.sound]\n'MatchingCapacity.assignmentLoad_relabel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentCapped_relabel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignment_cap_mass_relabel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.next_saturation_relabel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.constant_rows_cap_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.constant_rows_next_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.constant_rows_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.constant_rows_eq_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refinedSaturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_fiber_cap_mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refined_saturation_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_available_complement' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_fiber_final_availability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_refined_saturation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_refined_saturation_reference' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_le_ranking_refined_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.waitingWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.successMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.firstSuccessMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.waitingWeight_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.waitingWeight_succ' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.waitingWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.successMass_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.firstSuccessMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.firstSuccessMass_drop' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.first_success_or_never' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.waitingWeight_same_rejections' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_ranking_same_waiting' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.empty_inter_iff_subset_complement' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rejecting_neighborhoods' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_rejection_formula' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_rejection_formula' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residual_success_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_residual_success_formula' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_residual_success_formula' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rejectExtension' does not depend on any axioms\n'MatchingCapacity.acceptedExtension' does not depend on any axioms\n'MatchingCapacity.rejectExtension_prefix' does not depend on any axioms\n'MatchingCapacity.rejectExtension_injective' depends on axioms: [Quot.sound]\n'MatchingCapacity.acceptedExtension_injective' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.rejectExtension_final_load' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rejectExtension_availability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rejectExtension_weight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedExtension_weight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedExtension_fiber_weight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiberNextMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_positive_factors' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_conditional_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_old_law' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiberNextSaturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_saturation_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_next_success_saturation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_next_success_saturation_reference' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_waiting_law' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_fiber_waiting_formula' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_fiber_waiting_formula' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiberNeverMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_never_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_mass_firstSuccess' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_or_never_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedCount' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_accepted_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedCount_snoc' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rejectExtension_accepted_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedExtension_accepted_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.complete_accepted_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_fiber_accepted_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residual_job_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedExtension_final_load' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedExtension_full_bins' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedExtension_full_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_mark_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.HistoryKey' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.historyKey' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.KeyValid' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.GoodRefinement' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.LegalHistory' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.KeyFiber' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedHistory_idempotent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_key_member' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_key_valid' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.canonical_fiber_key' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.key_fiber_legal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refinementHistoryMap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refinementHistoryMap_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refinementHistoryMap_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyRefinementEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_refinement_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.keyAccepted' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.AcceptedPrefix' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.KeyPrefix' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_accepted_pattern' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_accepted_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.accepted_prefix_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.availableNextMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_available_next' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarseNextMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_next_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.key_residual_bin_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.key_prefix_counts' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finite_zero_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finite_null_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.conditional_bound_unnormalized' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.conditional_eq_unnormalized' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finite_mixture_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finite_mixture_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.referenceHazard' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.key_uniform_reference' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_mass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_null_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.key_rv_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.key_ranking_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_moment_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_moment_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarseNextSaturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_rv_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_ranking_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_rv_vs_ranking' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_next_mark_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarseHistoryMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarseNeverMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.countWaitingFactor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_history_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_never_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_rv_waiting_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_ranking_waiting_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_rv_waiting_law' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_ranking_waiting_law' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_next_or_never_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.illegal_history_weight_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.legal_history_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_history_unrestricted' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_next_unrestricted' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_never_unrestricted' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyTake' does not depend on any axioms\n'MatchingCapacity.historyTake_self' does not depend on any axioms\n'MatchingCapacity.historyTake_snoc' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.historyTake_trans' does not depend on any axioms\n'MatchingCapacity.history_prefix_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_prefix_moment_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_prefix_event' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_empty' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_snoc' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_none_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedPrefix_snoc' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_at_end' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_persists' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_prefix_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.StopState' does not depend on any axioms\n'MatchingCapacity.stopValue' does not depend on any axioms\n'MatchingCapacity.finiteStoppingState' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopValue_injective' depends on axioms: [propext]\n'MatchingCapacity.finiteStoppingState_value' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteStoppingState_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteStoppingState_none_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteStoppingState_absorbing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingMass_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingMass_finite' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingMass_never' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingMass_tail' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteStoppingState_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingMass_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingJointMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingJoint_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingJoint_first_marginal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingJoint_second_marginal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingJoint_null_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingTransition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingTransition_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingTransition_total_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingJoint_cemetery' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyTake_rejectExtension' depends on axioms: [Quot.sound]\n'MatchingCapacity.historyTake_acceptedExtension' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.acceptedCount_prefix_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.same_count_rejectExtension' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.consecutive_hit_extension' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedExtension_old_hit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedExtension_next_hit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.never_next_rejectExtension' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rejectExtension_old_hit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rejectExtension_next_none' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_strict_times' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rawStoppingJoint' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingJoint_raw' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.available_next_all_bins' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.raw_joint_at_next_hit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.raw_joint_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_joint_next_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_joint_never_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.raw_joint_nonfuture_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingNextMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finite_nat_indicator_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_next_moment_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_next_mark_indicator' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_next_mark_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingNextSaturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_saturation_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_rv_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_ranking_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_rv_waiting' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_ranking_waiting' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.quantileMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cumMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cumMass_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.min_rectangle_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.quantileMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.quantileMass_symm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.quantile_row_telescope' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.quantile_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.quantile_column' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.quantile_ordered_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ordered_quantile_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.survivalProduct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteWaitMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.survivalProduct_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.survivalProduct_succ' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.survivalProduct_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.survivalProduct_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.survivalProduct_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteWaitMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteWaitMass_cdf' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteWaitMass_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteWaitMass_cdf_order' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finite_waiting_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.failureRatio' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayedFailure' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.failureRatio_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.failureRatio_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.failureRatio_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayedFailure_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayedFailure_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayedFailure_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayed_survival_before' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayed_survival_shift' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayed_waiting_before' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayed_waiting_hit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayed_waiting_never' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.count_waiting_cdf_order' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.count_waiting_ordered_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bernoulliMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bernoulliJoint' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bernoulliMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bernoulliMass_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bernoulliJoint_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bernoulliJoint_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bernoulliJoint_column' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bernoulliJoint_ordered' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.unequal_counts_stay_ordered' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.coarse_never_factor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_never_waiting' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingTimeMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_time_mass_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_rv_time_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_ranking_time_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.actual_waiting_ordered_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.indicator_ratio_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.twoPoint_raw_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.twoPoint_bernoulli_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedTimeMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.timePairMarks' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedTimeJoint' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.timePairMarks_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.timePairMarks_column' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedTimeJoint_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedTimeJoint_column' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedTimeJoint_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedTimeJoint_ordered' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coupling_row_positive' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coupling_column_positive' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rawStoppingJoint_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_saturation_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_mark_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_mark_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.positive_next_hit_future' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.full_count_waiting_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.positive_rv_next_not_full' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.actual_equal_count_mark_order' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedNextState' does not depend on any axioms\n'MatchingCapacity.actualMarkedMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.next_state_moment_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.marked_finite_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.marked_terminal_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.actual_marked_state_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.RawStopLE' does not depend on any axioms\n'MatchingCapacity.markedNextState_order' depends on axioms: [propext]\n'MatchingCapacity.markedTimeJoint_state_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.positive_time_mass_next' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.actual_marked_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.actual_next_state_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.jointPush' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.jointPush_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.jointPush_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.jointPush_column' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.jointPush_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.boundStop' does not depend on any axioms\n'MatchingCapacity.StopLE' does not depend on any axioms\n'MatchingCapacity.boundStop_value' depends on axioms: [propext]\n'MatchingCapacity.boundStop_order' depends on axioms: [propext]\n'MatchingCapacity.finite_current_transition_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingTransition_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingTransition_cemetery' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.actual_ordered_transition_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.HasRelCoupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coupling_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coupling_step' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_laws_ordered_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_never_mass_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixed_priority_matching_tail_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.relabelHistory' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.historyRelabelEquiv' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.relabel_history_load' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.relabel_history_available' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.relabel_accepted_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.priorityResponse' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.priorityKernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.priority_response_choice' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.priority_kernel_relabel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.priority_history_relabel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.matchingTail' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.priority_matching_tail' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finite_degree_matching_tail_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.arbitrary_priority_matching_tail_comparison' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'MatchingCapacity.uniformNeighborhoodMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_neighborhood_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_neighborhood_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.neighborhoodProfileMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.graphHistoryMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.neighborhood_profile_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.neighborhood_profile_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.graph_history_kernel_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.graph_history_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.graph_history_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.profileOrderEquiv' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.neighborhood_profile_reorder' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.orderedGraphHistoryMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ordered_graph_history_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.priority_response_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniformAverage' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_average_const' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_average_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_average_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_average_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.matching_tail_average' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.sourceRVHistory' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.sourceRankingHistory' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.source_rv_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.source_ranking_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.source_rv_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.source_ranking_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.source_matching_tail_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+    "seconds": 2.649229925000327
+  },
+  {
+    "module": "NegativeSource",
+    "exit_code": 1,
+    "log": "/home/proofci/greedy-matching-capacity-60dfc0ca96bd425e/_work/_temp/mathlib/matching-rebuild-output/NegativeSource.lean:7:94: error: unsolved goals\n\u22a2 False\n",
+    "seconds": 2.118392422999932
+  }
+]
