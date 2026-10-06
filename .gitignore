@@ -9,3 +9,7 @@ __pycache__/
 *.log
 *.out
 *.synctex.gz
+
+# Public CI output and private Azure controller state
+ci-output/
+ci/azure/runs/

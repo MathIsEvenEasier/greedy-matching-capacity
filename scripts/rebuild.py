@@ -32,6 +32,7 @@ for module in [x['module'] for x in report['modules']]+['NegativeSource']:
     records.append(record)
     (out/'rebuild-record.json').write_text(json.dumps(records,indent=2)+'\n')
     print(module,result.returncode,flush=True)
+    if module in ('Audit','NegativeSource') or result.returncode: print(record['log'],flush=True)
     if module=='NegativeSource':
         if result.returncode!=1 or record['log'].count('error:')!=1 or not record['log'].rstrip().endswith('⊢ False'):
             raise SystemExit('Negative control did not fail as expected')

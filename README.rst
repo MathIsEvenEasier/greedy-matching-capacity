@@ -1,5 +1,5 @@
-Random choice versus a common ranking
-====================================
+Arnosti's RANDOM-VERTEX versus RANKING conjecture
+================================================
 
 For independent uniform job neighborhoods of prescribed sizes and equal
 positive integer bin capacities, RANDOM-VERTEX has a stochastically larger
@@ -7,9 +7,10 @@ matching size than RANKING:
 
   Pr(M_RANDOM_VERTEX >= K) >= Pr(M_RANKING >= K), for every natural K.
 
-This resolves the equal-capacity conjecture following Theorem 2 in Nick
-Arnosti's *Greedy Matching in Bipartite Random Graphs*, under that paper's
-random-neighborhood model. The result holds for every finite parameter,
+This resolves the full conjecture following Theorem 2 in Nick Arnosti's
+*Greedy Matching in Bipartite Random Graphs*, under that paper's
+random-neighborhood model. A common capacity is an assumption of the
+original conjecture; it is not an extra restriction added by this proof. The result holds for every finite parameter,
 for fixed neighborhood-independent job and priority orders, and hence
 also for the source model's independent uniform orders.
 
@@ -80,9 +81,10 @@ The final negative control was rejected with an unsolved False goal.
 
 The source-model theorem has no extra comparison, association, coupling
 or Markov premise. The certificate uses the standard Lean kernel; no
-independent kernel reimplementation audit is claimed. Independent external
-review is pending. This is a research announcement, without a novelty or
-priority claim.
+independent kernel reimplementation audit is claimed. VibeMathed lists the
+result as Candidate, Lean-checked. A full independent proof and formal
+statement audit remains open. This is a research announcement, without a
+novelty or priority claim.
 
 Authorship and resources
 ------------------------
@@ -91,3 +93,12 @@ Prepared by MathIsEvenEasier with OpenAI Codex (GPT-6 Astra).
 Heavy compilation and proof audits were performed in bounded Azure jobs;
 recorded deletion of the final job's resources is included. Publishing and
 browser illustrations do not start cloud compute jobs.
+
+Public source build
+-------------------
+
+The manually dispatched Azure workflow compiles the displayed commit and
+prints the final theorem and its axioms. See PUBLIC-CI.rst for the resource
+limits, source provenance, logs and reproduction procedure.
+
+https://github.com/MathIsEvenEasier/greedy-matching-capacity/actions/workflows/lean.yml
