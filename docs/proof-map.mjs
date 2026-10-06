@@ -97,12 +97,21 @@ export function initProofMap(explore) {
       const state = edge.to === selected ? 'active' : 'idle';
       let x1 = from.x + from.w / 2, x2 = to.x + to.w / 2;
       const y1 = from.y + from.h + 2, y2 = to.y - 5;
-      if (edge.diagonal) { x1 = from.x + from.w * .12; x2 = to.x + to.w * .88; }
+      if (edge.diagonal) { x1 = from.x + from.w * .18; x2 = to.x + to.w * .82; }
       if (edge.to === 'hazard') x2 = to.x + to.w * (edge.from === 'concentration' ? .2 : .8);
       const midY = (y1 + y2) / 2;
-      const path = `M ${x1} ${y1} C ${x1} ${midY} ${x2} ${midY} ${x2} ${y2}`;
-      const labelX = (x1 + x2) / 2, labelY = midY - 5;
-      content += `<g class="proof-edge ${state}" data-from="${edge.from}" data-to="${edge.to}"><path d="${path}" marker-end="url(#map-arrow-${state})"/><text x="${labelX}" y="${labelY}" text-anchor="middle">${edge.label}</text></g>`;
+      const path = edge.diagonal
+        ? `M ${x1} ${y1} L ${x2} ${y2}`
+        : `M ${x1} ${y1} C ${x1} ${midY} ${x2} ${midY} ${x2} ${y2}`;
+      let labelX = (x1 + x2) / 2, labelY = midY - 5, transform = '';
+      if (edge.diagonal) {
+        // Keep the label parallel to, and clear of, the diagonal connector.
+        const dx = x1 - x2, dy = y1 - y2, length = Math.hypot(dx, dy);
+        labelX += 11 * dy / length;
+        labelY = midY - 11 * dx / length;
+        transform = ` transform="rotate(${Math.atan2(dy, dx) * 180 / Math.PI} ${labelX} ${labelY})"`;
+      }
+      content += `<g class="proof-edge ${state}" data-from="${edge.from}" data-to="${edge.to}"><path d="${path}" marker-end="url(#map-arrow-${state})"/><text x="${labelX}" y="${labelY}" text-anchor="middle"${transform}>${edge.label}</text></g>`;
     }
     svg.innerHTML = content;
   }
