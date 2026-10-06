@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "job_id": "7c29484da68044cb",
+  "input_sha256": "4ec82c3521b9716e14396a7ed6f035c483a8946e64c30133da924c85a39b56df",
+  "started_at": "2026-10-05T21:16:31Z",
+  "exit_code": 0,
+  "phase": "finished",
+  "finished_at": "2026-10-05T21:33:33Z"
+}

@@ -1,0 +1,489 @@
+{
+  "status": "PASS_AUTHOR_SELF_REVIEW",
+  "reviewed_on": "2026-10-06",
+  "recorded_at": "2026-10-06T06:17:37.006955+00:00",
+  "reviewer": "OpenAI Codex (GPT-6 Astra)",
+  "independent_external_review": false,
+  "scope": "Authoring-agent source-model correspondence and manuscript review, with local metadata and hash checks. This is not a new kernel run or an independent proof review.",
+  "sources": [
+    {
+      "id": "arnosti",
+      "version": "Published journal article: Stochastic Systems 12(2), 133-150 (2022)",
+      "url": "https://pubsonline.informs.org/doi/pdf/10.1287/stsy.2021.0082",
+      "doi": "10.1287/stsy.2021.0082",
+      "locators": [
+        "p. 133: uniform available-neighbor description",
+        "p. 135, Section 1.1: algorithm randomization",
+        "p. 136, Definition 2: graph law",
+        "p. 136, Theorem 2 and following conjecture",
+        "p. 145, end of Section 3: failure of the earlier pathwise proof technique"
+      ]
+    },
+    {
+      "id": "cohen-sackrowitz",
+      "version": "The Annals of Statistics 15(2), 805-816 (1987)",
+      "url": "https://doi.org/10.1214/aos/1176350376",
+      "local_pdf": "literature/cohen-sackrowitz-1987.pdf",
+      "sha256": "cd92f67f01a1f599977eeed399cab9aaf1a2d4076bc067e06cdff582247df02f",
+      "locators": [
+        "pp. 807-808: Definition 2.2, upper sums, Remark 2.5 and PF2 carriers",
+        "p. 809: extension to integer-valued distributions",
+        "pp. 811-812: Lemma 4.1 and conditional association",
+        "Section 5: integer-valued case and ties"
+      ],
+      "this_review": "Targeted visual reread of pages 807, 808, 809, 811 and 812, together with the existing full-paper source audit.",
+      "earlier_source_audit": "literature/cohen-sackrowitz-1987-audit.json"
+    }
+  ],
+  "manuscript": {
+    "path": "research-note.tex",
+    "sha256": "1c34a5931540e11d35584176d58c94a7a33b758f49d8f8ecfd8cb339b56b986a",
+    "lines": 520
+  },
+  "archived_research_narrative": {
+    "path": "archive/research-note-2026-10-05.tex",
+    "sha256": "2da04b683db639641e43bc4a3eec16e8a8221c52cfcbd1ff1454f750cd1d2a5c",
+    "lines": 4280
+  },
+  "formal_certificate": {
+    "path": "formal/verification-source-azure.json",
+    "sha256": "78ff07660086ffced7e749de217fc076e38e2375bc775a26a293a4c7f2e1c3c5",
+    "job_id": "7c29484da68044cb",
+    "pins": {
+      "lean": "4.34.0",
+      "mathlib": "5ed2965256430c3649e86755f9576b54eca72435"
+    },
+    "positive_modules": 91,
+    "named_theorems": 714,
+    "audited_declarations": 929,
+    "axiom_union": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "cleanup": {
+      "checked_at": "2026-10-05T21:38:32Z",
+      "group_exists": {
+        "compute": false,
+        "control": false
+      },
+      "resource_ids": [],
+      "all_deleted": true
+    },
+    "new_lean_run_in_this_review": false,
+    "metadata_check": "formal/verify_metadata.py --stage source --historical: PASS_FULL_FORMALIZATION"
+  },
+  "model_correspondence": [
+    {
+      "item": "Independent uniform neighborhoods with prescribed job degrees",
+      "source_locator": "Arnosti, published p. 136, Definition 2",
+      "finding": "Uniform mass on each degree-sized subset, multiplied over original job labels; the product is proved normalized when every degree is at most m.",
+      "verdict": "consistent in authoring-agent review",
+      "lean": [
+        {
+          "file": "formal/IndependentNeighborhoods.lean",
+          "line": 14,
+          "name": "MatchingCapacity.uniformNeighborhoodMass"
+        },
+        {
+          "file": "formal/IndependentNeighborhoods.lean",
+          "line": 41,
+          "name": "MatchingCapacity.neighborhoodProfileMass"
+        },
+        {
+          "file": "formal/IndependentNeighborhoods.lean",
+          "line": 56,
+          "name": "MatchingCapacity.neighborhood_profile_probability"
+        }
+      ]
+    },
+    {
+      "item": "Uniform independent arrival order",
+      "source_locator": "Arnosti, published p. 135, Section 1.1",
+      "finding": "The graph is sampled on original job labels. The outer uniform permutation average is independent of this graph law. Reindexing the graph changes the ordered degree vector exactly.",
+      "verdict": "consistent in authoring-agent review",
+      "lean": [
+        {
+          "file": "formal/IndependentNeighborhoods.lean",
+          "line": 105,
+          "name": "MatchingCapacity.orderedGraphHistoryMass"
+        },
+        {
+          "file": "formal/IndependentNeighborhoods.lean",
+          "line": 112,
+          "name": "MatchingCapacity.ordered_graph_history_identity"
+        },
+        {
+          "file": "formal/SourceModel.lean",
+          "line": 49,
+          "name": "MatchingCapacity.sourceRVHistory"
+        },
+        {
+          "file": "formal/SourceModel.lean",
+          "line": 54,
+          "name": "MatchingCapacity.sourceRankingHistory"
+        }
+      ]
+    },
+    {
+      "item": "RANDOM-VERTEX choice",
+      "source_locator": "Arnosti, published p. 133 introduction and p. 135, Section 1.1",
+      "finding": "rvResponse chooses uniformly from the available feasible intersection. A current job's unused independent uniform preference permutation has a uniform first element in any nonempty available set, so this agrees with the source implementation. Lean uses the sequential uniform-choice definition; it does not separately formalize the array of per-job preference permutations.",
+      "verdict": "consistent in authoring-agent review",
+      "lean": [
+        {
+          "file": "formal/NeighborhoodChoice.lean",
+          "line": 15,
+          "name": "MatchingCapacity.rvResponse"
+        },
+        {
+          "file": "formal/IndependentNeighborhoods.lean",
+          "line": 44,
+          "name": "MatchingCapacity.graphHistoryMass"
+        },
+        {
+          "file": "formal/SourceModel.lean",
+          "line": 49,
+          "name": "MatchingCapacity.sourceRVHistory"
+        }
+      ]
+    },
+    {
+      "item": "One common RANKING priority",
+      "source_locator": "Arnosti, published p. 135, Section 1.1",
+      "finding": "priority_response_choice characterizes the selected bin by minimum rank among available feasible bins. The ranking is sampled once outside the entire history product, and its average is independent of the graph and arrival order.",
+      "verdict": "consistent in authoring-agent review",
+      "lean": [
+        {
+          "file": "formal/PriorityRelabeling.lean",
+          "line": 48,
+          "name": "MatchingCapacity.priorityResponse"
+        },
+        {
+          "file": "formal/PriorityRelabeling.lean",
+          "line": 55,
+          "name": "MatchingCapacity.priority_response_choice"
+        },
+        {
+          "file": "formal/SourceModel.lean",
+          "line": 54,
+          "name": "MatchingCapacity.sourceRankingHistory"
+        }
+      ]
+    },
+    {
+      "item": "Common positive integer capacity",
+      "source_locator": "Arnosti, published p. 136, Theorem 2 and following conjecture",
+      "finding": "The formal parameter q represents capacity C=q+1. Availability means load <= q before the next job. All positive integer capacities are covered, including the conjectured C>2 range.",
+      "verdict": "consistent in authoring-agent review",
+      "lean": [
+        {
+          "file": "formal/HistoryRefinement.lean",
+          "line": 17,
+          "name": "MatchingCapacity.historyLoad"
+        },
+        {
+          "file": "formal/HistoryRefinement.lean",
+          "line": 20,
+          "name": "MatchingCapacity.historyAvailable"
+        },
+        {
+          "file": "formal/SourceModel.lean",
+          "line": 95,
+          "name": "MatchingCapacity.source_matching_tail_comparison"
+        }
+      ]
+    },
+    {
+      "item": "Matching size and the direction of dominance",
+      "source_locator": "Arnosti, published p. 136, conjecture after Theorem 2",
+      "finding": "acceptedCount counts successful assignments and matchingTail sums mass where this count is at least K. The final inequality places RANKING on the left and RANDOM-VERTEX on the right, for every natural K.",
+      "verdict": "consistent in authoring-agent review",
+      "lean": [
+        {
+          "file": "formal/AcceptedCount.lean",
+          "line": 12,
+          "name": "MatchingCapacity.acceptedCount"
+        },
+        {
+          "file": "formal/PriorityRelabeling.lean",
+          "line": 102,
+          "name": "MatchingCapacity.matchingTail"
+        },
+        {
+          "file": "formal/SourceModel.lean",
+          "line": 95,
+          "name": "MatchingCapacity.source_matching_tail_comparison"
+        }
+      ]
+    },
+    {
+      "item": "Actual probability distributions",
+      "source_locator": "Arnosti, published pp. 135-136",
+      "finding": "Both explicitly defined source history masses are nonnegative and sum to one; the final result is not an inequality between unspecified or unnormalized weights.",
+      "verdict": "consistent in authoring-agent review",
+      "lean": [
+        {
+          "file": "formal/SourceModel.lean",
+          "line": 76,
+          "name": "MatchingCapacity.source_rv_nonneg"
+        },
+        {
+          "file": "formal/SourceModel.lean",
+          "line": 83,
+          "name": "MatchingCapacity.source_ranking_nonneg"
+        },
+        {
+          "file": "formal/SourceModel.lean",
+          "line": 59,
+          "name": "MatchingCapacity.source_rv_probability"
+        },
+        {
+          "file": "formal/SourceModel.lean",
+          "line": 67,
+          "name": "MatchingCapacity.source_ranking_probability"
+        }
+      ]
+    },
+    {
+      "item": "Scope and edge cases",
+      "source_locator": "Arnosti, published p. 136, Definition 2 and Theorem 2",
+      "finding": "The only final data restriction is degree(j)<=m; degree-zero jobs and empty histories are included. The formal theorem also allows m=0, which forces every degree to zero. It does not claim dominance for each fixed graph or for unequal capacities.",
+      "verdict": "consistent in authoring-agent review",
+      "lean": [
+        {
+          "file": "formal/SourceModel.lean",
+          "line": 95,
+          "name": "MatchingCapacity.source_matching_tail_comparison"
+        }
+      ]
+    }
+  ],
+  "proof_correspondence": [
+    {
+      "manuscript_label": "lem:csassociation",
+      "correspondence": "The manuscript applies published conditional association to the truncated factorial carrier. Lean proves its finite rational specialization directly by induction on the common cap; it does not assume the literature theorem.",
+      "lean": [
+        {
+          "file": "formal/CappedAssociation.lean",
+          "line": 87,
+          "name": "MatchingCapacity.cappedAssociation_all"
+        }
+      ]
+    },
+    {
+      "manuscript_label": "lem:pairmeans",
+      "correspondence": "The manuscript uses a permutation-average difference identity. Lean uses a nonnegative binomial-basis expansion to prove the same coefficient monotonicity and convexity over rational inputs.",
+      "lean": [
+        {
+          "file": "formal/PairCoefficients.lean",
+          "line": 121,
+          "name": "MatchingCapacity.normalizedPairCoeff_monotone"
+        },
+        {
+          "file": "formal/PairCoefficients.lean",
+          "line": 128,
+          "name": "MatchingCapacity.normalizedPairCoeff_convex"
+        },
+        {
+          "file": "formal/PairApplications.lean",
+          "line": 58,
+          "name": "MatchingCapacity.pair_factorial_balancing"
+        }
+      ]
+    },
+    {
+      "manuscript_label": "thm:allconcentration",
+      "correspondence": "Integer balancing implies majorization monotonicity of the symmetrized density; capped association then compares the actual categorical load law.",
+      "lean": [
+        {
+          "file": "formal/LoadMajorization.lean",
+          "line": 92,
+          "name": "MatchingCapacity.loadLE_mono_iff_balancing"
+        },
+        {
+          "file": "formal/CategoricalDensity.lean",
+          "line": 41,
+          "name": "MatchingCapacity.categoricalDensity_majorization"
+        },
+        {
+          "file": "formal/CategoricalConcentration.lean",
+          "line": 75,
+          "name": "MatchingCapacity.capped_categorical_concentration"
+        }
+      ]
+    },
+    {
+      "manuscript_label": "cor:allhazard",
+      "correspondence": "The ordered next row has no smaller saturation probability than the uniform row, and the uniform categorical law is identified with the capped factorial reference.",
+      "lean": [
+        {
+          "file": "formal/CategoricalNextChoice.lean",
+          "line": 50,
+          "name": "MatchingCapacity.uniform_next_minimizes_saturation"
+        },
+        {
+          "file": "formal/UniformCappedLaw.lean",
+          "line": 108,
+          "name": "MatchingCapacity.ordered_vs_uniform_saturation"
+        }
+      ]
+    },
+    {
+      "manuscript_label": "lem:allhistory",
+      "correspondence": "The history-fiber bijection establishes that the cap is the only residual constraint. Path factorization identifies the conditioned product law. Finite averaging yields the actual coarse waiting and mark laws on positive events.",
+      "lean": [
+        {
+          "file": "formal/HistoryFiber.lean",
+          "line": 53,
+          "name": "MatchingCapacity.historyFiberEquiv"
+        },
+        {
+          "file": "formal/HistoryFactorization.lean",
+          "line": 149,
+          "name": "MatchingCapacity.refined_path_factorization"
+        },
+        {
+          "file": "formal/HistoryFiber.lean",
+          "line": 167,
+          "name": "MatchingCapacity.rv_refined_history_law"
+        },
+        {
+          "file": "formal/HistoryFiber.lean",
+          "line": 179,
+          "name": "MatchingCapacity.ranking_refined_history_law"
+        },
+        {
+          "file": "formal/StoppingTransitionLaws.lean",
+          "line": 112,
+          "name": "MatchingCapacity.stopping_rv_waiting"
+        },
+        {
+          "file": "formal/StoppingTransitionLaws.lean",
+          "line": 123,
+          "name": "MatchingCapacity.stopping_ranking_waiting"
+        },
+        {
+          "file": "formal/StoppingTransitionLaws.lean",
+          "line": 90,
+          "name": "MatchingCapacity.stopping_rv_saturation"
+        },
+        {
+          "file": "formal/StoppingTransitionLaws.lean",
+          "line": 101,
+          "name": "MatchingCapacity.stopping_ranking_saturation"
+        }
+      ]
+    },
+    {
+      "manuscript_label": "sec:coupling",
+      "correspondence": "Ordered next-state couplings and total-probability updates preserve the one-time marginal laws. No Markov property of the projected original process is assumed.",
+      "lean": [
+        {
+          "file": "formal/BoundedNextCoupling.lean",
+          "line": 81,
+          "name": "MatchingCapacity.actual_ordered_transition_coupling"
+        },
+        {
+          "file": "formal/CouplingInduction.lean",
+          "line": 31,
+          "name": "MatchingCapacity.coupling_step"
+        },
+        {
+          "file": "formal/FixedPriorityComparison.lean",
+          "line": 13,
+          "name": "MatchingCapacity.stopping_laws_ordered_coupling"
+        },
+        {
+          "file": "formal/FixedPriorityComparison.lean",
+          "line": 66,
+          "name": "MatchingCapacity.fixed_priority_matching_tail_comparison"
+        }
+      ]
+    },
+    {
+      "manuscript_label": "thm:leansource",
+      "correspondence": "Priority relabeling, graph-coordinate reindexing, the product-of-sums identity and finite averaging transfer the fixed-priority theorem to the explicit source laws.",
+      "lean": [
+        {
+          "file": "formal/PriorityRelabeling.lean",
+          "line": 105,
+          "name": "MatchingCapacity.priority_matching_tail"
+        },
+        {
+          "file": "formal/IndependentNeighborhoods.lean",
+          "line": 62,
+          "name": "MatchingCapacity.graph_history_kernel_identity"
+        },
+        {
+          "file": "formal/IndependentNeighborhoods.lean",
+          "line": 112,
+          "name": "MatchingCapacity.ordered_graph_history_identity"
+        },
+        {
+          "file": "formal/PriorityRelabeling.lean",
+          "line": 130,
+          "name": "MatchingCapacity.arbitrary_priority_matching_tail_comparison"
+        },
+        {
+          "file": "formal/SourceModel.lean",
+          "line": 95,
+          "name": "MatchingCapacity.source_matching_tail_comparison"
+        }
+      ]
+    }
+  ],
+  "editorial_clarifications": [
+    "Independent choices conditioned on a cap need not remain independent after conditioning.",
+    "Independence of the next destination and the old residual choices is used within a fixed positive refinement; averaging then yields the coarse-state bound.",
+    "The single common priority is sampled outside the RANKING history product.",
+    "Graph neighborhoods are attached to original job labels before applying the arrival permutation.",
+    "The coupling preserves one-time state laws without a Markov premise.",
+    "The source conjecture includes randomness of the graph; an arbitrary fixed-graph assertion is outside the claim.",
+    "The manuscript invokes association over finite real-valued observables; the formal rational specialization suffices for the rational matching model."
+  ],
+  "external_review_focus": [
+    "Check the final probability laws and their equivalence to the algorithms in Arnosti Section 1.1 and Definition 2, including the sequential interpretation of RANDOM-VERTEX.",
+    "Check the published association theorem with the truncated factorial carrier, integer-valued extension and upper-sum order. Compare its role with the direct Lean specialization.",
+    "Check that the refinement bijection imposes exactly the residual cap and no unrecorded availability-path restriction.",
+    "Check averaging on positive refinements and the one-time-marginal coupling, especially the absence of any hidden Markov assumption."
+  ],
+  "validation": {
+    "latex_compilation": {
+      "status": "success",
+      "compiler": "Codex built-in standalone LaTeX compiler",
+      "checked_on": "2026-10-06",
+      "source_sha256": "1c34a5931540e11d35584176d58c94a7a33b758f49d8f8ecfd8cb339b56b986a"
+    },
+    "reference_and_integrity_check": {
+      "status": "PASS_PACKET_REFERENCES_AND_HASHES",
+      "command": "python3 review/check_packet.py",
+      "checked_on": "2026-10-06",
+      "unique_labels": 17,
+      "unique_declaration_locations": 44,
+      "certified_source_files_unchanged": 112,
+      "scope": "Local metadata and hash validation only; no Lean execution."
+    },
+    "mathematical_self_review": "No new gap identified in the targeted source-model and manuscript review.",
+    "limits": "Reference and hash checks do not establish mathematical correctness or independent acceptance. No new novelty search was performed.",
+    "azure_record_metadata_check": {
+      "status": "PASS_FULL_FORMALIZATION",
+      "command": "python3 formal/verify_metadata.py --stage source --historical",
+      "checked_on": "2026-10-06",
+      "named_theorem_count": 714,
+      "audited_declaration_count": 929,
+      "scope": "Rechecks the existing Azure record and artifacts; does not rerun Lean or query current Azure state."
+    }
+  },
+  "bibliography_check": {
+    "checked_on": "2026-10-06",
+    "status": "PASS",
+    "arnosti": "Journal issue June 2022; online 2 November 2021. Title, author, volume 12(2), pages 133-150 and DOI verified on publisher page.",
+    "cohen_sackrowitz": "Title, authors Arthur Cohen and Harold B. Sackrowitz, volume 15(2), pages 805-816 and 1987 date verified against the journal issue and the primary paper.",
+    "urls": [
+      "https://pubsonline.informs.org/doi/10.1287/stsy.2021.0082",
+      "https://www.jstor.org/stable/2241341",
+      "https://doi.org/10.1214/aos/1176350376"
+    ]
+  }
+}

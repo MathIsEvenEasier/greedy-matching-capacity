@@ -1,0 +1,520 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newcommand{\RV}{\mathrm{RV}}
+\newcommand{\RK}{\mathrm{RK}}
+\newcommand{\ind}{\mathbf 1}
+\newcommand{\lean}[1]{\texttt{\detokenize{#1}}}
+\title{Random choice versus a common ranking\\in equal-capacity bipartite matching}
+\author{MathIsEvenEasier\\\small Prepared with OpenAI Codex (GPT-6 Astra)}
+\date{6 October 2026}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Each job independently chooses a uniform neighborhood of prescribed size
+among bins with a common positive integer capacity. We prove that choosing
+uniformly among available neighbors gives a stochastically larger matching
+than choosing according to one common bin ranking. The comparison holds
+for every fixed arrival order and therefore for the random-order model
+in Arnosti's equal-capacity conjecture. The proof combines a capped
+multinomial association inequality, a two-bin coefficient calculation,
+and a coupling indexed by the number of accepted jobs. A Lean formalization
+proves the complete finite source-model statement and establishes the
+association ingredient directly by induction on the cap.
+\end{abstract}
+
+\section{Model and result}\label{sec:model}
+There are $m\geq1$ bins, each with capacity $C\geq1$, and $n\geq0$
+jobs. Job $j$ has a prescribed degree $d_j\in\{0,\ldots,m\}$.
+Independently for each job, its feasible set is a uniform $d_j$-subset of
+the bins. First fix an arrival order and a bin-priority order, both
+independent of these sets. RANDOM-VERTEX (RV) assigns each arriving job
+uniformly among its feasible bins with spare capacity, using fresh
+randomness. RANKING (RK) assigns it to the first such bin in the common
+priority order. A job with no available feasible bin is rejected.
+Let $M_{\RV}$ and $M_{\RK}$ denote the numbers accepted.
+
+\begin{theorem}\label{thm:fullconjecture}
+For every choice of $m,C,n$ and degrees as above, and every fixed arrival
+and bin-priority order,
+\begin{equation}\label{eq:main}
+ \Pr(M_{\RV}\geq K)\geq\Pr(M_{\RK}\geq K)
+ \qquad(K\in\mathbb N).
+\end{equation}
+The same inequality holds after independently drawing uniform arrival
+and bin-priority permutations, as in Arnosti's model.
+\end{theorem}
+
+The probabilities include the random graph and the algorithms' choices.
+The source conjecture is the assertion following Theorem~2 of
+Arnosti~\cite{arnosti}, for common capacities $C>2$. His graph distribution
+is defined by fixed job degrees and independent uniform feasible sets.
+His RANDOM-VERTEX implementation uses independent uniform preference
+permutations for the jobs: the first member of any nonempty available
+set in such a permutation is uniform on that set. Because the current
+job's permutation is independent of earlier assignments, this is exactly
+the sequential rule used here.
+
+Theorem~\ref{thm:fullconjecture} concerns the equal-capacity random-graph
+model. Its assumptions do not cover unequal capacities or comparison
+conditional on an arbitrary fixed graph. The proof is in
+Sections~\ref{sec:loads}--\ref{sec:coupling};
+Section~\ref{sec:formal} describes the machine-checked statement.
+
+\section{A comparison of capped loads}\label{sec:loads}
+For vectors of equal total, $x$ majorizes $y$ when every upper partial
+sum of the decreasing rearrangement of $x$ is at least the corresponding
+sum for $y$. A majorization-increasing statistic therefore increases as
+loads become more concentrated.
+
+For $b\geq1$, $q\geq0$ and $0\leq r\leq bq$, write
+\[
+ \Omega_{b,r,q}=\{x\in\{0,\ldots,q\}^b:\textstyle\sum_i x_i=r\},
+ \qquad \mu_{b,r,q}(x)=\frac1{Z_{b,r,q}}\prod_{i=1}^b\frac1{x_i!}.
+\]
+Here $Z_{b,r,q}>0$ is the normalizing constant. This is the load law of
+$r$ independent uniform choices of $b$ bins, conditioned on all loads
+being at most $q$: the unconditioned mass at $x$ is
+$r!b^{-r}\prod_i1/x_i!$.
+
+\begin{lemma}[Capped association]\label{lem:csassociation}
+For symmetric, majorization-increasing $F,G$ on $\Omega_{b,r,q}$,
+\[
+ \operatorname{Cov}_{\mu_{b,r,q}}(F,G)\geq0.
+\]
+\end{lemma}
+\begin{proof}
+Apply Cohen--Sackrowitz~\cite[Lemma 4.1]{cs} to iid variables with
+carrier $h_q(k)=1/k!$ on integer $0\leq k\leq q$, zero elsewhere.
+The support is an interval and successive positive ratios are
+$1/(k+1)$, so the carrier is $PF_2$. Conditioning the total to be $r$
+gives exactly $\mu_{b,r,q}$. Their upper sums are the decreasing-order
+partial sums defining majorization; Definition~2.2 and Remark~2.5 identify
+the relevant increasing functions. The integer-valued extension is stated
+on page~809 and justified in Section~5. If needed outside the finite
+support, extend a statistic at a partial-sum vector by the maximum of its
+values at supported vectors below it, using its minimum value when none
+exist. This gives an increasing extension. All expectations are finite.
+The degenerate cases are deterministic.
+\end{proof}
+
+\begin{lemma}[A shared two-bin calculation]\label{lem:pairmeans}
+For $u_j\geq v_j\geq0$, $1\leq j\leq t$, put
+\[
+ Q(X,Y)=\prod_{j=1}^t(u_jX+v_jY),\qquad
+ g_k=\binom tk^{-1}[X^kY^{t-k}]Q\quad(0\leq k\leq t).
+\]
+The sequence $g_k$ is nondecreasing and discretely convex:
+$\Delta g_k\geq0$ and $\Delta^2g_k\geq0$ wherever defined.
+\end{lemma}
+\begin{proof}
+For a uniform permutation $\pi$ of $1,\ldots,t$,
+$g_k=\mathbb E[\prod_{\ell\leq k}u_{\pi(\ell)}
+\prod_{\ell>k}v_{\pi(\ell)}]$. Direct expansion gives, for $h=1,2$,
+\[
+ \Delta^h g_k=\mathbb E\left[
+ \prod_{\ell\leq k}u_{\pi(\ell)}
+ \prod_{k<\ell\leq k+h}(u_{\pi(\ell)}-v_{\pi(\ell)})
+ \prod_{\ell>k+h}v_{\pi(\ell)}\right]\geq0.
+\]
+For $h=2$ the two middle terms have the same expectation by exchanging
+positions $k+1,k+2$. This proves both assertions, including zero factors.
+\end{proof}
+
+\begin{theorem}[Uniform conditional concentration]\label{thm:allconcentration}
+Let $r$ independent categorical choices on $b$ bins have probability
+rows nonincreasing in the same bin order. Write $N$ for their load vector,
+and suppose $E=\{\max_iN_i\leq q\}$ has positive probability.
+For every symmetric majorization-increasing function $F$ on
+$\Omega_{b,r,q}$,
+\[
+ \mathbb E(F(N)\mid E)\geq\mathbb E_{\mu_{b,r,q}}F.
+\]
+\end{theorem}
+\begin{proof}
+Let $P(z)=\prod_{j=1}^r\sum_{i=1}^b p_{j,i}z_i$, and let
+$\overline P$ be its average over all permutations of the variables.
+Symmetrizing the bin labels changes neither $F$ nor the cap event.
+Put
+\[
+ L(x)=\left(\prod_i x_i!\right)[z^x]\overline P(z).
+\]
+The capped symmetrized load law has density $L/\mathbb E_\mu L$
+relative to $\mu=\mu_{b,r,q}$: its mass is $[z^x]\overline P$,
+whereas $\mu(x)$ is proportional to $1/\prod_i x_i!$.
+
+We show that $L$ increases in majorization. Consider balancing two
+loads $a\geq c+2$ to $a-1,c+1$. In the permutation average, pair
+terms that exchange the corresponding variables $X,Y$, and fix the
+choices assigned to the other variables. The remaining $t=a+c$
+choices contribute $Q(X,Y)+Q(Y,X)$, where
+\[
+ Q(X,Y)=\prod_{j=1}^t(u_jX+v_jY),\qquad u_j\geq v_j\geq0.
+\]
+By the common row ordering and Lemma~\ref{lem:pairmeans}, the
+normalized coefficients $g_k$ of $Q$ are convex. The contribution
+of this pair to $L$ is a nonnegative constant times
+\[
+ a!c!\,[X^aY^c](Q(X,Y)+Q(Y,X))=t!\,(g_a+g_c).
+\]
+Convexity gives $g_a+g_c\geq g_{a-1}+g_{c+1}$. The other
+coordinate factors are unchanged. Thus balancing decreases $L$;
+such transfers generate integer majorization.
+
+Lemma~\ref{lem:csassociation} now yields
+\[
+ \mathbb E(F(N)\mid E)
+   =\frac{\mathbb E_\mu(FL)}{\mathbb E_\mu L}
+   \geq\mathbb E_\mu F.
+\]
+The denominator is positive because $\Pr(E)>0$.
+\end{proof}
+
+\begin{lemma}[The uniform next choice minimizes the hazard]\label{lem:nextuniform}
+Let independent old choices on $b$ bins have probability rows
+nonincreasing in the same order. Condition on every load being at
+most $q$, where the conditioning event has positive probability.
+Then $p_i:=\Pr(N_i=q\mid\max_jN_j\leq q)$ is nonincreasing in $i$.
+Consequently any independent next choice with a nonincreasing row
+has saturation probability at least $b^{-1}\sum_i p_i$.
+\end{lemma}
+\begin{proof}
+Take bins $i<j$. Condition on which old choices landed in the pair
+and on all other destinations. If there are $t$ choices in the pair,
+their probabilities of choosing $i,j$ satisfy $u_\ell\geq v_\ell$.
+Thus the count $X$ of choices of $i$ has
+$\Pr(X=k)=\binom tk g_k$, with $g$ from Lemma~\ref{lem:pairmeans}.
+For $t<q$ neither bin reaches $q$; positive cap probability rules out
+$t>2q$. Otherwise $t-q\leq q\leq t$. Lemma~\ref{lem:pairmeans}
+and $\binom tq=\binom t{t-q}$ give
+\[
+ \Pr(X=q)=\binom tq g_q\geq\binom t{t-q}g_{t-q}=\Pr(X=t-q).
+\]
+Conditioning on the common interval $t-q\leq X\leq q$ preserves
+this comparison, as does averaging over the finer information.
+Thus $p_i\geq p_j$. For the next row $v$, the two similarly ordered
+sequences satisfy
+\[
+ \sum_i v(i)p_i\geq\frac1b\left(\sum_i v(i)\right)
+                                  \left(\sum_i p_i\right)
+ =\frac1b\sum_i p_i,
+\]
+because the difference between the two sides is
+$\frac1b\sum_{i<j}(v(i)-v(j))(p_i-p_j)\geq0$.
+\end{proof}
+
+For use in the matching process, define the uniform saturation hazard by
+\[
+ h_{b,C}(r)=\frac1b\,
+ \mathbb E_{\mu_{b,r,C-1}}\#\{i:x_i=C-1\}.
+\]
+It is the expected fraction of bins one choice away from saturation.
+
+\begin{corollary}[The conditional hazard for every capacity]\label{cor:allhazard}
+For $b\geq1$, $C\geq1$ and $0\leq r\leq b(C-1)$, take independent
+old choices $Z_1,\ldots,Z_r$ and a next choice $Y$ on $b$ bins,
+all with probability rows nonincreasing in the same order. If
+$N_i=\#\{j:Z_j=i\}$ and $E=\{\max_iN_i<C\}$ has positive probability,
+then
+\[
+ \Pr(N_Y=C-1\mid E)\geq h_{b,C}(r).
+\]
+Equality holds when every row is uniform. For $C=1$ necessarily
+$r=0$ and the hazard is one.
+\end{corollary}
+\begin{proof}
+Put $q=C-1$ and $B(x)=\#\{i:x_i=q\}$. A balancing transfer in
+the capped simplex cannot increase $B$, so $B$ is
+majorization-increasing. Theorem~\ref{thm:allconcentration} gives
+$\mathbb E(B(N)\mid E)\geq\mathbb E_\mu B$.
+Lemma~\ref{lem:nextuniform} shows that replacing the independent ordered
+next choice by a uniform choice cannot increase its saturation hazard.
+That uniform-choice hazard is $\mathbb E(B(N)\mid E)/b$.
+By definition $\mathbb E_\mu B/b=h_{b,C}(r)$, proving the claim,
+including $r=0$ and $r=bq$.
+\end{proof}
+
+\section{Conditioning at an accepted count}\label{sec:history}
+Delete degree-zero arrivals and number the remaining arrivals
+$1,\ldots,n$. For RANKING fix the priority order $1,\ldots,m$;
+relabeling invariance of the neighborhood model makes every fixed
+order have the same output law. Let $\sigma_K$ be the arrival accepting
+the $K$th job, with $\sigma_K=\infty$ if there is no such arrival.
+When $\sigma_K<\infty$, let $A_K$ count the full days just after it.
+Put $(\sigma_0,A_0)=(0,0)$. We compare the distribution of this pair
+at each $K$; a level never reached is an absorbing cemetery state.
+The cemetery state is ordered above every finite state; finite states
+are ordered coordinatewise.
+
+\begin{lemma}[The conditional transition at every accepted count]
+\label{lem:allhistory}
+Fix $K<mC$ and a positive-probability state
+$(\sigma_K,A_K)=(s_0,a)$ with $s_0<\infty$.
+Put $b=m-a$ and $r=K-aC$.
+For either algorithm the next-success index $S=\sigma_{K+1}$ has law
+\begin{equation}\label{eq:waitingkernel}
+ \Pr(S=s\mid\sigma_K=s_0,A_K=a)=
+ \left(\prod_{j=s_0+1}^{s-1} f_j(a)\right)(1-f_s(a)),
+ \qquad f_j(a)=\frac{\binom a{d_j}}{\binom m{d_j}},
+\end{equation}
+for $s_0<s\leq n$, and mass
+$\prod_{j=s_0+1}^n f_j(a)$ at infinity.
+Conditional also on $S=s<\infty$, the mark increment
+$A_{K+1}-a$ is Bernoulli with probability exactly $h_{b,C}(r)$
+for RANDOM-VERTEX and at least $h_{b,C}(r)$ for RANKING.
+This includes $a=0$ and $b=1$.
+\end{lemma}
+\begin{proof}
+Refine the current state to data $\rho$ specifying the set $D$ of
+days full at $\sigma_K$, the
+destination of every job assigned to $D$, and the acceptance or
+rejection of every arrival through $\sigma_K$. Thus $\rho$ also
+determines each full day's filling time and the full-day set
+$D_{j-1}$ before every earlier arrival $j$. Let $I$ be the final
+$b$ nonfull days and $J$ the accepted jobs whose destinations in
+$I$ are not yet specified. There are $|J|=K-aC=r$ such jobs.
+
+For a fixed availability set, let $u_j(i)$ be the unconditional
+probability that arrival $j$ chooses available day $i$. If $v$ days
+are full, these probabilities are
+\[
+ u_j(i)=\frac{1-f_j(v)}{m-v}\quad(\RV),\qquad
+ u_j(i)=\frac{\binom{m-s_i}{d_j-1}}{\binom m{d_j}}
+       \quad(\RK),
+\]
+where $s_i$ is the position of $i$ among the available days in
+priority order. The second formula counts neighborhoods containing
+$i$ and avoiding the $s_i-1$ earlier available days; full days
+are allowed among the other neighbors. Thus the RV row is uniform
+and the RK row is nonincreasing. These formulas depend on which
+days are full, not on the partial loads of available days.
+
+For proposed destinations $z=(z_j:j\in J)\in I^J$, write
+$N_i(z)=\#\{j\in J:z_j=i\}$. The joint path probability factors as
+\begin{equation}\label{eq:refinedfactor}
+ \Pr(\rho,z)=\kappa_\rho
+      \prod_{j\in J}u_j^{D_{j-1}}(z_j)
+      \mathbf1_{\{\max_{i\in I}N_i(z)<C\}},
+\end{equation}
+where $\kappa_\rho$ contains the probabilities of prescribed
+destinations in $D$ and prescribed rejections. Independence of fresh
+neighborhoods and tie-breaking gives this product along the prescribed
+availability path. Conversely, every $z$ satisfying the cap realizes
+that path: loads only increase, so no member of $I$ can have filled
+earlier; the assigned job sets in $D$ already fix all other filling
+times. The success indicators also fix $\sigma_K$. Thus capped residual
+assignments and compatible histories are in bijection; there is no
+additional restriction on $z$.
+
+Normalize each restricted row by
+\[
+ p_{j,i}=\frac{u_j^{D_{j-1}}(i)}
+                  {\sum_{\ell\in I}u_j^{D_{j-1}}(\ell)},
+ \qquad i\in I.
+\]
+Every denominator is positive on a positive-probability refinement.
+Equation~\eqref{eq:refinedfactor} proves that the residual loads
+have the law of independent choices with these rows, conditioned on
+their cap. The choices need not remain independent after conditioning.
+For RV all rows are uniform on $I$; for RK all decrease in the
+same inherited priority order. This argument includes $D=\varnothing$.
+
+Until the next acceptance, rejections leave the loads unchanged.
+Each has probability $f_j(a)$, for every residual load vector and
+every full-day set of size $a$. This proves
+\eqref{eq:waitingkernel}. On each fixed positive refinement, conditional also on $S=s$, the fresh
+destination at $s$ is independent of the old residual choices: its row on $I$
+is uniform for RV and nonincreasing for RK. The waiting event has
+introduced no extra weighting of those loads. Corollary~\ref{cor:allhazard}
+therefore gives the asserted mark probabilities on each refinement.
+The bound depends only on $K,a,m,C$, so averaging over the refinements
+preserves it. With $b=1$ the mark increment is deterministic.
+\end{proof}
+
+\section{Coupling the acceptance levels}\label{sec:coupling}
+\begin{proof}[Proof of Theorem~\ref{thm:fullconjecture}]
+Fix the degree order. At each $K$ we construct a coupling of the two
+state distributions, maintaining
+\[
+ \sigma_{K,\RV}\leq\sigma_{K,\RK},\qquad
+ A_{K,\RV}\leq A_{K,\RK}
+ \quad\text{whenever }\sigma_{K,\RK}<\infty.
+\]
+Level zero is deterministic. Suppose the invariant holds at $K<mC$.
+If RK has not reached $K$, it cannot reach a higher level; continue
+RV with its own conditional law; RK stays in the cemetery state.
+Otherwise both current hitting times are finite.
+
+The waiting kernel in Lemma~\ref{lem:allhistory} is increasing in
+the starting index $\sigma_K$ and the full-day count $a$: for
+$s>\sigma_K$ its cumulative probability is
+\[
+ \Pr(S\leq s\mid\sigma_K,A_K)
+       =1-\prod_{j=\sigma_K+1}^s f_j(a),
+\]
+and each $f_j(a)$ increases in $a$. Starting earlier adds factors
+between zero and one. A shared uniform variable and the two inverse
+cumulative distribution functions therefore give
+$S_\RV\leq S_\RK$, including the atom at infinity.
+
+If $S_\RK=\infty$, no new mark comparison is required. Otherwise
+both next hits are finite. If the old full-day counts differ, each
+new count is its old value plus zero or one, so the order persists
+under any coupling. If both old counts equal $a$, both current states
+have the same $b=m-a$ and $r=K-aC$. Conditional on their respective
+next-hit indices, Lemma~\ref{lem:allhistory} gives Bernoulli
+increment probabilities $h_{b,C}(r)$ for RV and $p\geq h_{b,C}(r)$
+for RK. A fresh shared uniform variable orders the increments.
+This covers $a=0$ with no separate initialization, and it covers
+the last acceptance at level $mC$ as well.
+
+Each coupled transition has the actual conditional law of the next
+state given the current state as its marginal. The law of total
+probability therefore gives the correct state distributions at $K+1$.
+This argument does not assume that either original state process is
+Markov. Induction reaches $mC$, and since $\{M\geq k\}=\{\sigma_k\leq n\}$, the hitting-time order
+proves every tail $1\leq k\leq mC$; the other tails are trivial.
+Relabeling bins preserves independent uniform neighborhoods and the
+number accepted. The fixed-priority comparison therefore holds for
+every priority permutation. Averaging the inequality over uniform,
+neighborhood-independent arrival and priority permutations proves
+the source-model assertion.
+\end{proof}
+
+
+\section{Formal statement and verification}\label{sec:formal}
+The finite probabilities in the matching model are rational. The Lean
+proof works over $\mathbb Q$ and represents capacity $C$ as $q+1$.
+A history is a function
+$h:\operatorname{Fin}(n)\to\operatorname{Option}(\operatorname{Fin}(m))$,
+where \lean{none} means rejection and \lean{some k} means acceptance
+at bin $k$. Before job $j$, bin $k$ is available exactly when its load
+is at most $q$. The statistic \lean{acceptedCount} counts the accepted
+outcomes, and \lean{matchingTail} sums history mass over
+$\{h:\operatorname{acceptedCount}(h)\geq K\}$.
+
+\subsection{Identification of the source law}\label{sec:source-law}
+For an original job-labeled graph $G=(G_1,\ldots,G_n)$, define
+\[
+ U_d(G)=\prod_{j=1}^n
+ \frac{\ind\{|G_j|=d_j\}}{\binom m{d_j}}.
+\]
+For a fixed arrival permutation $\sigma$, fixed ranking $e$, and complete
+history $h$, let $A_j(h)$ be its available bins before step $j$. Let
+$R_{\RV}(A,S,o)$ be the probability of outcome $o$ under uniform choice
+from $A\cap S$, and let $R_e(A,S,o)$ be the indicator that $o$ is the
+highest-priority available feasible outcome, including rejection.
+The source history laws are explicitly
+\begin{align*}
+ W_{\RV}(h)
+ &=\frac1{n!}\sum_\sigma\sum_G U_d(G)
+       \prod_{j=1}^n R_{\RV}(A_j(h),G_{\sigma(j)},h_j),\\
+ W_{\RK}(h)
+ &=\frac1{n!m!}\sum_\sigma\sum_e\sum_G U_d(G)
+       \prod_{j=1}^n R_e(A_j(h),G_{\sigma(j)},h_j).
+\end{align*}
+The same $e$ occurs in every factor of the RANKING product. Every sum
+is finite, including $n=0$ with the empty-product convention. The formal
+laws \lean{sourceRVHistory} and \lean{sourceRankingHistory} are these
+averages, with permutation counts expressed as finite-type cardinalities.
+Both laws are proved nonnegative and normalized.
+
+Reindexing $G$ by $\sigma$ is a bijection and changes its degree vector
+to $(d_{\sigma(j)})_j$. For a fixed history, each response then depends
+on only one graph coordinate. Expanding the product of sums gives exactly
+the previously verified history kernels. This is an algebraic identity;
+it does not assert independence of the evolving availability sets.
+Relabeling every accepted bin by $e$ preserves loads, availability and
+the number accepted, and identifies an arbitrary fixed ranking with the
+numerical ranking. These are the two changes of variables used in the
+formal source transfer.
+
+\begin{theorem}[Formal source-model comparison]\label{thm:leansource}
+For all natural $n,m,q,K$ and every degree function
+$d:\operatorname{Fin}(n)\to\mathbb N$ satisfying $d(j)\leq m$,
+\[
+ \sum_{h:\,\operatorname{acceptedCount}(h)\geq K}W_{\RK}(h)
+ \leq
+ \sum_{h:\,\operatorname{acceptedCount}(h)\geq K}W_{\RV}(h).
+\]
+This is \lean{MatchingCapacity.source_matching_tail_comparison}
+in \lean{formal/SourceModel.lean}.
+\end{theorem}
+\begin{proof}
+The fixed-degree, fixed-priority theorem gives the comparison of history
+kernels. The two bijections above identify those kernels with the literal
+graph and priority laws. Finite averaging commutes with the tail sum and
+preserves the inequality.
+\end{proof}
+
+\subsection{Correspondence with the formal proof}
+The main declarations below provide entry points into the certificate.
+Their exact file locations and dependencies are listed in
+\lean{review/source-model-review.json} and \lean{formal/README.rst}.
+\begin{enumerate}
+\item Lemma~\ref{lem:csassociation}:
+  \lean{cappedAssociation_all} proves the required rational association
+  statement directly by induction on the cap. The literature theorem is
+  not assumed as an axiom.
+\item Lemma~\ref{lem:pairmeans} and Theorem~\ref{thm:allconcentration}:
+  \lean{PairCoefficients.lean}, \lean{PairApplications.lean},
+  \lean{categoricalDensity_majorization}, and
+  \lean{capped_categorical_concentration}.
+\item Corollary~\ref{cor:allhazard}:
+  \lean{ordered_vs_uniform_saturation}, including the exact uniform
+  multinomial reference law.
+\item Lemma~\ref{lem:allhistory}:
+  \lean{historyFiberEquiv}, \lean{refined_path_factorization},
+  \lean{stopping_rv_waiting}, \lean{stopping_ranking_waiting},
+  \lean{stopping_rv_saturation}, and \lean{stopping_ranking_saturation}.
+\item The coupling in Section~\ref{sec:coupling}:
+  \lean{actual_ordered_transition_coupling},
+  \lean{stopping_laws_ordered_coupling}, and
+  \lean{fixed_priority_matching_tail_comparison}.
+\item The source transfer:
+  \lean{priority_matching_tail}, \lean{ordered_graph_history_identity},
+  \lean{graph_history_kernel_identity}, and
+  \lean{source_matching_tail_comparison}.
+\end{enumerate}
+
+\subsection{Verification record}
+The Azure run of 5 October 2026 used Lean~4.34.0 and Mathlib commit
+\nolinkurl{5ed2965256430c3649e86755f9576b54eca72435}.
+All 91 positive modules, including the audit module, compiled; the record
+contains 714 named theorems and an axiom audit of 929 named declarations.
+Only \lean{propext}, \lean{Classical.choice}, and \lean{Quot.sound}
+occur as axiom dependencies. The proof uses no \lean{sorry}, custom
+axioms, \lean{unsafe}, \lean{native_decide}, or \lean{ofReduceBool}.
+The intentionally false \lean{NegativeSource.lean} priority claim was
+rejected with an unsolved \lean{False} goal.
+The returned source hashes, compiled artifacts, dependency audit and
+resource deletion are recorded in
+\nolinkurl{formal/verification-source-azure.json}.
+
+This manuscript uses the published association theorem for a shorter
+exposition. The formalization supplies a direct proof of the required
+finite rational specialization. Its theorem statement and source-model
+identification have been checked by the authoring agent against the
+primary sources; independent external review has not yet occurred.
+The earlier research narrative is preserved in
+\nolinkurl{archive/research-note-2026-10-05.tex}.
+
+\begin{thebibliography}{9}
+\bibitem{arnosti}
+N. Arnosti. Greedy Matching in Bipartite Random Graphs.
+\emph{Stochastic Systems} \textbf{12}(2), 133--150, June 2022.
+First published online 2 November 2021.
+\href{https://doi.org/10.1287/stsy.2021.0082}{doi:10.1287/stsy.2021.0082}.
+
+\bibitem{cs}
+A. Cohen and H. B. Sackrowitz. Unbiasedness of Tests for Homogeneity.
+\emph{The Annals of Statistics} \textbf{15}(2), 805--816, 1987.
+\href{https://doi.org/10.1214/aos/1176350376}{doi:10.1214/aos/1176350376}.
+\end{thebibliography}
+\end{document}

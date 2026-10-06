@@ -1,0 +1,1837 @@
+[
+  {
+    "seq": "7cdfa559062343678a41c4deec5345bd",
+    "status": "FAIL",
+    "records": [
+      {
+        "module": "FiniteCovariance",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 7.634
+      },
+      {
+        "module": "AssociationStep",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.378
+      },
+      {
+        "module": "TieBias",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.164
+      },
+      {
+        "module": "CappedCarrier",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.252
+      },
+      {
+        "module": "MarkedLaw",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.196
+      },
+      {
+        "module": "AssociationTarget",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.119
+      },
+      {
+        "module": "CappedTies",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.191
+      },
+      {
+        "module": "FiniteTransport",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.195
+      },
+      {
+        "module": "FiniteLikelihood",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.349
+      },
+      {
+        "module": "EfronTwo",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.497
+      },
+      {
+        "module": "CappedEfron",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 3.704
+      },
+      {
+        "module": "ConvolutionMinor",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.528
+      },
+      {
+        "module": "CarrierConvolution",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.526
+      },
+      {
+        "module": "CarrierEfron",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.193
+      },
+      {
+        "module": "ProductEfron",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.445
+      },
+      {
+        "module": "EfronBand",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.614
+      },
+      {
+        "module": "PinnedMajorization",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.445
+      },
+      {
+        "module": "PinnedLaw",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.237
+      },
+      {
+        "module": "CappedSymmetry",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.307
+      },
+      {
+        "module": "CappedPinnedLaw",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.263
+      },
+      {
+        "module": "FiberRegression",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.458
+      },
+      {
+        "module": "CappedTieComparison",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.248
+      },
+      {
+        "module": "CappedStrata",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.797
+      },
+      {
+        "module": "CappedProduct",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.55
+      },
+      {
+        "module": "CappedPrefix",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.403
+      },
+      {
+        "module": "CappedAssociationTools",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.5
+      },
+      {
+        "module": "CappedCapRegression",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.952
+      },
+      {
+        "module": "CappedAssociation",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.384
+      },
+      {
+        "module": "PairCoefficients",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.702
+      },
+      {
+        "module": "PairApplications",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.269
+      },
+      {
+        "module": "LoadBalancing",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.489
+      },
+      {
+        "module": "LoadMajorization",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.266
+      },
+      {
+        "module": "CategoricalLaw",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.527
+      },
+      {
+        "module": "CategoricalPair",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.802
+      },
+      {
+        "module": "CategoricalBoundary",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.471
+      },
+      {
+        "module": "CategoricalNextChoice",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.302
+      },
+      {
+        "module": "CategoricalLoadPair",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.484
+      },
+      {
+        "module": "LoadSymmetrization",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.249
+      },
+      {
+        "module": "CategoricalDensity",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.16
+      },
+      {
+        "module": "CategoricalConcentration",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.319
+      },
+      {
+        "module": "CategoricalConditioning",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.235
+      },
+      {
+        "module": "CategoricalHazard",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.169
+      },
+      {
+        "module": "UniformLoadMass",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.408
+      },
+      {
+        "module": "UniformCappedLaw",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.35
+      },
+      {
+        "module": "HistoryRefinement",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.264
+      },
+      {
+        "module": "NeighborhoodChoice",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.48
+      },
+      {
+        "module": "HistoryFactorization",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.556
+      },
+      {
+        "module": "HistoryFiber",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.477
+      },
+      {
+        "module": "NeighborhoodPermutation",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.165
+      },
+      {
+        "module": "NeighborhoodOrder",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.154
+      },
+      {
+        "module": "ResidualKernelRows",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.461
+      },
+      {
+        "module": "CategoricalRelabel",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.189
+      },
+      {
+        "module": "ConstantRows",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.188
+      },
+      {
+        "module": "HistorySaturation",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.414
+      },
+      {
+        "module": "WaitingKernel",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.205
+      },
+      {
+        "module": "RejectionKernel",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.156
+      },
+      {
+        "module": "HistoryExtension",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.18
+      },
+      {
+        "module": "WaitingRefinement",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.707
+      },
+      {
+        "module": "AcceptedCount",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.525
+      },
+      {
+        "module": "CanonicalRefinement",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.254
+      },
+      {
+        "module": "CoarseRefinement",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.367
+      },
+      {
+        "module": "FiniteMixture",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.152
+      },
+      {
+        "module": "RefinementMixture",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.247
+      },
+      {
+        "module": "CoarseSaturation",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.346
+      },
+      {
+        "module": "CoarseWaiting",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.295
+      },
+      {
+        "module": "CoarseHistorySupport",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.173
+      },
+      {
+        "module": "HistoryPrefix",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.198
+      },
+      {
+        "module": "StoppingState",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.424
+      },
+      {
+        "module": "StoppingLaw",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.304
+      },
+      {
+        "module": "StoppingJointLaw",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.239
+      },
+      {
+        "module": "StoppingExtensions",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.258
+      },
+      {
+        "module": "StoppingTransitionBridge",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.494
+      },
+      {
+        "module": "StoppingTransitionLaws",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.508
+      },
+      {
+        "module": "FiniteQuantile",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.349
+      },
+      {
+        "module": "FiniteWaitingLaw",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.233
+      },
+      {
+        "module": "WaitingOrder",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.242
+      },
+      {
+        "module": "BernoulliCoupling",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.252
+      },
+      {
+        "module": "StoppingWaitingCoupling",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.259
+      },
+      {
+        "module": "TwoPointMoments",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.225
+      },
+      {
+        "module": "MarkedTimeCoupling",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.245
+      },
+      {
+        "module": "StoppingMarkMoments",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.337
+      },
+      {
+        "module": "NextStateMoments",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.293
+      },
+      {
+        "module": "ActualNextCoupling",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.213
+      },
+      {
+        "module": "FiniteJointPush",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.181
+      },
+      {
+        "module": "BoundedNextCoupling",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.335
+      },
+      {
+        "module": "CouplingInduction",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.31
+      },
+      {
+        "module": "FixedPriorityComparison",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.172
+      },
+      {
+        "module": "PriorityRelabeling",
+        "exit_code": 1,
+        "log": "PriorityRelabeling.lean:20:14: error: unsolved goals\ncase none\nn m : \u2115\ne : Equiv.Perm (Fin m)\nh : Fin n \u2192 Option (Fin m)\nj : Fin n\n\u22a2 h j = none\n\ncase some\nn m : \u2115\ne : Equiv.Perm (Fin m)\nh : Fin n \u2192 Option (Fin m)\nj : Fin n\nval\u271d : Fin m\n\u22a2 h j = some val\u271d\nPriorityRelabeling.lean:21:15: error: unsolved goals\ncase none\nn m : \u2115\ne : Equiv.Perm (Fin m)\nh : Fin n \u2192 Option (Fin m)\nj : Fin n\n\u22a2 h j = none\n\ncase some\nn m : \u2115\ne : Equiv.Perm (Fin m)\nh : Fin n \u2192 Option (Fin m)\nj : Fin n\nval\u271d : Fin m\n\u22a2 h j = some val\u271d\nPriorityRelabeling.lean:28:64: error: unsolved goals\ncase none\nn m : \u2115\ne : Equiv.Perm (Fin m)\nh : Fin n \u2192 Option (Fin m)\nt : \u2115\nk : Fin m\nj : Fin n\na\u271d : j \u2208 Finset.univ\n\u22a2 \u00ach j = some k\n\ncase some\nn m : \u2115\ne : Equiv.Perm (Fin m)\nh : Fin n \u2192 Option (Fin m)\nt : \u2115\nk : Fin m\nj : Fin n\na\u271d : j \u2208 Finset.univ\nval\u271d : Fin m\n\u22a2 h j = some k \u2194 val\u271d = k\nPriorityRelabeling.lean:41:60: error: unsolved goals\ncase none\nn m : \u2115\ne : Equiv.Perm (Fin m)\nh : Fin n \u2192 Option (Fin m)\nj : Fin n\na\u271d : j \u2208 Finset.univ\n\u22a2 h j = none\n\ncase some\nn m : \u2115\ne : Equiv.Perm (Fin m)\nh : Fin n \u2192 Option (Fin m)\nj : Fin n\na\u271d : j \u2208 Finset.univ\nval\u271d : Fin m\n\u22a2 \u00ach j = none\nPriorityRelabeling.lean:87:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n  \u2211 N \u2208 Finset.powersetCard ?degree Finset.univ, ?F (permuteBins ?e N)\nin the target expression\n  (\u2191(m.choose degree))\u207b\u00b9 *\n      \u2211 N \u2208 Finset.powersetCard degree Finset.univ,\n        rankingResponse (permuteBins e A) (permuteBins e N) ((Equiv.optionCongr e) o) =\n    neighborhoodKernel rankingResponse degree (permuteBins e A) ((Equiv.optionCongr e) o)\n\nm : \u2115\ne : Equiv.Perm (Fin m)\ndegree : \u2115\nA : Finset (Fin m)\no : Option (Fin m)\n\u22a2 (\u2191(m.choose degree))\u207b\u00b9 *\n      \u2211 N \u2208 Finset.powersetCard degree Finset.univ,\n        rankingResponse (permuteBins e A) (permuteBins e N) ((Equiv.optionCongr e) o) =\n    neighborhoodKernel rankingResponse degree (permuteBins e A) ((Equiv.optionCongr e) o)\nPriorityRelabeling.lean:96:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n  priorityKernel ?e ?degree ?A ?o\nin the target expression\n  (fun j => priorityKernel e (degree j)) j (historyAvailable q h \u2191j) (h j) =\n    (fun j => rankingKernel (degree j)) j (historyAvailable q (relabelHistory e h) \u2191j) (relabelHistory e h j)\n\nn m : \u2115\ne : Equiv.Perm (Fin m)\ndegree : Fin n \u2192 \u2115\nq : \u2115\nh : Fin n \u2192 Option (Fin m)\nj : Fin n\na\u271d : j \u2208 Finset.univ\n\u22a2 (fun j => priorityKernel e (degree j)) j (historyAvailable q h \u2191j) (h j) =\n    (fun j => rankingKernel (degree j)) j (historyAvailable q (relabelHistory e h) \u2191j) (relabelHistory e h j)\nPriorityRelabeling.lean:104:6: error: don't know how to synthesize implicit argument `m`\n  @matchingTail n (?m.16 e degree q K) (historyWeight (fun j => rankingKernel (degree j)) q) K\ncontext:\nn m : \u2115\ne : Equiv.Perm (Fin m)\ndegree : Fin n \u2192 \u2115\nq K : \u2115\n\u22a2 \u2115\n\nNote: All parameter types and holes (e.g., `_`) in the header of a theorem are resolved before the proof is processed; information from the proof cannot be used to infer what these values should be\nPriorityRelabeling.lean:104:20: error: don't know how to synthesize implicit argument `m`\n  @historyWeight n (?m.16 e degree q K) (fun j => rankingKernel (degree j)) q\ncontext:\nn m : \u2115\ne : Equiv.Perm (Fin m)\ndegree : Fin n \u2192 \u2115\nq K : \u2115\n\u22a2 \u2115\n\nNote: All parameter types and holes (e.g., `_`) in the header of a theorem are resolved before the proof is processed; information from the proof cannot be used to infer what these values should be\nPriorityRelabeling.lean:104:44: error: don't know how to synthesize implicit argument `m`\n  @rankingKernel (?m.16 e degree q K) (degree j)\ncontext:\nn m : \u2115\ne : Equiv.Perm (Fin m)\ndegree : Fin n \u2192 \u2115\nq K : \u2115\nj : Fin n\n\u22a2 \u2115\n\nNote: All parameter types and holes (e.g., `_`) in the header of a theorem are resolved before the proof is processed; information from the proof cannot be used to infer what these values should be\nPriorityRelabeling.lean:104:78: error: unsolved goals\nn m : \u2115\ne : Equiv.Perm (Fin m)\ndegree : Fin n \u2192 \u2115\nq K : \u2115\nh : Fin n \u2192 Option (Fin m)\n\u22a2 (if K \u2264 acceptedCount h then historyWeight (fun j => rankingKernel (degree j)) q (relabelHistory e h) else 0) =\n    if K \u2264 acceptedCount h then historyWeight (fun j => rankingKernel (degree j)) q ((historyRelabelEquiv e) h) else 0\n",
+        "seconds": 2.29
+      }
+    ],
+    "source_sha256": {
+      "FiniteQuantile.lean": "27bc6269e8b240afe4664d8b5c4e51261ddbdf7f4743d1c3f0ece5fc83f981f7",
+      "HistoryPrefix.lean": "b67576011fb2facab5818811bca2079362a2f00bdf3491e34331e259af157283",
+      "EfronTwo.lean": "08fd9fd2b088e0d69077a3ad5124953179740428dfaf0fe6955f52e94f35d67a",
+      "NegativeTies.lean": "83163046f67f264c4e15389a007ad3173d7be4ec4d31b0fc952d73a8713906ab",
+      "PriorityRelabeling.lean": "f7dda6965b10170f9c0fc798bd4c084b2298c5df81eb730ecb7a9d705d1c5f83",
+      "CouplingInduction.lean": "941b75776c420f1d9c1c9ae5851ae1ac08aeb311476080c1f0fa61cd1428b615",
+      "CategoricalConcentration.lean": "52ca6a5ca1e14e7890902cecd0fa09b3426a143aa4120fd0a9c1442b00de0bd6",
+      "NegativeProductEfron.lean": "4488825560e9fabcb05dd5841c0402ae7a1e863089be546ed6af33b66d44cf99",
+      "CanonicalRefinement.lean": "448306b2ba8125034ca91b8caa8f676c15d76173f2693ca52e4ed20f105f2b07",
+      "ConvolutionMinor.lean": "0b20bdc632b708edaa397923992a42cbe2c7b722ab7cd599cd29df4161655888",
+      "CarrierConvolution.lean": "a526fe6560c0dee6234cc73c7ee1d3ea1f908c3543690becd486fac34b7b846b",
+      "NeighborhoodOrder.lean": "a0c37cc9f6137080a2606c3777cafece3a28b8d77dbbcaf012089ccdf2fba1f3",
+      "NegativeJoint.lean": "bdaf0b1bbe8f4c6862fbb36076addf55bd2d2e236cc0a6f991781345549a6d91",
+      "NegativeCategorical.lean": "3e68d4618b7255d35e3c3e14f5ac28c70b75cf36302abb32c6fb1977de2995a8",
+      "HistoryRefinement.lean": "6be42b4f9d02e233ddafc31c5a182571d4c059da754fde4fb87ddfd8c1216498",
+      "CategoricalHazard.lean": "01fe7f853be6eceac5b02685424035379ad4c8e72eeea6f9aa02767f31b2bd8e",
+      "NegativePinned.lean": "705d925ffd18d3a6995686d1caf894f88f396e966c6d358b49b8a2f6eb3bca2a",
+      "BoundedNextCoupling.lean": "6e3c29bed381bd9ac7ceeb1b724d68c52cf264771b4c18e633c6c3ec589397f2",
+      "StoppingJointLaw.lean": "7120756ecd8188d1c8d2b36d90ddc7576153f86624cadb07097575e3310322a5",
+      "ConstantRows.lean": "c1ef3e49b9b7adf36dd93ce2001c96d19a4c855dd35dc59b6aeee2d6b379745f",
+      "PinnedLaw.lean": "ba333ff57d49f99aaf3998972c0b2aab379746330f21c7f31f3d31f5773e94a1",
+      "FiberRegression.lean": "beb39818fac6fe76b299ccc572f73e75df8a4c34c2f9ccb8b731018bae2d9420",
+      "NegativeBalancing.lean": "78badf1f0c8dc6483d03175b587389dbac91f3a232f440bf5a6d59849899d3f0",
+      "WaitingKernel.lean": "e15cd3f33da4c42e2b7de20f0a6cc33506c49c84abbedbf600ed093d0cd3d989",
+      "ProductEfron.lean": "6a9d426c5ea9d0bfa1c10efd245df08594f82a7f2bb016b823e8aa06f62c8039",
+      "NegativeRepresentation.lean": "34ba849d8efc269cbb535397d3995802327373e9ac45c652aa33c6eb26c2b92e",
+      "CategoricalPair.lean": "065eab7825a52e70096190692dbca55c4742f6419699ada0557fbe8d78c7a90b",
+      "HistoryFactorization.lean": "305febb98a5ba7fdbe15059cd87e4e881f3ef1db5fa2efe20a375c9585822030",
+      "CategoricalNextChoice.lean": "ed2c4d47aa99d56cfcb00adc1701755403bbf1b9f941b2f52bdbdcaa1af034cc",
+      "CappedPrefix.lean": "2e0b3dd2adf26e410ae2d6aed0afb9c9ad79c297c2516e04732c88c8d8bb8b7b",
+      "CategoricalRelabel.lean": "286f5ec473108ba297d2eca0c0ba3ec94ff1fe646ba8b0992552d5c9c75a5a79",
+      "NeighborhoodPermutation.lean": "fd06d109130d50cdbc31dba03178dbbb38bc9ec3da9a82b8dd0e2360c1567c37",
+      "StoppingWaitingCoupling.lean": "a847f9758c4ae74871bc0189df5ee6fc14a9b4bb3ae53e5770c157ba5b56747c",
+      "NegativeHistory.lean": "2bccfd954552b4a67f2c34189dc0c27a98990e4060de2698662e4c3fb9014676",
+      "StoppingTransitionLaws.lean": "16438c108225836880e13b489a7dc6ad56e3845be25cdec64cffa8bd8083e632",
+      "CappedCarrier.lean": "87e30e23c78b1a9acc8d1fd342d8488ea9f63929dca058f70d717044af512eac",
+      "NextStateMoments.lean": "d07760ec3cca93d63c59832b7eecacf46a0053b190cf9e98d53ae22705daae5e",
+      "FixedPriorityComparison.lean": "a216e202e94d2f43dbe8668ae8b8d78c6e5e6b7712eb7ccb805296076a88516c",
+      "CategoricalDensity.lean": "9cf07b275342ab998adaf7371ee3173b5a415d9677f7fb304f8592e0243c9228",
+      "NegativePair.lean": "e4ffb9465b49eb06a2379f32c890138f5e643bb8b766a46c50919f97a99a6336",
+      "CategoricalBoundary.lean": "87132661a5f4b23965ff9dba8ca2271247ce9a108e984f5c2991352d8bcd5d3a",
+      "NegativeRows.lean": "de259e3729ca1b5fab0a0921e5d8530ecf989039c7d3ffce4fc1b9abf9c57ba8",
+      "FiniteCovariance.lean": "ccc87dcf5f8e021f391b2e6ffcfbff72b4a6dfade49ca3aef4debd1535208d03",
+      "LoadSymmetrization.lean": "7d9fb9cc8610e01093a6c4e84f2f3d7f93cc40400ebd8a32d79aab688ab815a9",
+      "CoarseRefinement.lean": "2356debe79aed48d963173c9ed6ad0be542349b6e49e33a30ad84414f08c3982",
+      "IndependentNeighborhoods.lean": "0287c4cdc633ee5755793e97426549e13f6d6d8107070230a729800af8ec09d5",
+      "CarrierEfron.lean": "a248ef0d9faa34de5fcd6e7741fc81594c66f154a1846c1640e053f4b26bb5ac",
+      "CappedStrata.lean": "a7b993ced4307cd1f5b518635a3199fa9953cc6f88506f61c69705ad9a4b5243",
+      "LoadMajorization.lean": "d424c406e802dd8b01d41ae110e9b51b3777c6db402315f7e7d4955f6d6015b0",
+      "RejectionKernel.lean": "1e4335a0e85f7ad76e15a0b9f281640ac1fc653bbd5e8ef879710091ebb17cfd",
+      "WaitingRefinement.lean": "a7deb0b0e361b837aba58a63f7cfaff8b112af45e978f5a63c23bb6a0eb4ffd5",
+      "CappedEfron.lean": "4de85213dd27412299be6ede31b9c327b8945b95368fbb53bd7bf8e5702cc834",
+      "NegativeQuantile.lean": "b9033824b6bfc2e22d3acbc5afcb56c5b74e50e5040d11d8b2fd936b081bf828",
+      "StoppingLaw.lean": "4a62c8f3ae312fef6ac5509ac59305896148de535ddc232da5fd06ac07abf9f9",
+      "ResidualKernelRows.lean": "b7089c4b0bf83cb15c80a1e2822f25a325bcde05fec88c4289fdc52eea135ef7",
+      "SourceModel.lean": "cff27fec374cd811ea8c0cf39cab178b2c9dff9c613be423fe5ae0c89b1478e8",
+      "CappedSymmetry.lean": "7f7d5df3d68e969ed08acec57691ea3121b16d3a6f26aa9dc48b0a16963f4a37",
+      "AssociationStep.lean": "7088bc67059f58adb091ff65e625b20ef2436b113e1efdec852df1ae6a4ecb29",
+      "StoppingTransitionBridge.lean": "bbceb9f007e06fb25a07ef53512cde3c1114921d2437ffcfcb50a8f19fa5489d",
+      "CappedPinnedLaw.lean": "bce814cfce3499b9631dc68634e8ae687bac05c77339d26e9d3a09fb64605f58",
+      "CategoricalLoadPair.lean": "f4542ee0ae63919464c240f505f5978303217bfaae4b79a6d0e5c21e66eec476",
+      "Audit.lean": "10fbd594c18d279e2172d73289c2a82d119e81922c2665f1709b7a8fdbf7e8e1",
+      "AcceptedCount.lean": "c0f91c9aa87c6a941e2faf4bd624ff29431e61e661c5be79d6a762f10c306668",
+      "NegativeUniform.lean": "60ffd59506da2a5c1de7e79d901668e31fecd48796587ad0750808db6fb867cb",
+      "CoarseSaturation.lean": "6a71683242fae1b079d98acab1b67e9951ada20d3f6f222f9c1004885a1cb6ef",
+      "CappedAssociationTools.lean": "d5e9fe2da6be25156a19d9d0493cdfd002221779c8194001c1046a3a98e5e171",
+      "CappedProduct.lean": "d78a2891c07ae412721539bcab8bcbeab7421537e2ada5d02f1ef3ac96ef4541",
+      "MarkedTimeCoupling.lean": "3ba95e69eef10dd80e984d2eeecc280b572cc847be7f367a218c16680b092ab4",
+      "PairApplications.lean": "e972d2042a3396c198e2bd84b2e6b9fbffdae1a429635faf64b5f39661161fa8",
+      "PairCoefficients.lean": "faf2c4e53c8c00d42b6150a4ec0ce33663c6f8035d4952c53db5cb8c83d81e4e",
+      "NegativeStrata.lean": "e4de78f9cc3256957f928025cd3b72d0f4a7649336b139884d7e8f5d3ba6ddd0",
+      "NegativePartition.lean": "67a2fdadc6fbe4f87e9a3ca6ef9a9757ff8880bac8bdd36943b534a2a3c678aa",
+      "CappedAssociation.lean": "65c4823cb7891e3ab0b0f1e31a0e2208d80648e793d216ea653915c0efa10500",
+      "FiniteTransport.lean": "a15ee7803483952225dbdebb7b92d8ccf9394d56636cb3db673b1da6085ed32e",
+      "TieBias.lean": "b81cb51fe70dbd47dccd42e5517abc816cbe9f2384c74d0d3bf1190ee7e2cf1a",
+      "FiniteWaitingLaw.lean": "45d4617043edf2e3dc6831d127da1b8ab96cc2998a41dd7d71bc5c432380d00c",
+      "CategoricalLaw.lean": "49688a5bda5f3138d684e14e2b6972cdbe6daa63bb60c9bdd8faaa5bf82b6eaa",
+      "NegativeAssociation.lean": "0d9d01bdecdfb3013ff93fa0d37bf8236cd29c15fac1a741ab14539f15fec380",
+      "CappedTieComparison.lean": "44797ea3d6b04d8d9688cfba708ca80db4ea62a9cecacdba12fd6e2247842b2a",
+      "NegativeWaiting.lean": "e08ec5df4bdab20912f9fa0cb6836b67dd95669ebc425a946787f08ac0577ed0",
+      "HistoryExtension.lean": "a6a0ddbe7b1cdb6eb51320aa0172755a5ea18f2b47702a996cd06afff492ea43",
+      "UniformCappedLaw.lean": "3cda7ee0016ee307c609cd2d53adb82a967d981784d1f31cbd6bda82ef03eb05",
+      "UniformLoadMass.lean": "29f2dc27fd59332c95cc80af01e2575d67fee1402d3c42a892c8d587339710c3",
+      "StoppingState.lean": "e5bc513bcf2b366ec88e09fc184182424ae4ebb4fa312c4b1b77a9eb315d6b48",
+      "BernoulliCoupling.lean": "82b35a1ad1540303f05ba4248144be15911ae6a43a091c3034a30dd475175ad1",
+      "FiniteMixture.lean": "fbdb76599e923372ea22433b24ee0784c76d63b1a09f6420a1d2726bfa0c61ab",
+      "MarkedLaw.lean": "8d0ca1489554c2d724564b7edd493bc690e0ec406f6390fa7bb007b55b52970c",
+      "LoadBalancing.lean": "5b4ebd9ce8b4741f5616a5c4931140500a611ad3596aeb05d217ed15536ee49e",
+      "EfronBand.lean": "4c431f15392292a5ed4e96d0e703ec13821c42448f29b1864ddec9104b9e8d45",
+      "CategoricalConditioning.lean": "9763e99d290a44a076c0bdaabb0188f8fe618f3fe44484ed578d02bcbd3dacfe",
+      "NeighborhoodChoice.lean": "3422b6eaca2fb1b38f3c089a81f300e8be25248f57bb280ed2f8227928c728ad",
+      "FiniteJointPush.lean": "28e583afd1709a377ecc57cc2dcc3f1ef273cad6a594bb010d34d1c070456da6",
+      "CoarseWaiting.lean": "f09eb4b3d41e2a851dee65b07de79422802471d5c6b1776a4932546c6be766f0",
+      "ActualNextCoupling.lean": "7d1d4c5a5f0dc838a7e3ec39ac80453bf2558ac4a9dfdd4dedc4026595f8d693",
+      "HistoryFiber.lean": "7051d7a5cb284a4977c5b40d3c63e6ea8b94164952c082788953f5d29021f139",
+      "NegativeDensity.lean": "3db475754b464ddaf1397e1a0390cee16e848a3c95c601c3cfbb6fa061176f64",
+      "StoppingMarkMoments.lean": "dbf3fe420dac2f2f0af219e79bd6db3cf6b89faaad2eba7f28577d33e8f7057c",
+      "NegativeStopping.lean": "5031bdd8ad8a99ba131fe13e0e6b981b6498e5d22537e9ab910012331564fb32",
+      "TwoPointMoments.lean": "b9b910e72cd31e4b9cdc821ba72d652410e4e9e0825d4286c31870da502b7f04",
+      "AssociationTarget.lean": "8265256d0112b3e806fb207ace50405de24e50b34443c468632c482e628163b2",
+      "NegativeEfron.lean": "fcdd6f2181214ee790bbb8118caa502a2c0feb357eabff27733e19e9c3330d14",
+      "HistorySaturation.lean": "e77ff62082694847089a8808c044f915861b0752708bcd916910a43b9ec62869",
+      "RefinementMixture.lean": "19756fb0bdb41cf800f666e433325eb8ccba1b76c51fc02bf95f77ac48efb63f",
+      "StoppingExtensions.lean": "ffd274dd329450a96335ab8df25c8d55cb0dcaace1d090d3a8ad6abf465fe382",
+      "NegativeControl.lean": "1b8ff6ad90605c2252c9b4014beeb0e3fbb43da9a88a279e4dcf66dc23f1141d",
+      "CappedCapRegression.lean": "c867a110ed8958ee0a69021288632210684e8942e6df707eb28342faf7e9f7a7",
+      "CappedTies.lean": "2166499555a3977a899d71cce2bfb1517b1644149849dc74994d80f149ecc301",
+      "PinnedMajorization.lean": "3dd54bc0e926b691e6d7a4e291065ac17cc479aa062843686fad5105adf07000",
+      "WaitingOrder.lean": "1416ff8837bb83198bdf11721d1e369c283d7088632a5cbf64d07271633093b4",
+      "CoarseHistorySupport.lean": "16e62ea3b7e417e12788e65a52781522705b46e1f2e1df2d34217cdf8f2f75e2",
+      "FiniteLikelihood.lean": "3dcffc79e6729bc13f7e40982713b41ab03a449dde12f0106ff6f9089116f912"
+    }
+  },
+  {
+    "seq": "902071606bdb47a7933e2b441f84c18d",
+    "status": "FAIL",
+    "records": [
+      {
+        "module": "PriorityRelabeling",
+        "exit_code": 1,
+        "log": "PriorityRelabeling.lean:107:87: error: unsolved goals\nn m : \u2115\ne : Equiv.Perm (Fin m)\ndegree : Fin n \u2192 \u2115\nq K : \u2115\nh : Fin n \u2192 Option (Fin m)\n\u22a2 (if K \u2264 acceptedCount h then historyWeight (fun j => rankingKernel (degree j)) q (relabelHistory e h) else 0) =\n    if K \u2264 acceptedCount h then historyWeight (fun j => rankingKernel (degree j)) q ((historyRelabelEquiv e) h) else 0\n",
+        "seconds": 2.219
+      }
+    ],
+    "source_sha256": {
+      "FiniteQuantile.lean": "27bc6269e8b240afe4664d8b5c4e51261ddbdf7f4743d1c3f0ece5fc83f981f7",
+      "HistoryPrefix.lean": "b67576011fb2facab5818811bca2079362a2f00bdf3491e34331e259af157283",
+      "EfronTwo.lean": "08fd9fd2b088e0d69077a3ad5124953179740428dfaf0fe6955f52e94f35d67a",
+      "NegativeTies.lean": "83163046f67f264c4e15389a007ad3173d7be4ec4d31b0fc952d73a8713906ab",
+      "PriorityRelabeling.lean": "42b24bae6c06d0a3519b3add47dac901bb1f56e52f17725742ceff86ce07a1a6",
+      "CouplingInduction.lean": "941b75776c420f1d9c1c9ae5851ae1ac08aeb311476080c1f0fa61cd1428b615",
+      "CategoricalConcentration.lean": "52ca6a5ca1e14e7890902cecd0fa09b3426a143aa4120fd0a9c1442b00de0bd6",
+      "NegativeProductEfron.lean": "4488825560e9fabcb05dd5841c0402ae7a1e863089be546ed6af33b66d44cf99",
+      "CanonicalRefinement.lean": "448306b2ba8125034ca91b8caa8f676c15d76173f2693ca52e4ed20f105f2b07",
+      "ConvolutionMinor.lean": "0b20bdc632b708edaa397923992a42cbe2c7b722ab7cd599cd29df4161655888",
+      "CarrierConvolution.lean": "a526fe6560c0dee6234cc73c7ee1d3ea1f908c3543690becd486fac34b7b846b",
+      "NeighborhoodOrder.lean": "a0c37cc9f6137080a2606c3777cafece3a28b8d77dbbcaf012089ccdf2fba1f3",
+      "NegativeJoint.lean": "bdaf0b1bbe8f4c6862fbb36076addf55bd2d2e236cc0a6f991781345549a6d91",
+      "NegativeCategorical.lean": "3e68d4618b7255d35e3c3e14f5ac28c70b75cf36302abb32c6fb1977de2995a8",
+      "HistoryRefinement.lean": "6be42b4f9d02e233ddafc31c5a182571d4c059da754fde4fb87ddfd8c1216498",
+      "CategoricalHazard.lean": "01fe7f853be6eceac5b02685424035379ad4c8e72eeea6f9aa02767f31b2bd8e",
+      "NegativePinned.lean": "705d925ffd18d3a6995686d1caf894f88f396e966c6d358b49b8a2f6eb3bca2a",
+      "BoundedNextCoupling.lean": "6e3c29bed381bd9ac7ceeb1b724d68c52cf264771b4c18e633c6c3ec589397f2",
+      "StoppingJointLaw.lean": "7120756ecd8188d1c8d2b36d90ddc7576153f86624cadb07097575e3310322a5",
+      "ConstantRows.lean": "c1ef3e49b9b7adf36dd93ce2001c96d19a4c855dd35dc59b6aeee2d6b379745f",
+      "PinnedLaw.lean": "ba333ff57d49f99aaf3998972c0b2aab379746330f21c7f31f3d31f5773e94a1",
+      "FiberRegression.lean": "beb39818fac6fe76b299ccc572f73e75df8a4c34c2f9ccb8b731018bae2d9420",
+      "NegativeBalancing.lean": "78badf1f0c8dc6483d03175b587389dbac91f3a232f440bf5a6d59849899d3f0",
+      "WaitingKernel.lean": "e15cd3f33da4c42e2b7de20f0a6cc33506c49c84abbedbf600ed093d0cd3d989",
+      "ProductEfron.lean": "6a9d426c5ea9d0bfa1c10efd245df08594f82a7f2bb016b823e8aa06f62c8039",
+      "NegativeRepresentation.lean": "34ba849d8efc269cbb535397d3995802327373e9ac45c652aa33c6eb26c2b92e",
+      "CategoricalPair.lean": "065eab7825a52e70096190692dbca55c4742f6419699ada0557fbe8d78c7a90b",
+      "HistoryFactorization.lean": "305febb98a5ba7fdbe15059cd87e4e881f3ef1db5fa2efe20a375c9585822030",
+      "CategoricalNextChoice.lean": "ed2c4d47aa99d56cfcb00adc1701755403bbf1b9f941b2f52bdbdcaa1af034cc",
+      "CappedPrefix.lean": "2e0b3dd2adf26e410ae2d6aed0afb9c9ad79c297c2516e04732c88c8d8bb8b7b",
+      "CategoricalRelabel.lean": "286f5ec473108ba297d2eca0c0ba3ec94ff1fe646ba8b0992552d5c9c75a5a79",
+      "NeighborhoodPermutation.lean": "fd06d109130d50cdbc31dba03178dbbb38bc9ec3da9a82b8dd0e2360c1567c37",
+      "StoppingWaitingCoupling.lean": "a847f9758c4ae74871bc0189df5ee6fc14a9b4bb3ae53e5770c157ba5b56747c",
+      "NegativeHistory.lean": "2bccfd954552b4a67f2c34189dc0c27a98990e4060de2698662e4c3fb9014676",
+      "StoppingTransitionLaws.lean": "16438c108225836880e13b489a7dc6ad56e3845be25cdec64cffa8bd8083e632",
+      "CappedCarrier.lean": "87e30e23c78b1a9acc8d1fd342d8488ea9f63929dca058f70d717044af512eac",
+      "NextStateMoments.lean": "d07760ec3cca93d63c59832b7eecacf46a0053b190cf9e98d53ae22705daae5e",
+      "FixedPriorityComparison.lean": "a216e202e94d2f43dbe8668ae8b8d78c6e5e6b7712eb7ccb805296076a88516c",
+      "CategoricalDensity.lean": "9cf07b275342ab998adaf7371ee3173b5a415d9677f7fb304f8592e0243c9228",
+      "NegativePair.lean": "e4ffb9465b49eb06a2379f32c890138f5e643bb8b766a46c50919f97a99a6336",
+      "CategoricalBoundary.lean": "87132661a5f4b23965ff9dba8ca2271247ce9a108e984f5c2991352d8bcd5d3a",
+      "NegativeRows.lean": "de259e3729ca1b5fab0a0921e5d8530ecf989039c7d3ffce4fc1b9abf9c57ba8",
+      "FiniteCovariance.lean": "ccc87dcf5f8e021f391b2e6ffcfbff72b4a6dfade49ca3aef4debd1535208d03",
+      "LoadSymmetrization.lean": "7d9fb9cc8610e01093a6c4e84f2f3d7f93cc40400ebd8a32d79aab688ab815a9",
+      "CoarseRefinement.lean": "2356debe79aed48d963173c9ed6ad0be542349b6e49e33a30ad84414f08c3982",
+      "IndependentNeighborhoods.lean": "63282499a56341ee69c5ff7cd9e5d374772f2f86dcb60ca1e908f8db25f3301e",
+      "CarrierEfron.lean": "a248ef0d9faa34de5fcd6e7741fc81594c66f154a1846c1640e053f4b26bb5ac",
+      "CappedStrata.lean": "a7b993ced4307cd1f5b518635a3199fa9953cc6f88506f61c69705ad9a4b5243",
+      "LoadMajorization.lean": "d424c406e802dd8b01d41ae110e9b51b3777c6db402315f7e7d4955f6d6015b0",
+      "NegativeSource.lean": "47bdaec283fb86dc836407d637984ff30c392b7ac2d4b9310ef2018569f6c498",
+      "RejectionKernel.lean": "1e4335a0e85f7ad76e15a0b9f281640ac1fc653bbd5e8ef879710091ebb17cfd",
+      "WaitingRefinement.lean": "a7deb0b0e361b837aba58a63f7cfaff8b112af45e978f5a63c23bb6a0eb4ffd5",
+      "CappedEfron.lean": "4de85213dd27412299be6ede31b9c327b8945b95368fbb53bd7bf8e5702cc834",
+      "NegativeQuantile.lean": "b9033824b6bfc2e22d3acbc5afcb56c5b74e50e5040d11d8b2fd936b081bf828",
+      "StoppingLaw.lean": "4a62c8f3ae312fef6ac5509ac59305896148de535ddc232da5fd06ac07abf9f9",
+      "ResidualKernelRows.lean": "b7089c4b0bf83cb15c80a1e2822f25a325bcde05fec88c4289fdc52eea135ef7",
+      "SourceModel.lean": "408f537aa44e09db7bae7710da0e4b01bf6c2a317902910d5970a358cb48c71c",
+      "CappedSymmetry.lean": "7f7d5df3d68e969ed08acec57691ea3121b16d3a6f26aa9dc48b0a16963f4a37",
+      "AssociationStep.lean": "7088bc67059f58adb091ff65e625b20ef2436b113e1efdec852df1ae6a4ecb29",
+      "StoppingTransitionBridge.lean": "bbceb9f007e06fb25a07ef53512cde3c1114921d2437ffcfcb50a8f19fa5489d",
+      "CappedPinnedLaw.lean": "bce814cfce3499b9631dc68634e8ae687bac05c77339d26e9d3a09fb64605f58",
+      "CategoricalLoadPair.lean": "f4542ee0ae63919464c240f505f5978303217bfaae4b79a6d0e5c21e66eec476",
+      "Audit.lean": "e9c0475b74a064780183f9f0ac59e05a4169be49d2bfbdeb05e3b9b125a04ea5",
+      "AcceptedCount.lean": "c0f91c9aa87c6a941e2faf4bd624ff29431e61e661c5be79d6a762f10c306668",
+      "NegativeUniform.lean": "60ffd59506da2a5c1de7e79d901668e31fecd48796587ad0750808db6fb867cb",
+      "CoarseSaturation.lean": "6a71683242fae1b079d98acab1b67e9951ada20d3f6f222f9c1004885a1cb6ef",
+      "CappedAssociationTools.lean": "d5e9fe2da6be25156a19d9d0493cdfd002221779c8194001c1046a3a98e5e171",
+      "CappedProduct.lean": "d78a2891c07ae412721539bcab8bcbeab7421537e2ada5d02f1ef3ac96ef4541",
+      "MarkedTimeCoupling.lean": "3ba95e69eef10dd80e984d2eeecc280b572cc847be7f367a218c16680b092ab4",
+      "PairApplications.lean": "e972d2042a3396c198e2bd84b2e6b9fbffdae1a429635faf64b5f39661161fa8",
+      "PairCoefficients.lean": "faf2c4e53c8c00d42b6150a4ec0ce33663c6f8035d4952c53db5cb8c83d81e4e",
+      "NegativeStrata.lean": "e4de78f9cc3256957f928025cd3b72d0f4a7649336b139884d7e8f5d3ba6ddd0",
+      "NegativePartition.lean": "67a2fdadc6fbe4f87e9a3ca6ef9a9757ff8880bac8bdd36943b534a2a3c678aa",
+      "CappedAssociation.lean": "65c4823cb7891e3ab0b0f1e31a0e2208d80648e793d216ea653915c0efa10500",
+      "FiniteTransport.lean": "a15ee7803483952225dbdebb7b92d8ccf9394d56636cb3db673b1da6085ed32e",
+      "TieBias.lean": "b81cb51fe70dbd47dccd42e5517abc816cbe9f2384c74d0d3bf1190ee7e2cf1a",
+      "FiniteWaitingLaw.lean": "45d4617043edf2e3dc6831d127da1b8ab96cc2998a41dd7d71bc5c432380d00c",
+      "CategoricalLaw.lean": "49688a5bda5f3138d684e14e2b6972cdbe6daa63bb60c9bdd8faaa5bf82b6eaa",
+      "NegativeAssociation.lean": "0d9d01bdecdfb3013ff93fa0d37bf8236cd29c15fac1a741ab14539f15fec380",
+      "CappedTieComparison.lean": "44797ea3d6b04d8d9688cfba708ca80db4ea62a9cecacdba12fd6e2247842b2a",
+      "NegativeWaiting.lean": "e08ec5df4bdab20912f9fa0cb6836b67dd95669ebc425a946787f08ac0577ed0",
+      "HistoryExtension.lean": "a6a0ddbe7b1cdb6eb51320aa0172755a5ea18f2b47702a996cd06afff492ea43",
+      "UniformCappedLaw.lean": "3cda7ee0016ee307c609cd2d53adb82a967d981784d1f31cbd6bda82ef03eb05",
+      "UniformLoadMass.lean": "29f2dc27fd59332c95cc80af01e2575d67fee1402d3c42a892c8d587339710c3",
+      "StoppingState.lean": "e5bc513bcf2b366ec88e09fc184182424ae4ebb4fa312c4b1b77a9eb315d6b48",
+      "BernoulliCoupling.lean": "82b35a1ad1540303f05ba4248144be15911ae6a43a091c3034a30dd475175ad1",
+      "FiniteMixture.lean": "fbdb76599e923372ea22433b24ee0784c76d63b1a09f6420a1d2726bfa0c61ab",
+      "MarkedLaw.lean": "8d0ca1489554c2d724564b7edd493bc690e0ec406f6390fa7bb007b55b52970c",
+      "LoadBalancing.lean": "5b4ebd9ce8b4741f5616a5c4931140500a611ad3596aeb05d217ed15536ee49e",
+      "EfronBand.lean": "4c431f15392292a5ed4e96d0e703ec13821c42448f29b1864ddec9104b9e8d45",
+      "CategoricalConditioning.lean": "9763e99d290a44a076c0bdaabb0188f8fe618f3fe44484ed578d02bcbd3dacfe",
+      "NeighborhoodChoice.lean": "3422b6eaca2fb1b38f3c089a81f300e8be25248f57bb280ed2f8227928c728ad",
+      "FiniteJointPush.lean": "28e583afd1709a377ecc57cc2dcc3f1ef273cad6a594bb010d34d1c070456da6",
+      "CoarseWaiting.lean": "f09eb4b3d41e2a851dee65b07de79422802471d5c6b1776a4932546c6be766f0",
+      "ActualNextCoupling.lean": "7d1d4c5a5f0dc838a7e3ec39ac80453bf2558ac4a9dfdd4dedc4026595f8d693",
+      "HistoryFiber.lean": "7051d7a5cb284a4977c5b40d3c63e6ea8b94164952c082788953f5d29021f139",
+      "NegativeDensity.lean": "3db475754b464ddaf1397e1a0390cee16e848a3c95c601c3cfbb6fa061176f64",
+      "StoppingMarkMoments.lean": "dbf3fe420dac2f2f0af219e79bd6db3cf6b89faaad2eba7f28577d33e8f7057c",
+      "NegativeStopping.lean": "5031bdd8ad8a99ba131fe13e0e6b981b6498e5d22537e9ab910012331564fb32",
+      "TwoPointMoments.lean": "b9b910e72cd31e4b9cdc821ba72d652410e4e9e0825d4286c31870da502b7f04",
+      "AssociationTarget.lean": "8265256d0112b3e806fb207ace50405de24e50b34443c468632c482e628163b2",
+      "NegativeEfron.lean": "fcdd6f2181214ee790bbb8118caa502a2c0feb357eabff27733e19e9c3330d14",
+      "HistorySaturation.lean": "e77ff62082694847089a8808c044f915861b0752708bcd916910a43b9ec62869",
+      "RefinementMixture.lean": "19756fb0bdb41cf800f666e433325eb8ccba1b76c51fc02bf95f77ac48efb63f",
+      "StoppingExtensions.lean": "ffd274dd329450a96335ab8df25c8d55cb0dcaace1d090d3a8ad6abf465fe382",
+      "NegativeControl.lean": "1b8ff6ad90605c2252c9b4014beeb0e3fbb43da9a88a279e4dcf66dc23f1141d",
+      "CappedCapRegression.lean": "c867a110ed8958ee0a69021288632210684e8942e6df707eb28342faf7e9f7a7",
+      "CappedTies.lean": "2166499555a3977a899d71cce2bfb1517b1644149849dc74994d80f149ecc301",
+      "PinnedMajorization.lean": "3dd54bc0e926b691e6d7a4e291065ac17cc479aa062843686fad5105adf07000",
+      "WaitingOrder.lean": "1416ff8837bb83198bdf11721d1e369c283d7088632a5cbf64d07271633093b4",
+      "CoarseHistorySupport.lean": "16e62ea3b7e417e12788e65a52781522705b46e1f2e1df2d34217cdf8f2f75e2",
+      "FiniteLikelihood.lean": "3dcffc79e6729bc13f7e40982713b41ab03a449dde12f0106ff6f9089116f912"
+    }
+  },
+  {
+    "seq": "6ab34b8cb2684d1a81a1fe91e3faa5e7",
+    "status": "FAIL",
+    "records": [
+      {
+        "module": "PriorityRelabeling",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.278
+      },
+      {
+        "module": "IndependentNeighborhoods",
+        "exit_code": 1,
+        "log": "IndependentNeighborhoods.lean:69:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n  \u2211 x, \u220f i, ?f i (x i)\nin the target expression\n  \u2211 x, \u220f x_1, uniformNeighborhoodMass (degree x_1) (x x_1) * R (historyAvailable q h \u2191x_1) (x x_1) (h x_1) =\n    \u220f x, neighborhoodKernel R (degree x) (historyAvailable q h \u2191x) (h x)\n\nn m : \u2115\nR : Finset (Fin m) \u2192 Finset (Fin m) \u2192 Option (Fin m) \u2192 \u211a\ndegree : Fin n \u2192 \u2115\nq : \u2115\nh : Fin n \u2192 Option (Fin m)\n\u22a2 \u2211 x, \u220f x_1, uniformNeighborhoodMass (degree x_1) (x x_1) * R (historyAvailable q h \u2191x_1) (x x_1) (h x_1) =\n    \u220f x, neighborhoodKernel R (degree x) (historyAvailable q h \u2191x) (h x)\nIndependentNeighborhoods.lean:116:60: error: unsolved goals\nn m : \u2115\nR : Finset (Fin m) \u2192 Finset (Fin m) \u2192 Option (Fin m) \u2192 \u211a\ndegree : Fin n \u2192 \u2115\norder : Equiv.Perm (Fin n)\nq : \u2115\nh : Fin n \u2192 Option (Fin m)\nG : Fin n \u2192 Finset (Fin m)\n\u22a2 neighborhoodProfileMass degree G * historyWeight (fun j A o => R A (G (order j)) o) q h =\n    neighborhoodProfileMass degree G * historyWeight (fun j A o => R A ((profileOrderEquiv order) G j) o) q h\n",
+        "seconds": 2.231
+      }
+    ],
+    "source_sha256": {
+      "FiniteQuantile.lean": "27bc6269e8b240afe4664d8b5c4e51261ddbdf7f4743d1c3f0ece5fc83f981f7",
+      "HistoryPrefix.lean": "b67576011fb2facab5818811bca2079362a2f00bdf3491e34331e259af157283",
+      "EfronTwo.lean": "08fd9fd2b088e0d69077a3ad5124953179740428dfaf0fe6955f52e94f35d67a",
+      "NegativeTies.lean": "83163046f67f264c4e15389a007ad3173d7be4ec4d31b0fc952d73a8713906ab",
+      "PriorityRelabeling.lean": "58be552e651077c3742e969b09d87b047e5a66d718909ab2a6e878126a21520c",
+      "CouplingInduction.lean": "941b75776c420f1d9c1c9ae5851ae1ac08aeb311476080c1f0fa61cd1428b615",
+      "CategoricalConcentration.lean": "52ca6a5ca1e14e7890902cecd0fa09b3426a143aa4120fd0a9c1442b00de0bd6",
+      "NegativeProductEfron.lean": "4488825560e9fabcb05dd5841c0402ae7a1e863089be546ed6af33b66d44cf99",
+      "CanonicalRefinement.lean": "448306b2ba8125034ca91b8caa8f676c15d76173f2693ca52e4ed20f105f2b07",
+      "ConvolutionMinor.lean": "0b20bdc632b708edaa397923992a42cbe2c7b722ab7cd599cd29df4161655888",
+      "CarrierConvolution.lean": "a526fe6560c0dee6234cc73c7ee1d3ea1f908c3543690becd486fac34b7b846b",
+      "NeighborhoodOrder.lean": "a0c37cc9f6137080a2606c3777cafece3a28b8d77dbbcaf012089ccdf2fba1f3",
+      "NegativeJoint.lean": "bdaf0b1bbe8f4c6862fbb36076addf55bd2d2e236cc0a6f991781345549a6d91",
+      "NegativeCategorical.lean": "3e68d4618b7255d35e3c3e14f5ac28c70b75cf36302abb32c6fb1977de2995a8",
+      "HistoryRefinement.lean": "6be42b4f9d02e233ddafc31c5a182571d4c059da754fde4fb87ddfd8c1216498",
+      "CategoricalHazard.lean": "01fe7f853be6eceac5b02685424035379ad4c8e72eeea6f9aa02767f31b2bd8e",
+      "NegativePinned.lean": "705d925ffd18d3a6995686d1caf894f88f396e966c6d358b49b8a2f6eb3bca2a",
+      "BoundedNextCoupling.lean": "6e3c29bed381bd9ac7ceeb1b724d68c52cf264771b4c18e633c6c3ec589397f2",
+      "StoppingJointLaw.lean": "7120756ecd8188d1c8d2b36d90ddc7576153f86624cadb07097575e3310322a5",
+      "ConstantRows.lean": "c1ef3e49b9b7adf36dd93ce2001c96d19a4c855dd35dc59b6aeee2d6b379745f",
+      "PinnedLaw.lean": "ba333ff57d49f99aaf3998972c0b2aab379746330f21c7f31f3d31f5773e94a1",
+      "FiberRegression.lean": "beb39818fac6fe76b299ccc572f73e75df8a4c34c2f9ccb8b731018bae2d9420",
+      "NegativeBalancing.lean": "78badf1f0c8dc6483d03175b587389dbac91f3a232f440bf5a6d59849899d3f0",
+      "WaitingKernel.lean": "e15cd3f33da4c42e2b7de20f0a6cc33506c49c84abbedbf600ed093d0cd3d989",
+      "ProductEfron.lean": "6a9d426c5ea9d0bfa1c10efd245df08594f82a7f2bb016b823e8aa06f62c8039",
+      "NegativeRepresentation.lean": "34ba849d8efc269cbb535397d3995802327373e9ac45c652aa33c6eb26c2b92e",
+      "CategoricalPair.lean": "065eab7825a52e70096190692dbca55c4742f6419699ada0557fbe8d78c7a90b",
+      "HistoryFactorization.lean": "305febb98a5ba7fdbe15059cd87e4e881f3ef1db5fa2efe20a375c9585822030",
+      "CategoricalNextChoice.lean": "ed2c4d47aa99d56cfcb00adc1701755403bbf1b9f941b2f52bdbdcaa1af034cc",
+      "CappedPrefix.lean": "2e0b3dd2adf26e410ae2d6aed0afb9c9ad79c297c2516e04732c88c8d8bb8b7b",
+      "CategoricalRelabel.lean": "286f5ec473108ba297d2eca0c0ba3ec94ff1fe646ba8b0992552d5c9c75a5a79",
+      "NeighborhoodPermutation.lean": "fd06d109130d50cdbc31dba03178dbbb38bc9ec3da9a82b8dd0e2360c1567c37",
+      "StoppingWaitingCoupling.lean": "a847f9758c4ae74871bc0189df5ee6fc14a9b4bb3ae53e5770c157ba5b56747c",
+      "NegativeHistory.lean": "2bccfd954552b4a67f2c34189dc0c27a98990e4060de2698662e4c3fb9014676",
+      "StoppingTransitionLaws.lean": "16438c108225836880e13b489a7dc6ad56e3845be25cdec64cffa8bd8083e632",
+      "CappedCarrier.lean": "87e30e23c78b1a9acc8d1fd342d8488ea9f63929dca058f70d717044af512eac",
+      "NextStateMoments.lean": "d07760ec3cca93d63c59832b7eecacf46a0053b190cf9e98d53ae22705daae5e",
+      "FixedPriorityComparison.lean": "a216e202e94d2f43dbe8668ae8b8d78c6e5e6b7712eb7ccb805296076a88516c",
+      "CategoricalDensity.lean": "9cf07b275342ab998adaf7371ee3173b5a415d9677f7fb304f8592e0243c9228",
+      "NegativePair.lean": "e4ffb9465b49eb06a2379f32c890138f5e643bb8b766a46c50919f97a99a6336",
+      "CategoricalBoundary.lean": "87132661a5f4b23965ff9dba8ca2271247ce9a108e984f5c2991352d8bcd5d3a",
+      "NegativeRows.lean": "de259e3729ca1b5fab0a0921e5d8530ecf989039c7d3ffce4fc1b9abf9c57ba8",
+      "FiniteCovariance.lean": "ccc87dcf5f8e021f391b2e6ffcfbff72b4a6dfade49ca3aef4debd1535208d03",
+      "LoadSymmetrization.lean": "7d9fb9cc8610e01093a6c4e84f2f3d7f93cc40400ebd8a32d79aab688ab815a9",
+      "CoarseRefinement.lean": "2356debe79aed48d963173c9ed6ad0be542349b6e49e33a30ad84414f08c3982",
+      "IndependentNeighborhoods.lean": "63282499a56341ee69c5ff7cd9e5d374772f2f86dcb60ca1e908f8db25f3301e",
+      "CarrierEfron.lean": "a248ef0d9faa34de5fcd6e7741fc81594c66f154a1846c1640e053f4b26bb5ac",
+      "CappedStrata.lean": "a7b993ced4307cd1f5b518635a3199fa9953cc6f88506f61c69705ad9a4b5243",
+      "LoadMajorization.lean": "d424c406e802dd8b01d41ae110e9b51b3777c6db402315f7e7d4955f6d6015b0",
+      "NegativeSource.lean": "47bdaec283fb86dc836407d637984ff30c392b7ac2d4b9310ef2018569f6c498",
+      "RejectionKernel.lean": "1e4335a0e85f7ad76e15a0b9f281640ac1fc653bbd5e8ef879710091ebb17cfd",
+      "WaitingRefinement.lean": "a7deb0b0e361b837aba58a63f7cfaff8b112af45e978f5a63c23bb6a0eb4ffd5",
+      "CappedEfron.lean": "4de85213dd27412299be6ede31b9c327b8945b95368fbb53bd7bf8e5702cc834",
+      "NegativeQuantile.lean": "b9033824b6bfc2e22d3acbc5afcb56c5b74e50e5040d11d8b2fd936b081bf828",
+      "StoppingLaw.lean": "4a62c8f3ae312fef6ac5509ac59305896148de535ddc232da5fd06ac07abf9f9",
+      "ResidualKernelRows.lean": "b7089c4b0bf83cb15c80a1e2822f25a325bcde05fec88c4289fdc52eea135ef7",
+      "SourceModel.lean": "408f537aa44e09db7bae7710da0e4b01bf6c2a317902910d5970a358cb48c71c",
+      "CappedSymmetry.lean": "7f7d5df3d68e969ed08acec57691ea3121b16d3a6f26aa9dc48b0a16963f4a37",
+      "AssociationStep.lean": "7088bc67059f58adb091ff65e625b20ef2436b113e1efdec852df1ae6a4ecb29",
+      "StoppingTransitionBridge.lean": "bbceb9f007e06fb25a07ef53512cde3c1114921d2437ffcfcb50a8f19fa5489d",
+      "CappedPinnedLaw.lean": "bce814cfce3499b9631dc68634e8ae687bac05c77339d26e9d3a09fb64605f58",
+      "CategoricalLoadPair.lean": "f4542ee0ae63919464c240f505f5978303217bfaae4b79a6d0e5c21e66eec476",
+      "Audit.lean": "e9c0475b74a064780183f9f0ac59e05a4169be49d2bfbdeb05e3b9b125a04ea5",
+      "AcceptedCount.lean": "c0f91c9aa87c6a941e2faf4bd624ff29431e61e661c5be79d6a762f10c306668",
+      "NegativeUniform.lean": "60ffd59506da2a5c1de7e79d901668e31fecd48796587ad0750808db6fb867cb",
+      "CoarseSaturation.lean": "6a71683242fae1b079d98acab1b67e9951ada20d3f6f222f9c1004885a1cb6ef",
+      "CappedAssociationTools.lean": "d5e9fe2da6be25156a19d9d0493cdfd002221779c8194001c1046a3a98e5e171",
+      "CappedProduct.lean": "d78a2891c07ae412721539bcab8bcbeab7421537e2ada5d02f1ef3ac96ef4541",
+      "MarkedTimeCoupling.lean": "3ba95e69eef10dd80e984d2eeecc280b572cc847be7f367a218c16680b092ab4",
+      "PairApplications.lean": "e972d2042a3396c198e2bd84b2e6b9fbffdae1a429635faf64b5f39661161fa8",
+      "PairCoefficients.lean": "faf2c4e53c8c00d42b6150a4ec0ce33663c6f8035d4952c53db5cb8c83d81e4e",
+      "NegativeStrata.lean": "e4de78f9cc3256957f928025cd3b72d0f4a7649336b139884d7e8f5d3ba6ddd0",
+      "NegativePartition.lean": "67a2fdadc6fbe4f87e9a3ca6ef9a9757ff8880bac8bdd36943b534a2a3c678aa",
+      "CappedAssociation.lean": "65c4823cb7891e3ab0b0f1e31a0e2208d80648e793d216ea653915c0efa10500",
+      "FiniteTransport.lean": "a15ee7803483952225dbdebb7b92d8ccf9394d56636cb3db673b1da6085ed32e",
+      "TieBias.lean": "b81cb51fe70dbd47dccd42e5517abc816cbe9f2384c74d0d3bf1190ee7e2cf1a",
+      "FiniteWaitingLaw.lean": "45d4617043edf2e3dc6831d127da1b8ab96cc2998a41dd7d71bc5c432380d00c",
+      "CategoricalLaw.lean": "49688a5bda5f3138d684e14e2b6972cdbe6daa63bb60c9bdd8faaa5bf82b6eaa",
+      "NegativeAssociation.lean": "0d9d01bdecdfb3013ff93fa0d37bf8236cd29c15fac1a741ab14539f15fec380",
+      "CappedTieComparison.lean": "44797ea3d6b04d8d9688cfba708ca80db4ea62a9cecacdba12fd6e2247842b2a",
+      "NegativeWaiting.lean": "e08ec5df4bdab20912f9fa0cb6836b67dd95669ebc425a946787f08ac0577ed0",
+      "HistoryExtension.lean": "a6a0ddbe7b1cdb6eb51320aa0172755a5ea18f2b47702a996cd06afff492ea43",
+      "UniformCappedLaw.lean": "3cda7ee0016ee307c609cd2d53adb82a967d981784d1f31cbd6bda82ef03eb05",
+      "UniformLoadMass.lean": "29f2dc27fd59332c95cc80af01e2575d67fee1402d3c42a892c8d587339710c3",
+      "StoppingState.lean": "e5bc513bcf2b366ec88e09fc184182424ae4ebb4fa312c4b1b77a9eb315d6b48",
+      "BernoulliCoupling.lean": "82b35a1ad1540303f05ba4248144be15911ae6a43a091c3034a30dd475175ad1",
+      "FiniteMixture.lean": "fbdb76599e923372ea22433b24ee0784c76d63b1a09f6420a1d2726bfa0c61ab",
+      "MarkedLaw.lean": "8d0ca1489554c2d724564b7edd493bc690e0ec406f6390fa7bb007b55b52970c",
+      "LoadBalancing.lean": "5b4ebd9ce8b4741f5616a5c4931140500a611ad3596aeb05d217ed15536ee49e",
+      "EfronBand.lean": "4c431f15392292a5ed4e96d0e703ec13821c42448f29b1864ddec9104b9e8d45",
+      "CategoricalConditioning.lean": "9763e99d290a44a076c0bdaabb0188f8fe618f3fe44484ed578d02bcbd3dacfe",
+      "NeighborhoodChoice.lean": "3422b6eaca2fb1b38f3c089a81f300e8be25248f57bb280ed2f8227928c728ad",
+      "FiniteJointPush.lean": "28e583afd1709a377ecc57cc2dcc3f1ef273cad6a594bb010d34d1c070456da6",
+      "CoarseWaiting.lean": "f09eb4b3d41e2a851dee65b07de79422802471d5c6b1776a4932546c6be766f0",
+      "ActualNextCoupling.lean": "7d1d4c5a5f0dc838a7e3ec39ac80453bf2558ac4a9dfdd4dedc4026595f8d693",
+      "HistoryFiber.lean": "7051d7a5cb284a4977c5b40d3c63e6ea8b94164952c082788953f5d29021f139",
+      "NegativeDensity.lean": "3db475754b464ddaf1397e1a0390cee16e848a3c95c601c3cfbb6fa061176f64",
+      "StoppingMarkMoments.lean": "dbf3fe420dac2f2f0af219e79bd6db3cf6b89faaad2eba7f28577d33e8f7057c",
+      "NegativeStopping.lean": "5031bdd8ad8a99ba131fe13e0e6b981b6498e5d22537e9ab910012331564fb32",
+      "TwoPointMoments.lean": "b9b910e72cd31e4b9cdc821ba72d652410e4e9e0825d4286c31870da502b7f04",
+      "AssociationTarget.lean": "8265256d0112b3e806fb207ace50405de24e50b34443c468632c482e628163b2",
+      "NegativeEfron.lean": "fcdd6f2181214ee790bbb8118caa502a2c0feb357eabff27733e19e9c3330d14",
+      "HistorySaturation.lean": "e77ff62082694847089a8808c044f915861b0752708bcd916910a43b9ec62869",
+      "RefinementMixture.lean": "19756fb0bdb41cf800f666e433325eb8ccba1b76c51fc02bf95f77ac48efb63f",
+      "StoppingExtensions.lean": "ffd274dd329450a96335ab8df25c8d55cb0dcaace1d090d3a8ad6abf465fe382",
+      "NegativeControl.lean": "1b8ff6ad90605c2252c9b4014beeb0e3fbb43da9a88a279e4dcf66dc23f1141d",
+      "CappedCapRegression.lean": "c867a110ed8958ee0a69021288632210684e8942e6df707eb28342faf7e9f7a7",
+      "CappedTies.lean": "2166499555a3977a899d71cce2bfb1517b1644149849dc74994d80f149ecc301",
+      "PinnedMajorization.lean": "3dd54bc0e926b691e6d7a4e291065ac17cc479aa062843686fad5105adf07000",
+      "WaitingOrder.lean": "1416ff8837bb83198bdf11721d1e369c283d7088632a5cbf64d07271633093b4",
+      "CoarseHistorySupport.lean": "16e62ea3b7e417e12788e65a52781522705b46e1f2e1df2d34217cdf8f2f75e2",
+      "FiniteLikelihood.lean": "3dcffc79e6729bc13f7e40982713b41ab03a449dde12f0106ff6f9089116f912"
+    }
+  },
+  {
+    "seq": "7c34143b59bb407ea0fe040d82dc3ce9",
+    "status": "FAIL",
+    "records": [
+      {
+        "module": "IndependentNeighborhoods",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.282
+      },
+      {
+        "module": "SourceModel",
+        "exit_code": 1,
+        "log": "SourceModel.lean:104:2: error: `simp` made no progress\n",
+        "seconds": 2.309
+      }
+    ],
+    "source_sha256": {
+      "FiniteQuantile.lean": "27bc6269e8b240afe4664d8b5c4e51261ddbdf7f4743d1c3f0ece5fc83f981f7",
+      "HistoryPrefix.lean": "b67576011fb2facab5818811bca2079362a2f00bdf3491e34331e259af157283",
+      "EfronTwo.lean": "08fd9fd2b088e0d69077a3ad5124953179740428dfaf0fe6955f52e94f35d67a",
+      "NegativeTies.lean": "83163046f67f264c4e15389a007ad3173d7be4ec4d31b0fc952d73a8713906ab",
+      "PriorityRelabeling.lean": "58be552e651077c3742e969b09d87b047e5a66d718909ab2a6e878126a21520c",
+      "CouplingInduction.lean": "941b75776c420f1d9c1c9ae5851ae1ac08aeb311476080c1f0fa61cd1428b615",
+      "CategoricalConcentration.lean": "52ca6a5ca1e14e7890902cecd0fa09b3426a143aa4120fd0a9c1442b00de0bd6",
+      "NegativeProductEfron.lean": "4488825560e9fabcb05dd5841c0402ae7a1e863089be546ed6af33b66d44cf99",
+      "CanonicalRefinement.lean": "448306b2ba8125034ca91b8caa8f676c15d76173f2693ca52e4ed20f105f2b07",
+      "ConvolutionMinor.lean": "0b20bdc632b708edaa397923992a42cbe2c7b722ab7cd599cd29df4161655888",
+      "CarrierConvolution.lean": "a526fe6560c0dee6234cc73c7ee1d3ea1f908c3543690becd486fac34b7b846b",
+      "NeighborhoodOrder.lean": "a0c37cc9f6137080a2606c3777cafece3a28b8d77dbbcaf012089ccdf2fba1f3",
+      "NegativeJoint.lean": "bdaf0b1bbe8f4c6862fbb36076addf55bd2d2e236cc0a6f991781345549a6d91",
+      "NegativeCategorical.lean": "3e68d4618b7255d35e3c3e14f5ac28c70b75cf36302abb32c6fb1977de2995a8",
+      "HistoryRefinement.lean": "6be42b4f9d02e233ddafc31c5a182571d4c059da754fde4fb87ddfd8c1216498",
+      "CategoricalHazard.lean": "01fe7f853be6eceac5b02685424035379ad4c8e72eeea6f9aa02767f31b2bd8e",
+      "NegativePinned.lean": "705d925ffd18d3a6995686d1caf894f88f396e966c6d358b49b8a2f6eb3bca2a",
+      "BoundedNextCoupling.lean": "6e3c29bed381bd9ac7ceeb1b724d68c52cf264771b4c18e633c6c3ec589397f2",
+      "StoppingJointLaw.lean": "7120756ecd8188d1c8d2b36d90ddc7576153f86624cadb07097575e3310322a5",
+      "ConstantRows.lean": "c1ef3e49b9b7adf36dd93ce2001c96d19a4c855dd35dc59b6aeee2d6b379745f",
+      "PinnedLaw.lean": "ba333ff57d49f99aaf3998972c0b2aab379746330f21c7f31f3d31f5773e94a1",
+      "FiberRegression.lean": "beb39818fac6fe76b299ccc572f73e75df8a4c34c2f9ccb8b731018bae2d9420",
+      "NegativeBalancing.lean": "78badf1f0c8dc6483d03175b587389dbac91f3a232f440bf5a6d59849899d3f0",
+      "WaitingKernel.lean": "e15cd3f33da4c42e2b7de20f0a6cc33506c49c84abbedbf600ed093d0cd3d989",
+      "ProductEfron.lean": "6a9d426c5ea9d0bfa1c10efd245df08594f82a7f2bb016b823e8aa06f62c8039",
+      "NegativeRepresentation.lean": "34ba849d8efc269cbb535397d3995802327373e9ac45c652aa33c6eb26c2b92e",
+      "CategoricalPair.lean": "065eab7825a52e70096190692dbca55c4742f6419699ada0557fbe8d78c7a90b",
+      "HistoryFactorization.lean": "305febb98a5ba7fdbe15059cd87e4e881f3ef1db5fa2efe20a375c9585822030",
+      "CategoricalNextChoice.lean": "ed2c4d47aa99d56cfcb00adc1701755403bbf1b9f941b2f52bdbdcaa1af034cc",
+      "CappedPrefix.lean": "2e0b3dd2adf26e410ae2d6aed0afb9c9ad79c297c2516e04732c88c8d8bb8b7b",
+      "CategoricalRelabel.lean": "286f5ec473108ba297d2eca0c0ba3ec94ff1fe646ba8b0992552d5c9c75a5a79",
+      "NeighborhoodPermutation.lean": "fd06d109130d50cdbc31dba03178dbbb38bc9ec3da9a82b8dd0e2360c1567c37",
+      "StoppingWaitingCoupling.lean": "a847f9758c4ae74871bc0189df5ee6fc14a9b4bb3ae53e5770c157ba5b56747c",
+      "NegativeHistory.lean": "2bccfd954552b4a67f2c34189dc0c27a98990e4060de2698662e4c3fb9014676",
+      "StoppingTransitionLaws.lean": "16438c108225836880e13b489a7dc6ad56e3845be25cdec64cffa8bd8083e632",
+      "CappedCarrier.lean": "87e30e23c78b1a9acc8d1fd342d8488ea9f63929dca058f70d717044af512eac",
+      "NextStateMoments.lean": "d07760ec3cca93d63c59832b7eecacf46a0053b190cf9e98d53ae22705daae5e",
+      "FixedPriorityComparison.lean": "a216e202e94d2f43dbe8668ae8b8d78c6e5e6b7712eb7ccb805296076a88516c",
+      "CategoricalDensity.lean": "9cf07b275342ab998adaf7371ee3173b5a415d9677f7fb304f8592e0243c9228",
+      "NegativePair.lean": "e4ffb9465b49eb06a2379f32c890138f5e643bb8b766a46c50919f97a99a6336",
+      "CategoricalBoundary.lean": "87132661a5f4b23965ff9dba8ca2271247ce9a108e984f5c2991352d8bcd5d3a",
+      "NegativeRows.lean": "de259e3729ca1b5fab0a0921e5d8530ecf989039c7d3ffce4fc1b9abf9c57ba8",
+      "FiniteCovariance.lean": "ccc87dcf5f8e021f391b2e6ffcfbff72b4a6dfade49ca3aef4debd1535208d03",
+      "LoadSymmetrization.lean": "7d9fb9cc8610e01093a6c4e84f2f3d7f93cc40400ebd8a32d79aab688ab815a9",
+      "CoarseRefinement.lean": "2356debe79aed48d963173c9ed6ad0be542349b6e49e33a30ad84414f08c3982",
+      "IndependentNeighborhoods.lean": "e1023cc78ce4b099417a459dcfcb480ba3464f828bd39847dc4f2b253dbbdc70",
+      "CarrierEfron.lean": "a248ef0d9faa34de5fcd6e7741fc81594c66f154a1846c1640e053f4b26bb5ac",
+      "CappedStrata.lean": "a7b993ced4307cd1f5b518635a3199fa9953cc6f88506f61c69705ad9a4b5243",
+      "LoadMajorization.lean": "d424c406e802dd8b01d41ae110e9b51b3777c6db402315f7e7d4955f6d6015b0",
+      "NegativeSource.lean": "47bdaec283fb86dc836407d637984ff30c392b7ac2d4b9310ef2018569f6c498",
+      "RejectionKernel.lean": "1e4335a0e85f7ad76e15a0b9f281640ac1fc653bbd5e8ef879710091ebb17cfd",
+      "WaitingRefinement.lean": "a7deb0b0e361b837aba58a63f7cfaff8b112af45e978f5a63c23bb6a0eb4ffd5",
+      "CappedEfron.lean": "4de85213dd27412299be6ede31b9c327b8945b95368fbb53bd7bf8e5702cc834",
+      "NegativeQuantile.lean": "b9033824b6bfc2e22d3acbc5afcb56c5b74e50e5040d11d8b2fd936b081bf828",
+      "StoppingLaw.lean": "4a62c8f3ae312fef6ac5509ac59305896148de535ddc232da5fd06ac07abf9f9",
+      "ResidualKernelRows.lean": "b7089c4b0bf83cb15c80a1e2822f25a325bcde05fec88c4289fdc52eea135ef7",
+      "SourceModel.lean": "408f537aa44e09db7bae7710da0e4b01bf6c2a317902910d5970a358cb48c71c",
+      "CappedSymmetry.lean": "7f7d5df3d68e969ed08acec57691ea3121b16d3a6f26aa9dc48b0a16963f4a37",
+      "AssociationStep.lean": "7088bc67059f58adb091ff65e625b20ef2436b113e1efdec852df1ae6a4ecb29",
+      "StoppingTransitionBridge.lean": "bbceb9f007e06fb25a07ef53512cde3c1114921d2437ffcfcb50a8f19fa5489d",
+      "CappedPinnedLaw.lean": "bce814cfce3499b9631dc68634e8ae687bac05c77339d26e9d3a09fb64605f58",
+      "CategoricalLoadPair.lean": "f4542ee0ae63919464c240f505f5978303217bfaae4b79a6d0e5c21e66eec476",
+      "Audit.lean": "e9c0475b74a064780183f9f0ac59e05a4169be49d2bfbdeb05e3b9b125a04ea5",
+      "AcceptedCount.lean": "c0f91c9aa87c6a941e2faf4bd624ff29431e61e661c5be79d6a762f10c306668",
+      "NegativeUniform.lean": "60ffd59506da2a5c1de7e79d901668e31fecd48796587ad0750808db6fb867cb",
+      "CoarseSaturation.lean": "6a71683242fae1b079d98acab1b67e9951ada20d3f6f222f9c1004885a1cb6ef",
+      "CappedAssociationTools.lean": "d5e9fe2da6be25156a19d9d0493cdfd002221779c8194001c1046a3a98e5e171",
+      "CappedProduct.lean": "d78a2891c07ae412721539bcab8bcbeab7421537e2ada5d02f1ef3ac96ef4541",
+      "MarkedTimeCoupling.lean": "3ba95e69eef10dd80e984d2eeecc280b572cc847be7f367a218c16680b092ab4",
+      "PairApplications.lean": "e972d2042a3396c198e2bd84b2e6b9fbffdae1a429635faf64b5f39661161fa8",
+      "PairCoefficients.lean": "faf2c4e53c8c00d42b6150a4ec0ce33663c6f8035d4952c53db5cb8c83d81e4e",
+      "NegativeStrata.lean": "e4de78f9cc3256957f928025cd3b72d0f4a7649336b139884d7e8f5d3ba6ddd0",
+      "NegativePartition.lean": "67a2fdadc6fbe4f87e9a3ca6ef9a9757ff8880bac8bdd36943b534a2a3c678aa",
+      "CappedAssociation.lean": "65c4823cb7891e3ab0b0f1e31a0e2208d80648e793d216ea653915c0efa10500",
+      "FiniteTransport.lean": "a15ee7803483952225dbdebb7b92d8ccf9394d56636cb3db673b1da6085ed32e",
+      "TieBias.lean": "b81cb51fe70dbd47dccd42e5517abc816cbe9f2384c74d0d3bf1190ee7e2cf1a",
+      "FiniteWaitingLaw.lean": "45d4617043edf2e3dc6831d127da1b8ab96cc2998a41dd7d71bc5c432380d00c",
+      "CategoricalLaw.lean": "49688a5bda5f3138d684e14e2b6972cdbe6daa63bb60c9bdd8faaa5bf82b6eaa",
+      "NegativeAssociation.lean": "0d9d01bdecdfb3013ff93fa0d37bf8236cd29c15fac1a741ab14539f15fec380",
+      "CappedTieComparison.lean": "44797ea3d6b04d8d9688cfba708ca80db4ea62a9cecacdba12fd6e2247842b2a",
+      "NegativeWaiting.lean": "e08ec5df4bdab20912f9fa0cb6836b67dd95669ebc425a946787f08ac0577ed0",
+      "HistoryExtension.lean": "a6a0ddbe7b1cdb6eb51320aa0172755a5ea18f2b47702a996cd06afff492ea43",
+      "UniformCappedLaw.lean": "3cda7ee0016ee307c609cd2d53adb82a967d981784d1f31cbd6bda82ef03eb05",
+      "UniformLoadMass.lean": "29f2dc27fd59332c95cc80af01e2575d67fee1402d3c42a892c8d587339710c3",
+      "StoppingState.lean": "e5bc513bcf2b366ec88e09fc184182424ae4ebb4fa312c4b1b77a9eb315d6b48",
+      "BernoulliCoupling.lean": "82b35a1ad1540303f05ba4248144be15911ae6a43a091c3034a30dd475175ad1",
+      "FiniteMixture.lean": "fbdb76599e923372ea22433b24ee0784c76d63b1a09f6420a1d2726bfa0c61ab",
+      "MarkedLaw.lean": "8d0ca1489554c2d724564b7edd493bc690e0ec406f6390fa7bb007b55b52970c",
+      "LoadBalancing.lean": "5b4ebd9ce8b4741f5616a5c4931140500a611ad3596aeb05d217ed15536ee49e",
+      "EfronBand.lean": "4c431f15392292a5ed4e96d0e703ec13821c42448f29b1864ddec9104b9e8d45",
+      "CategoricalConditioning.lean": "9763e99d290a44a076c0bdaabb0188f8fe618f3fe44484ed578d02bcbd3dacfe",
+      "NeighborhoodChoice.lean": "3422b6eaca2fb1b38f3c089a81f300e8be25248f57bb280ed2f8227928c728ad",
+      "FiniteJointPush.lean": "28e583afd1709a377ecc57cc2dcc3f1ef273cad6a594bb010d34d1c070456da6",
+      "CoarseWaiting.lean": "f09eb4b3d41e2a851dee65b07de79422802471d5c6b1776a4932546c6be766f0",
+      "ActualNextCoupling.lean": "7d1d4c5a5f0dc838a7e3ec39ac80453bf2558ac4a9dfdd4dedc4026595f8d693",
+      "HistoryFiber.lean": "7051d7a5cb284a4977c5b40d3c63e6ea8b94164952c082788953f5d29021f139",
+      "NegativeDensity.lean": "3db475754b464ddaf1397e1a0390cee16e848a3c95c601c3cfbb6fa061176f64",
+      "StoppingMarkMoments.lean": "dbf3fe420dac2f2f0af219e79bd6db3cf6b89faaad2eba7f28577d33e8f7057c",
+      "NegativeStopping.lean": "5031bdd8ad8a99ba131fe13e0e6b981b6498e5d22537e9ab910012331564fb32",
+      "TwoPointMoments.lean": "b9b910e72cd31e4b9cdc821ba72d652410e4e9e0825d4286c31870da502b7f04",
+      "AssociationTarget.lean": "8265256d0112b3e806fb207ace50405de24e50b34443c468632c482e628163b2",
+      "NegativeEfron.lean": "fcdd6f2181214ee790bbb8118caa502a2c0feb357eabff27733e19e9c3330d14",
+      "HistorySaturation.lean": "e77ff62082694847089a8808c044f915861b0752708bcd916910a43b9ec62869",
+      "RefinementMixture.lean": "19756fb0bdb41cf800f666e433325eb8ccba1b76c51fc02bf95f77ac48efb63f",
+      "StoppingExtensions.lean": "ffd274dd329450a96335ab8df25c8d55cb0dcaace1d090d3a8ad6abf465fe382",
+      "NegativeControl.lean": "1b8ff6ad90605c2252c9b4014beeb0e3fbb43da9a88a279e4dcf66dc23f1141d",
+      "CappedCapRegression.lean": "c867a110ed8958ee0a69021288632210684e8942e6df707eb28342faf7e9f7a7",
+      "CappedTies.lean": "2166499555a3977a899d71cce2bfb1517b1644149849dc74994d80f149ecc301",
+      "PinnedMajorization.lean": "3dd54bc0e926b691e6d7a4e291065ac17cc479aa062843686fad5105adf07000",
+      "WaitingOrder.lean": "1416ff8837bb83198bdf11721d1e369c283d7088632a5cbf64d07271633093b4",
+      "CoarseHistorySupport.lean": "16e62ea3b7e417e12788e65a52781522705b46e1f2e1df2d34217cdf8f2f75e2",
+      "FiniteLikelihood.lean": "3dcffc79e6729bc13f7e40982713b41ab03a449dde12f0106ff6f9089116f912"
+    }
+  },
+  {
+    "seq": "21de98c9b03c4076910aad08a165a48d",
+    "status": "FAIL",
+    "records": [
+      {
+        "module": "SourceModel",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.358
+      },
+      {
+        "module": "NegativeSource",
+        "exit_code": 1,
+        "log": "NegativeSource.lean:7:94: error: unsolved goals\n\u22a2 False\n",
+        "seconds": 2.029
+      }
+    ],
+    "source_sha256": {
+      "FiniteQuantile.lean": "27bc6269e8b240afe4664d8b5c4e51261ddbdf7f4743d1c3f0ece5fc83f981f7",
+      "HistoryPrefix.lean": "b67576011fb2facab5818811bca2079362a2f00bdf3491e34331e259af157283",
+      "EfronTwo.lean": "08fd9fd2b088e0d69077a3ad5124953179740428dfaf0fe6955f52e94f35d67a",
+      "NegativeTies.lean": "83163046f67f264c4e15389a007ad3173d7be4ec4d31b0fc952d73a8713906ab",
+      "PriorityRelabeling.lean": "58be552e651077c3742e969b09d87b047e5a66d718909ab2a6e878126a21520c",
+      "CouplingInduction.lean": "941b75776c420f1d9c1c9ae5851ae1ac08aeb311476080c1f0fa61cd1428b615",
+      "CategoricalConcentration.lean": "52ca6a5ca1e14e7890902cecd0fa09b3426a143aa4120fd0a9c1442b00de0bd6",
+      "NegativeProductEfron.lean": "4488825560e9fabcb05dd5841c0402ae7a1e863089be546ed6af33b66d44cf99",
+      "CanonicalRefinement.lean": "448306b2ba8125034ca91b8caa8f676c15d76173f2693ca52e4ed20f105f2b07",
+      "ConvolutionMinor.lean": "0b20bdc632b708edaa397923992a42cbe2c7b722ab7cd599cd29df4161655888",
+      "CarrierConvolution.lean": "a526fe6560c0dee6234cc73c7ee1d3ea1f908c3543690becd486fac34b7b846b",
+      "NeighborhoodOrder.lean": "a0c37cc9f6137080a2606c3777cafece3a28b8d77dbbcaf012089ccdf2fba1f3",
+      "NegativeJoint.lean": "bdaf0b1bbe8f4c6862fbb36076addf55bd2d2e236cc0a6f991781345549a6d91",
+      "NegativeCategorical.lean": "3e68d4618b7255d35e3c3e14f5ac28c70b75cf36302abb32c6fb1977de2995a8",
+      "HistoryRefinement.lean": "6be42b4f9d02e233ddafc31c5a182571d4c059da754fde4fb87ddfd8c1216498",
+      "CategoricalHazard.lean": "01fe7f853be6eceac5b02685424035379ad4c8e72eeea6f9aa02767f31b2bd8e",
+      "NegativePinned.lean": "705d925ffd18d3a6995686d1caf894f88f396e966c6d358b49b8a2f6eb3bca2a",
+      "BoundedNextCoupling.lean": "6e3c29bed381bd9ac7ceeb1b724d68c52cf264771b4c18e633c6c3ec589397f2",
+      "StoppingJointLaw.lean": "7120756ecd8188d1c8d2b36d90ddc7576153f86624cadb07097575e3310322a5",
+      "ConstantRows.lean": "c1ef3e49b9b7adf36dd93ce2001c96d19a4c855dd35dc59b6aeee2d6b379745f",
+      "PinnedLaw.lean": "ba333ff57d49f99aaf3998972c0b2aab379746330f21c7f31f3d31f5773e94a1",
+      "FiberRegression.lean": "beb39818fac6fe76b299ccc572f73e75df8a4c34c2f9ccb8b731018bae2d9420",
+      "NegativeBalancing.lean": "78badf1f0c8dc6483d03175b587389dbac91f3a232f440bf5a6d59849899d3f0",
+      "WaitingKernel.lean": "e15cd3f33da4c42e2b7de20f0a6cc33506c49c84abbedbf600ed093d0cd3d989",
+      "ProductEfron.lean": "6a9d426c5ea9d0bfa1c10efd245df08594f82a7f2bb016b823e8aa06f62c8039",
+      "NegativeRepresentation.lean": "34ba849d8efc269cbb535397d3995802327373e9ac45c652aa33c6eb26c2b92e",
+      "CategoricalPair.lean": "065eab7825a52e70096190692dbca55c4742f6419699ada0557fbe8d78c7a90b",
+      "HistoryFactorization.lean": "305febb98a5ba7fdbe15059cd87e4e881f3ef1db5fa2efe20a375c9585822030",
+      "CategoricalNextChoice.lean": "ed2c4d47aa99d56cfcb00adc1701755403bbf1b9f941b2f52bdbdcaa1af034cc",
+      "CappedPrefix.lean": "2e0b3dd2adf26e410ae2d6aed0afb9c9ad79c297c2516e04732c88c8d8bb8b7b",
+      "CategoricalRelabel.lean": "286f5ec473108ba297d2eca0c0ba3ec94ff1fe646ba8b0992552d5c9c75a5a79",
+      "NeighborhoodPermutation.lean": "fd06d109130d50cdbc31dba03178dbbb38bc9ec3da9a82b8dd0e2360c1567c37",
+      "StoppingWaitingCoupling.lean": "a847f9758c4ae74871bc0189df5ee6fc14a9b4bb3ae53e5770c157ba5b56747c",
+      "NegativeHistory.lean": "2bccfd954552b4a67f2c34189dc0c27a98990e4060de2698662e4c3fb9014676",
+      "StoppingTransitionLaws.lean": "16438c108225836880e13b489a7dc6ad56e3845be25cdec64cffa8bd8083e632",
+      "CappedCarrier.lean": "87e30e23c78b1a9acc8d1fd342d8488ea9f63929dca058f70d717044af512eac",
+      "NextStateMoments.lean": "d07760ec3cca93d63c59832b7eecacf46a0053b190cf9e98d53ae22705daae5e",
+      "FixedPriorityComparison.lean": "a216e202e94d2f43dbe8668ae8b8d78c6e5e6b7712eb7ccb805296076a88516c",
+      "CategoricalDensity.lean": "9cf07b275342ab998adaf7371ee3173b5a415d9677f7fb304f8592e0243c9228",
+      "NegativePair.lean": "e4ffb9465b49eb06a2379f32c890138f5e643bb8b766a46c50919f97a99a6336",
+      "CategoricalBoundary.lean": "87132661a5f4b23965ff9dba8ca2271247ce9a108e984f5c2991352d8bcd5d3a",
+      "NegativeRows.lean": "de259e3729ca1b5fab0a0921e5d8530ecf989039c7d3ffce4fc1b9abf9c57ba8",
+      "FiniteCovariance.lean": "ccc87dcf5f8e021f391b2e6ffcfbff72b4a6dfade49ca3aef4debd1535208d03",
+      "LoadSymmetrization.lean": "7d9fb9cc8610e01093a6c4e84f2f3d7f93cc40400ebd8a32d79aab688ab815a9",
+      "CoarseRefinement.lean": "2356debe79aed48d963173c9ed6ad0be542349b6e49e33a30ad84414f08c3982",
+      "IndependentNeighborhoods.lean": "e1023cc78ce4b099417a459dcfcb480ba3464f828bd39847dc4f2b253dbbdc70",
+      "CarrierEfron.lean": "a248ef0d9faa34de5fcd6e7741fc81594c66f154a1846c1640e053f4b26bb5ac",
+      "CappedStrata.lean": "a7b993ced4307cd1f5b518635a3199fa9953cc6f88506f61c69705ad9a4b5243",
+      "LoadMajorization.lean": "d424c406e802dd8b01d41ae110e9b51b3777c6db402315f7e7d4955f6d6015b0",
+      "NegativeSource.lean": "47bdaec283fb86dc836407d637984ff30c392b7ac2d4b9310ef2018569f6c498",
+      "RejectionKernel.lean": "1e4335a0e85f7ad76e15a0b9f281640ac1fc653bbd5e8ef879710091ebb17cfd",
+      "WaitingRefinement.lean": "a7deb0b0e361b837aba58a63f7cfaff8b112af45e978f5a63c23bb6a0eb4ffd5",
+      "CappedEfron.lean": "4de85213dd27412299be6ede31b9c327b8945b95368fbb53bd7bf8e5702cc834",
+      "NegativeQuantile.lean": "b9033824b6bfc2e22d3acbc5afcb56c5b74e50e5040d11d8b2fd936b081bf828",
+      "StoppingLaw.lean": "4a62c8f3ae312fef6ac5509ac59305896148de535ddc232da5fd06ac07abf9f9",
+      "ResidualKernelRows.lean": "b7089c4b0bf83cb15c80a1e2822f25a325bcde05fec88c4289fdc52eea135ef7",
+      "SourceModel.lean": "eb8f0af0f7fbb10db47baa2af82e3bedc4415d6deb22e9a9c1f512a16220ec0f",
+      "CappedSymmetry.lean": "7f7d5df3d68e969ed08acec57691ea3121b16d3a6f26aa9dc48b0a16963f4a37",
+      "AssociationStep.lean": "7088bc67059f58adb091ff65e625b20ef2436b113e1efdec852df1ae6a4ecb29",
+      "StoppingTransitionBridge.lean": "bbceb9f007e06fb25a07ef53512cde3c1114921d2437ffcfcb50a8f19fa5489d",
+      "CappedPinnedLaw.lean": "bce814cfce3499b9631dc68634e8ae687bac05c77339d26e9d3a09fb64605f58",
+      "CategoricalLoadPair.lean": "f4542ee0ae63919464c240f505f5978303217bfaae4b79a6d0e5c21e66eec476",
+      "Audit.lean": "e9c0475b74a064780183f9f0ac59e05a4169be49d2bfbdeb05e3b9b125a04ea5",
+      "AcceptedCount.lean": "c0f91c9aa87c6a941e2faf4bd624ff29431e61e661c5be79d6a762f10c306668",
+      "NegativeUniform.lean": "60ffd59506da2a5c1de7e79d901668e31fecd48796587ad0750808db6fb867cb",
+      "CoarseSaturation.lean": "6a71683242fae1b079d98acab1b67e9951ada20d3f6f222f9c1004885a1cb6ef",
+      "CappedAssociationTools.lean": "d5e9fe2da6be25156a19d9d0493cdfd002221779c8194001c1046a3a98e5e171",
+      "CappedProduct.lean": "d78a2891c07ae412721539bcab8bcbeab7421537e2ada5d02f1ef3ac96ef4541",
+      "MarkedTimeCoupling.lean": "3ba95e69eef10dd80e984d2eeecc280b572cc847be7f367a218c16680b092ab4",
+      "PairApplications.lean": "e972d2042a3396c198e2bd84b2e6b9fbffdae1a429635faf64b5f39661161fa8",
+      "PairCoefficients.lean": "faf2c4e53c8c00d42b6150a4ec0ce33663c6f8035d4952c53db5cb8c83d81e4e",
+      "NegativeStrata.lean": "e4de78f9cc3256957f928025cd3b72d0f4a7649336b139884d7e8f5d3ba6ddd0",
+      "NegativePartition.lean": "67a2fdadc6fbe4f87e9a3ca6ef9a9757ff8880bac8bdd36943b534a2a3c678aa",
+      "CappedAssociation.lean": "65c4823cb7891e3ab0b0f1e31a0e2208d80648e793d216ea653915c0efa10500",
+      "FiniteTransport.lean": "a15ee7803483952225dbdebb7b92d8ccf9394d56636cb3db673b1da6085ed32e",
+      "TieBias.lean": "b81cb51fe70dbd47dccd42e5517abc816cbe9f2384c74d0d3bf1190ee7e2cf1a",
+      "FiniteWaitingLaw.lean": "45d4617043edf2e3dc6831d127da1b8ab96cc2998a41dd7d71bc5c432380d00c",
+      "CategoricalLaw.lean": "49688a5bda5f3138d684e14e2b6972cdbe6daa63bb60c9bdd8faaa5bf82b6eaa",
+      "NegativeAssociation.lean": "0d9d01bdecdfb3013ff93fa0d37bf8236cd29c15fac1a741ab14539f15fec380",
+      "CappedTieComparison.lean": "44797ea3d6b04d8d9688cfba708ca80db4ea62a9cecacdba12fd6e2247842b2a",
+      "NegativeWaiting.lean": "e08ec5df4bdab20912f9fa0cb6836b67dd95669ebc425a946787f08ac0577ed0",
+      "HistoryExtension.lean": "a6a0ddbe7b1cdb6eb51320aa0172755a5ea18f2b47702a996cd06afff492ea43",
+      "UniformCappedLaw.lean": "3cda7ee0016ee307c609cd2d53adb82a967d981784d1f31cbd6bda82ef03eb05",
+      "UniformLoadMass.lean": "29f2dc27fd59332c95cc80af01e2575d67fee1402d3c42a892c8d587339710c3",
+      "StoppingState.lean": "e5bc513bcf2b366ec88e09fc184182424ae4ebb4fa312c4b1b77a9eb315d6b48",
+      "BernoulliCoupling.lean": "82b35a1ad1540303f05ba4248144be15911ae6a43a091c3034a30dd475175ad1",
+      "FiniteMixture.lean": "fbdb76599e923372ea22433b24ee0784c76d63b1a09f6420a1d2726bfa0c61ab",
+      "MarkedLaw.lean": "8d0ca1489554c2d724564b7edd493bc690e0ec406f6390fa7bb007b55b52970c",
+      "LoadBalancing.lean": "5b4ebd9ce8b4741f5616a5c4931140500a611ad3596aeb05d217ed15536ee49e",
+      "EfronBand.lean": "4c431f15392292a5ed4e96d0e703ec13821c42448f29b1864ddec9104b9e8d45",
+      "CategoricalConditioning.lean": "9763e99d290a44a076c0bdaabb0188f8fe618f3fe44484ed578d02bcbd3dacfe",
+      "NeighborhoodChoice.lean": "3422b6eaca2fb1b38f3c089a81f300e8be25248f57bb280ed2f8227928c728ad",
+      "FiniteJointPush.lean": "28e583afd1709a377ecc57cc2dcc3f1ef273cad6a594bb010d34d1c070456da6",
+      "CoarseWaiting.lean": "f09eb4b3d41e2a851dee65b07de79422802471d5c6b1776a4932546c6be766f0",
+      "ActualNextCoupling.lean": "7d1d4c5a5f0dc838a7e3ec39ac80453bf2558ac4a9dfdd4dedc4026595f8d693",
+      "HistoryFiber.lean": "7051d7a5cb284a4977c5b40d3c63e6ea8b94164952c082788953f5d29021f139",
+      "NegativeDensity.lean": "3db475754b464ddaf1397e1a0390cee16e848a3c95c601c3cfbb6fa061176f64",
+      "StoppingMarkMoments.lean": "dbf3fe420dac2f2f0af219e79bd6db3cf6b89faaad2eba7f28577d33e8f7057c",
+      "NegativeStopping.lean": "5031bdd8ad8a99ba131fe13e0e6b981b6498e5d22537e9ab910012331564fb32",
+      "TwoPointMoments.lean": "b9b910e72cd31e4b9cdc821ba72d652410e4e9e0825d4286c31870da502b7f04",
+      "AssociationTarget.lean": "8265256d0112b3e806fb207ace50405de24e50b34443c468632c482e628163b2",
+      "NegativeEfron.lean": "fcdd6f2181214ee790bbb8118caa502a2c0feb357eabff27733e19e9c3330d14",
+      "HistorySaturation.lean": "e77ff62082694847089a8808c044f915861b0752708bcd916910a43b9ec62869",
+      "RefinementMixture.lean": "19756fb0bdb41cf800f666e433325eb8ccba1b76c51fc02bf95f77ac48efb63f",
+      "StoppingExtensions.lean": "ffd274dd329450a96335ab8df25c8d55cb0dcaace1d090d3a8ad6abf465fe382",
+      "NegativeControl.lean": "1b8ff6ad90605c2252c9b4014beeb0e3fbb43da9a88a279e4dcf66dc23f1141d",
+      "CappedCapRegression.lean": "c867a110ed8958ee0a69021288632210684e8942e6df707eb28342faf7e9f7a7",
+      "CappedTies.lean": "2166499555a3977a899d71cce2bfb1517b1644149849dc74994d80f149ecc301",
+      "PinnedMajorization.lean": "3dd54bc0e926b691e6d7a4e291065ac17cc479aa062843686fad5105adf07000",
+      "WaitingOrder.lean": "1416ff8837bb83198bdf11721d1e369c283d7088632a5cbf64d07271633093b4",
+      "CoarseHistorySupport.lean": "16e62ea3b7e417e12788e65a52781522705b46e1f2e1df2d34217cdf8f2f75e2",
+      "FiniteLikelihood.lean": "3dcffc79e6729bc13f7e40982713b41ab03a449dde12f0106ff6f9089116f912"
+    }
+  },
+  {
+    "seq": "9c30828eed7c48d385c8df0db04461b4",
+    "status": "PASS",
+    "records": [
+      {
+        "module": "FiniteCovariance",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.243
+      },
+      {
+        "module": "AssociationStep",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.322
+      },
+      {
+        "module": "TieBias",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.133
+      },
+      {
+        "module": "CappedCarrier",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.262
+      },
+      {
+        "module": "MarkedLaw",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.191
+      },
+      {
+        "module": "AssociationTarget",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.139
+      },
+      {
+        "module": "CappedTies",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.214
+      },
+      {
+        "module": "FiniteTransport",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.186
+      },
+      {
+        "module": "FiniteLikelihood",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.262
+      },
+      {
+        "module": "EfronTwo",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.469
+      },
+      {
+        "module": "CappedEfron",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.371
+      },
+      {
+        "module": "ConvolutionMinor",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.472
+      },
+      {
+        "module": "CarrierConvolution",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.512
+      },
+      {
+        "module": "CarrierEfron",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.164
+      },
+      {
+        "module": "ProductEfron",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.429
+      },
+      {
+        "module": "EfronBand",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.589
+      },
+      {
+        "module": "PinnedMajorization",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.409
+      },
+      {
+        "module": "PinnedLaw",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.211
+      },
+      {
+        "module": "CappedSymmetry",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.347
+      },
+      {
+        "module": "CappedPinnedLaw",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.279
+      },
+      {
+        "module": "FiberRegression",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.355
+      },
+      {
+        "module": "CappedTieComparison",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.209
+      },
+      {
+        "module": "CappedStrata",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.791
+      },
+      {
+        "module": "CappedProduct",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.505
+      },
+      {
+        "module": "CappedPrefix",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.378
+      },
+      {
+        "module": "CappedAssociationTools",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.494
+      },
+      {
+        "module": "CappedCapRegression",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.95
+      },
+      {
+        "module": "CappedAssociation",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.371
+      },
+      {
+        "module": "PairCoefficients",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.87
+      },
+      {
+        "module": "PairApplications",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.272
+      },
+      {
+        "module": "LoadBalancing",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.545
+      },
+      {
+        "module": "LoadMajorization",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.3
+      },
+      {
+        "module": "CategoricalLaw",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.418
+      },
+      {
+        "module": "CategoricalPair",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.729
+      },
+      {
+        "module": "CategoricalBoundary",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.433
+      },
+      {
+        "module": "CategoricalNextChoice",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.313
+      },
+      {
+        "module": "CategoricalLoadPair",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.451
+      },
+      {
+        "module": "LoadSymmetrization",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.205
+      },
+      {
+        "module": "CategoricalDensity",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.148
+      },
+      {
+        "module": "CategoricalConcentration",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.346
+      },
+      {
+        "module": "CategoricalConditioning",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.23
+      },
+      {
+        "module": "CategoricalHazard",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.186
+      },
+      {
+        "module": "UniformLoadMass",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.421
+      },
+      {
+        "module": "UniformCappedLaw",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.364
+      },
+      {
+        "module": "HistoryRefinement",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.31
+      },
+      {
+        "module": "NeighborhoodChoice",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.392
+      },
+      {
+        "module": "HistoryFactorization",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.553
+      },
+      {
+        "module": "HistoryFiber",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.506
+      },
+      {
+        "module": "NeighborhoodPermutation",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.171
+      },
+      {
+        "module": "NeighborhoodOrder",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.164
+      },
+      {
+        "module": "ResidualKernelRows",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.468
+      },
+      {
+        "module": "CategoricalRelabel",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.189
+      },
+      {
+        "module": "ConstantRows",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.175
+      },
+      {
+        "module": "HistorySaturation",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.398
+      },
+      {
+        "module": "WaitingKernel",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.19
+      },
+      {
+        "module": "RejectionKernel",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.161
+      },
+      {
+        "module": "HistoryExtension",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.246
+      },
+      {
+        "module": "WaitingRefinement",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.731
+      },
+      {
+        "module": "AcceptedCount",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.49
+      },
+      {
+        "module": "CanonicalRefinement",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.251
+      },
+      {
+        "module": "CoarseRefinement",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.354
+      },
+      {
+        "module": "FiniteMixture",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.204
+      },
+      {
+        "module": "RefinementMixture",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.231
+      },
+      {
+        "module": "CoarseSaturation",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.313
+      },
+      {
+        "module": "CoarseWaiting",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.287
+      },
+      {
+        "module": "CoarseHistorySupport",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.159
+      },
+      {
+        "module": "HistoryPrefix",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.19
+      },
+      {
+        "module": "StoppingState",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.401
+      },
+      {
+        "module": "StoppingLaw",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.317
+      },
+      {
+        "module": "StoppingJointLaw",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.28
+      },
+      {
+        "module": "StoppingExtensions",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.267
+      },
+      {
+        "module": "StoppingTransitionBridge",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.445
+      },
+      {
+        "module": "StoppingTransitionLaws",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.506
+      },
+      {
+        "module": "FiniteQuantile",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.357
+      },
+      {
+        "module": "FiniteWaitingLaw",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.219
+      },
+      {
+        "module": "WaitingOrder",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.256
+      },
+      {
+        "module": "BernoulliCoupling",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.255
+      },
+      {
+        "module": "StoppingWaitingCoupling",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.311
+      },
+      {
+        "module": "TwoPointMoments",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.266
+      },
+      {
+        "module": "MarkedTimeCoupling",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.273
+      },
+      {
+        "module": "StoppingMarkMoments",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.531
+      },
+      {
+        "module": "NextStateMoments",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.303
+      },
+      {
+        "module": "ActualNextCoupling",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.249
+      },
+      {
+        "module": "FiniteJointPush",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.269
+      },
+      {
+        "module": "BoundedNextCoupling",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.302
+      },
+      {
+        "module": "CouplingInduction",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.296
+      },
+      {
+        "module": "FixedPriorityComparison",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.181
+      },
+      {
+        "module": "PriorityRelabeling",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.309
+      },
+      {
+        "module": "IndependentNeighborhoods",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.281
+      },
+      {
+        "module": "SourceModel",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.456
+      },
+      {
+        "module": "Audit",
+        "exit_code": 0,
+        "log": "'MatchingCapacity.total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.CovNonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.total_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.moment_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.covariance_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.covariance_of_pairwise' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.moment_mono_on_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.covariance_on_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.weighted_chebyshev' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.jointWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.joint_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.joint_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.association_step' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.joint_covariance_of_fibers' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.association_step_on_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.expectation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.sizeBias' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.sizeBias_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.expectation_le_sizeBias' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialWeight' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.cappedCarrier' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.factorialWeight_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialWeight_step' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialWeight_logconcave' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedCarrier_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedCarrier_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedCarrier_logconcave' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.marking_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.marking_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.expectation_marked_eq_sizeBias' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.expectation_count_le_marked' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.LoadLE' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.loadLE_refl' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.loadLE_trans' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.CappedLoad' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedWeight_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.CappedAssociation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxMark' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxCount' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.total_maxMark' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximumWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximumWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.marked_maximum_eq_sizeBias' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximum_count_le_marked' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cumMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prefix_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prefix_succ' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stayMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.riseMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.transport_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.transport_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.adjacent_transport_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.CrossLE' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.likelihood_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.likelihood_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prefix_indicator' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prefix_tail' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.likelihood_cdf' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalized' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prefix_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalized_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalized_cross' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.StepLogConcave' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.sumLayer' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.shiftedLayer' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rightShift' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.prefix_rightShift' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalized_rightShift' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.shiftedLayer_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.layer_cross' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.shifted_layer_cross' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.twoExpectation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.efron_two_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialWeight_cross' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedCarrier_cross' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.integerCarrier' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.integerCarrier_nat' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.integerCarrier_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.integerCarrier_neg_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.integerCarrier_step_logconcave' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_layer_mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_efron_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_efron_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.WideLogConcave' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.wide_implies_step' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.minor_composition_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cross_composition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteConv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.convolution_extend' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.convolution_shift' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.convolution_wide_logconcave' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialWeight_succ_div' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialWeight_wide' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedCarrier_wide' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.integerCarrier_wide' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.FiniteCarrier' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.FiniteCarrier.zero_outside' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialCarrier' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.conv_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.conv_zero_outside' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.conv_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.carrierConv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.totalCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.carrierProduct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.carrierProduct_cap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capProduct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.totalCap_factorial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capProduct_cap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capProduct_step' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.conv_eq_layer' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.carrier_layer_mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.carrier_efron_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.carrier_efron_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.CoordLE' depends on axioms: [propext]\n'MatchingCapacity.CoordinateIncreasing' depends on axioms: [propext]\n'MatchingCapacity.coordLE_refl' depends on axioms: [propext]\n'MatchingCapacity.productMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMean' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMoment_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMean_mono_function' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMoment_zero_large' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMoment_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMean_split' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMean_split_clamped' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.product_efron_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_product_efron' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.FitsCaps' depends on axioms: [propext]\n'MatchingCapacity.capBox' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.mem_capBox' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.clampCaps' does not depend on any axioms\n'MatchingCapacity.clampCaps_fits' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.clampCaps_eq' depends on axioms: [propext]\n'MatchingCapacity.clampCaps_mono' depends on axioms: [propext]\n'MatchingCapacity.coordLE_sum' depends on axioms: [propext]\n'MatchingCapacity.fitsCaps_length' depends on axioms: [propext]\n'MatchingCapacity.fitsCaps_sum' depends on axioms: [propext]\n'MatchingCapacity.boxBound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.boxBound_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.boxBound_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bandValue' depends on axioms: [propext]\n'MatchingCapacity.bandValue_eq' depends on axioms: [propext]\n'MatchingCapacity.bandValue_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedMoment_congr' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMoment_neg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMean_neg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_efron_band' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_efron_band_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadLE_of_reservoir' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coordLE_getD' depends on axioms: [propext]\n'MatchingCapacity.fitsCaps_getD' depends on axioms: [propext]\n'MatchingCapacity.sum_getD' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.completeLoad' depends on axioms: [propext]\n'MatchingCapacity.completeLoad_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.completeLoad_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pinned_efron_majorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.headSlice' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.productMoment_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.headSlice_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pinnedMean' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pinnedMean_eq_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.headSlice_mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pinnedMean_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.labelled_maximum_conditioning_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.labelled_maximum_regression' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.permuteCapped' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedPermEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedWeight_permute' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxCount_permute' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadLE_reindex' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_increasing_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedMaximumWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxCount_pos_of_mark' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximum_mark_eq_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedMaximum_moment_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieBias_moment_eq_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedMaximum_expectation_eq_tieBias' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prependCapped' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.HeadMaxLoad' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.deleteHeadMax' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.headMaxEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedWeight_prepend' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxCount_prepend' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedMaximum_moment_delete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedMaximum_total_delete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedMaximum_expectation_delete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieBias_expectation_delete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiberWeight' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.fiberWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.moment_eq_total_mul_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.sum_fiber_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_mass_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_class_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_mixed_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_mean_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.covariance_of_regression' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.expectation_sizeBias_eq_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.expectation_le_bias_of_regression' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxClass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximumFiberWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximum_tie_mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximum_expectation_le_tieBias' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximum_count_le_residual' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximum_expectation_le_residual' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residual_mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieGate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieGate_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieBias_moment_gate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedMaximum_moment_gate_delete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieStratum_moment_delete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieStratum_total_delete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieStratum_expectation_delete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieStratum_mass_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxCount_eq_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.raiseCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxCount_raiseCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.NoMaxLoad' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.lowerCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.strictCapEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedWeight_raiseCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.zeroTie_moment_lowerCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.zeroTie_total_lowerCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.zeroTie_expectation_lowerCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixFirstPerm' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.permuteCapped_prepend' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prepend_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximumFiber_eq_tieWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieTotal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieMean' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieStratum_total_closed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieStratum_all_mass_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxCount_zeroCap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.repeatMaxima' depends on axioms: [propext]\n'MatchingCapacity.cons_symmetric' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.prependCapped_values' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieStratum_expectation_allDelete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.boxList' does not depend on any axioms\n'MatchingCapacity.boxWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.boxMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.headTailBoxEquiv' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.boxList_cons' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.boxWeight_cons' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.boxMoment_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.boxMoment_succ' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.sum_truncated_rectangle' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMoment_eq_boxMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedMoment_eq_boxMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.productMoment_eq_cappedMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_total_eq_product' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_total_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.boxList_getD' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedMean' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedMean_eq_productMean' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_vector_efron' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_vector_pinned_majorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieStratum_feasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_pinned_residual_masses_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maximum_mass_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadLE_cons' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadLE_repeatMaxima' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.repeatMaxima_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.repeatMaxima_increasing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_prefixed_pinned_majorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.SchurIncreasing' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.schur_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.schur_cons' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.schurCandidates' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.schurCandidates_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.schurExtension' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.schurExtension_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.schurExtension_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.maxCount_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_sizeBias_eq_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.expectation_le_bias_of_covariance' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_pin_of_association' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.covariance_iff_mean' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.covariance_of_fiber_association' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieTotal_pos_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieTotal_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieTotal_pos_between' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieMean_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieMean_succ_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieMean_succ' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieMean_zero_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieMean_adjacent_of_lower_association' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieMean_regression_of_lower_association' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.tieMean_covariance_of_lower_association' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedFiber_eq_tieWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedAssociation_succ_ambient' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedAssociation_succ' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedAssociation_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedAssociation_all' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_tie_regression' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_pin_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_tie_regression_all' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_maxCount_covariance' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairPolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairBasis' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalizedPairCoeff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairPolynomial_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.choose_ratio_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalizedPairCoeff_eq_basis' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.choose_second_difference_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairBasis_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairBasis_convex' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalizedPairCoeff_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalizedPairCoeff_convex' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairBasis_difference_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.normalizedPairCoeff_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pair_boundary_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pair_boundary_conditional' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pair_factorial_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pair_factorial_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pair_factorial_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.balanceLoad' does not depend on any axioms\n'MatchingCapacity.loadExcess' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.PrefixLE' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.balanceLoad_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.balanceLoad_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.balanceLoad_excess' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.exists_first_deficit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.exists_prefix_donor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.balanceLoad_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prefix_mono_of_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadLE_balance' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.antitone_prefix_max' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.prefixLE_of_loadLE' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadLE_permute_both' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadLE_mono_of_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadLE_mono_iff_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentLoad' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentEventMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalLoadMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentEventMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentWeight_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentWeight_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentLoad_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalLoadMass_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.restrictedAssignmentWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rowMarkedPolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedProduct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.restrictedAssignmentWeight_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedProduct_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedProduct_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentEventMass_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentEventMass_congr' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.PairOutside' does not depend on any axioms\n'MatchingCapacity.pairLabel' does not depend on any axioms\n'MatchingCapacity.pairPattern' does not depend on any axioms\n'MatchingCapacity.pairActive' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairOutsideWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairSliceMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairLabel_none_iff' depends on axioms: [propext]\n'MatchingCapacity.pairLabel_some_iff' depends on axioms: [propext]\n'MatchingCapacity.pairOutsideWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pair_row_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pair_fiber_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairSliceMass_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairSliceMass_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairSliceMass_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairSliceMass_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairPattern_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairOutsideLoad' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairPattern_outside_load' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentCapped' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundaryMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairOutsideCapped' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairBoundaryAllowed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentCapped_pattern' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundary_pattern_left' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundary_pattern_right' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.pairSliceMass_partition_event' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundaryMass_left' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundaryMass_right' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundaryMass_ordered' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundaryProbability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundaryProbability_ordered' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.nextSaturationMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.nextSaturationProbability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.nextSaturationMass_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.nextSaturationProbability_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedBoundaryProbability_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_next_minimizes_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.replacePair' does not depend on any axioms\n'MatchingCapacity.replacePair_swap' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.pairLoadAllowed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentLoad_replacePair' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalLoadMass_pair' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categorical_pair_balancing_ordered' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categorical_pair_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadFactorial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialLoadMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadFactorial_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadFactorial_pair' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.factorialLoadMass_pair_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.symmetrizeLoad' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.symmetrizeLoad_permute' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.replacePair_original' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.replacePair_exchange' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.replacePair_permute' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.symmetrizeLoad_balancing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.symmetrizeLoad_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.symmetrizedLoadMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalDensity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadFactorial_permute' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalDensity_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalDensity_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalDensity_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalDensity_majorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedCategoricalWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedSymmetrizedWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_symmetrized_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_symmetrized_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_density_weight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_density_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_density_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_categorical_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedAssignment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedAssignmentMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cappedAssignment_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_categorical_assignment_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_categorical_assignment_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categorical_conditional_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.capped_assignment_maxCount' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_next_saturation_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categorical_saturation_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadExponent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.loadExponent_apply' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignment_loadExponent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignment_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignment_polynomial_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.unitLoadMass_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.unitLoadMass_multinomial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.categoricalLoadMass_row_constant' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.constantRowLoadMass_factorial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniformRows' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniformLoadScale' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniformLoadScale_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniformRows_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_assignment_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_capped_weight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_capped_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_capped_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_capped_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_assignment_cap_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_cap_feasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.positive_assignment_cap_feasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_cap_positive_of_positive' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_conditional_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_saturation_reference' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ordered_vs_uniform_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ordered_vs_uniform_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ResidualJobs' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ResidualBins' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyLoad' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyAvailable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedHistory' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.completeHistory' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.FixedSupported' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ResidualCapped' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyLoad_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyLoad_final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.completeHistory_free' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.completeHistory_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.completeHistory_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.complete_load_in_D' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixed_load_outside_D' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.complete_final_residual' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.complete_residual_cap_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.complete_availability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvResponse' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingPick' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingResponse' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.neighborhoodKernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvKernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingKernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvResponse_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvResponse_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingResponse_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingResponse_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.neighborhoodKernel_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.neighborhoodKernel_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvKernel_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingKernel_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvKernel_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingKernel_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvResponse_reject_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingResponse_reject' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.kernels_same_rejection' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvResponse_unavailable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingResponse_unavailable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvKernel_unavailable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingKernel_unavailable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedPathFactor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residualRows' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refinedPathWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyLoad_snoc' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyAvailable_snoc' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyWeight_snoc' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyWeight_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_history_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_history_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyLoad_snoc_final' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyWeight_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_history_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_history_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedPathFactor_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residualRows_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_weight_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refined_path_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refined_path_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refined_path_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refined_positive_factors' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refined_conditional_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_history_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_history_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.HistoryRefines' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.extractResidual' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.extractResidual_spec' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.complete_refines' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.complete_extract' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.extract_complete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyFiber' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyFiberEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_fiber_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_fiber_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_fiber_conditional_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyFreeJobs' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyFullBins' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_anchor_supported' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_anchor_refines' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_anchor_capped' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_anchor_member' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_full_bin_load' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_anchor_fixed_load' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_fiber_full_bins' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_refined_history_law' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_refined_history_law' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.permuteBins' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.mem_permuteBins' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.mem_permuteBins_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.permuteBins_card' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.permuteBins_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.permuteBinsEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.permuteBins_inter' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.neighborhood_sum_permutation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvResponse_permutation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvKernel_permutation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.swap_preserves_available' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rvKernel_constant_on_available' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingPick_eq_some_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_swap_improves' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingResponse_swap_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rankingKernel_ordered_on_available' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residualOrder' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residual_always_available' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_residual_rows_constant' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_residual_rows_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residualNextRow' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residualNextRow_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_residual_next_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_residual_next_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentRelabel' depends on axioms: [Quot.sound]\n'MatchingCapacity.assignmentLoad_relabel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignmentCapped_relabel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.assignment_cap_mass_relabel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.next_saturation_relabel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.constant_rows_cap_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.constant_rows_next_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.constant_rows_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.constant_rows_eq_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refinedSaturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_fiber_cap_mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refined_saturation_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_available_complement' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_fiber_final_availability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_refined_saturation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_refined_saturation_reference' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_le_ranking_refined_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.waitingWeight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.successMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.firstSuccessMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.waitingWeight_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.waitingWeight_succ' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.waitingWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.successMass_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.firstSuccessMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.firstSuccessMass_drop' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.first_success_or_never' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.waitingWeight_same_rejections' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_ranking_same_waiting' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.empty_inter_iff_subset_complement' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rejecting_neighborhoods' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_rejection_formula' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_rejection_formula' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residual_success_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_residual_success_formula' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_residual_success_formula' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rejectExtension' does not depend on any axioms\n'MatchingCapacity.acceptedExtension' does not depend on any axioms\n'MatchingCapacity.rejectExtension_prefix' does not depend on any axioms\n'MatchingCapacity.rejectExtension_injective' depends on axioms: [Quot.sound]\n'MatchingCapacity.acceptedExtension_injective' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.rejectExtension_final_load' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rejectExtension_availability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rejectExtension_weight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedExtension_weight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedExtension_fiber_weight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiberNextMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_positive_factors' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_conditional_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_old_law' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiberNextSaturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_saturation_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_next_success_saturation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_next_success_saturation_reference' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_waiting_law' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rv_fiber_waiting_formula' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ranking_fiber_waiting_formula' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiberNeverMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_never_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_mass_firstSuccess' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_or_never_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedCount' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_accepted_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedCount_snoc' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rejectExtension_accepted_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedExtension_accepted_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.complete_accepted_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_fiber_accepted_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.residual_job_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedExtension_final_load' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedExtension_full_bins' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedExtension_full_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_mark_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.HistoryKey' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.historyKey' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.KeyValid' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.GoodRefinement' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.LegalHistory' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.KeyFiber' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixedHistory_idempotent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_key_member' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_key_valid' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.canonical_fiber_key' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.key_fiber_legal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refinementHistoryMap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refinementHistoryMap_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.refinementHistoryMap_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyRefinementEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_refinement_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.keyAccepted' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.AcceptedPrefix' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.KeyPrefix' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_accepted_pattern' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_accepted_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.accepted_prefix_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.availableNextMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_available_next' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarseNextMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_next_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.key_residual_bin_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.key_prefix_counts' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finite_zero_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finite_null_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.conditional_bound_unnormalized' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.conditional_eq_unnormalized' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finite_mixture_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finite_mixture_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.referenceHazard' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.key_uniform_reference' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_mass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fiber_next_null_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.key_rv_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.key_ranking_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_moment_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_moment_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarseNextSaturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_rv_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_ranking_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_rv_vs_ranking' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_next_mark_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarseHistoryMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarseNeverMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.countWaitingFactor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_history_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_never_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_rv_waiting_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_ranking_waiting_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_rv_waiting_law' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_ranking_waiting_law' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_next_or_never_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.illegal_history_weight_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.legal_history_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_history_unrestricted' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_next_unrestricted' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_never_unrestricted' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyTake' does not depend on any axioms\n'MatchingCapacity.historyTake_self' does not depend on any axioms\n'MatchingCapacity.historyTake_snoc' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.historyTake_trans' does not depend on any axioms\n'MatchingCapacity.history_prefix_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_prefix_moment_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.history_prefix_event' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_empty' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_snoc' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_none_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedPrefix_snoc' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_at_end' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_persists' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_prefix_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.StopState' does not depend on any axioms\n'MatchingCapacity.stopValue' does not depend on any axioms\n'MatchingCapacity.finiteStoppingState' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopValue_injective' depends on axioms: [propext]\n'MatchingCapacity.finiteStoppingState_value' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteStoppingState_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteStoppingState_none_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteStoppingState_absorbing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingMass_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingMass_finite' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingMass_never' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingMass_tail' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteStoppingState_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingMass_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingJointMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingJoint_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingJoint_first_marginal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingJoint_second_marginal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingJoint_null_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingTransition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingTransition_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingTransition_total_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingJoint_cemetery' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.historyTake_rejectExtension' depends on axioms: [Quot.sound]\n'MatchingCapacity.historyTake_acceptedExtension' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.acceptedCount_prefix_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.same_count_rejectExtension' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.consecutive_hit_extension' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedExtension_old_hit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.acceptedExtension_next_hit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.never_next_rejectExtension' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rejectExtension_old_hit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rejectExtension_next_none' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingState_strict_times' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rawStoppingJoint' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingJoint_raw' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.available_next_all_bins' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.raw_joint_at_next_hit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.raw_joint_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_joint_next_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_joint_never_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.raw_joint_nonfuture_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingNextMoment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finite_nat_indicator_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_next_moment_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_next_mark_indicator' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coarse_next_mark_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingNextSaturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_saturation_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_rv_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_ranking_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_rv_waiting' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_ranking_waiting' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.quantileMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cumMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.cumMass_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.min_rectangle_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.quantileMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.quantileMass_symm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.quantile_row_telescope' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.quantile_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.quantile_column' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.quantile_ordered_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ordered_quantile_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.survivalProduct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteWaitMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.survivalProduct_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.survivalProduct_succ' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.survivalProduct_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.survivalProduct_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.survivalProduct_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteWaitMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteWaitMass_cdf' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteWaitMass_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finiteWaitMass_cdf_order' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finite_waiting_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.failureRatio' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayedFailure' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.failureRatio_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.failureRatio_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.failureRatio_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayedFailure_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayedFailure_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayedFailure_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayed_survival_before' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayed_survival_shift' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayed_waiting_before' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayed_waiting_hit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.delayed_waiting_never' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.count_waiting_cdf_order' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.count_waiting_ordered_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bernoulliMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bernoulliJoint' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bernoulliMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bernoulliMass_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bernoulliJoint_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bernoulliJoint_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bernoulliJoint_column' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.bernoulliJoint_ordered' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.unequal_counts_stay_ordered' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.coarse_never_factor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_never_waiting' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingTimeMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_time_mass_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_rv_time_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_ranking_time_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.actual_waiting_ordered_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.indicator_ratio_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.twoPoint_raw_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.twoPoint_bernoulli_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedTimeMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.timePairMarks' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedTimeJoint' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.timePairMarks_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.timePairMarks_column' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedTimeJoint_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedTimeJoint_column' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedTimeJoint_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedTimeJoint_ordered' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coupling_row_positive' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coupling_column_positive' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.rawStoppingJoint_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_saturation_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_mark_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_mark_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.positive_next_hit_future' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.full_count_waiting_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.positive_rv_next_not_full' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.actual_equal_count_mark_order' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.markedNextState' does not depend on any axioms\n'MatchingCapacity.actualMarkedMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.next_state_moment_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.marked_finite_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.marked_terminal_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.actual_marked_state_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.RawStopLE' does not depend on any axioms\n'MatchingCapacity.markedNextState_order' depends on axioms: [propext]\n'MatchingCapacity.markedTimeJoint_state_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.positive_time_mass_next' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.actual_marked_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.actual_next_state_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.jointPush' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.jointPush_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.jointPush_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.jointPush_column' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.jointPush_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.boundStop' does not depend on any axioms\n'MatchingCapacity.StopLE' does not depend on any axioms\n'MatchingCapacity.boundStop_value' depends on axioms: [propext]\n'MatchingCapacity.boundStop_order' depends on axioms: [propext]\n'MatchingCapacity.finite_current_transition_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingTransition_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stoppingTransition_cemetery' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.actual_ordered_transition_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.HasRelCoupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coupling_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.coupling_step' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_laws_ordered_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.stopping_never_mass_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.fixed_priority_matching_tail_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.relabelHistory' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.historyRelabelEquiv' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.relabel_history_load' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.relabel_history_available' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.relabel_accepted_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.priorityResponse' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.priorityKernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.priority_response_choice' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.priority_kernel_relabel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.priority_history_relabel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.matchingTail' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.priority_matching_tail' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.finite_degree_matching_tail_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.arbitrary_priority_matching_tail_comparison' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'MatchingCapacity.uniformNeighborhoodMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_neighborhood_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_neighborhood_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.neighborhoodProfileMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.graphHistoryMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.neighborhood_profile_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.neighborhood_profile_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.graph_history_kernel_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.graph_history_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.graph_history_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.profileOrderEquiv' depends on axioms: [propext, Quot.sound]\n'MatchingCapacity.neighborhood_profile_reorder' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.orderedGraphHistoryMass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.ordered_graph_history_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.priority_response_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniformAverage' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_average_const' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_average_mono' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_average_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.uniform_average_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.matching_tail_average' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.sourceRVHistory' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.sourceRankingHistory' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.source_rv_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.source_ranking_probability' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.source_rv_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.source_ranking_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MatchingCapacity.source_matching_tail_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+        "seconds": 2.685
+      }
+    ],
+    "source_sha256": {
+      "FiniteQuantile.lean": "27bc6269e8b240afe4664d8b5c4e51261ddbdf7f4743d1c3f0ece5fc83f981f7",
+      "HistoryPrefix.lean": "b67576011fb2facab5818811bca2079362a2f00bdf3491e34331e259af157283",
+      "EfronTwo.lean": "08fd9fd2b088e0d69077a3ad5124953179740428dfaf0fe6955f52e94f35d67a",
+      "NegativeTies.lean": "83163046f67f264c4e15389a007ad3173d7be4ec4d31b0fc952d73a8713906ab",
+      "PriorityRelabeling.lean": "58be552e651077c3742e969b09d87b047e5a66d718909ab2a6e878126a21520c",
+      "CouplingInduction.lean": "941b75776c420f1d9c1c9ae5851ae1ac08aeb311476080c1f0fa61cd1428b615",
+      "CategoricalConcentration.lean": "52ca6a5ca1e14e7890902cecd0fa09b3426a143aa4120fd0a9c1442b00de0bd6",
+      "NegativeProductEfron.lean": "4488825560e9fabcb05dd5841c0402ae7a1e863089be546ed6af33b66d44cf99",
+      "CanonicalRefinement.lean": "448306b2ba8125034ca91b8caa8f676c15d76173f2693ca52e4ed20f105f2b07",
+      "ConvolutionMinor.lean": "0b20bdc632b708edaa397923992a42cbe2c7b722ab7cd599cd29df4161655888",
+      "CarrierConvolution.lean": "a526fe6560c0dee6234cc73c7ee1d3ea1f908c3543690becd486fac34b7b846b",
+      "NeighborhoodOrder.lean": "a0c37cc9f6137080a2606c3777cafece3a28b8d77dbbcaf012089ccdf2fba1f3",
+      "NegativeJoint.lean": "bdaf0b1bbe8f4c6862fbb36076addf55bd2d2e236cc0a6f991781345549a6d91",
+      "NegativeCategorical.lean": "3e68d4618b7255d35e3c3e14f5ac28c70b75cf36302abb32c6fb1977de2995a8",
+      "HistoryRefinement.lean": "6be42b4f9d02e233ddafc31c5a182571d4c059da754fde4fb87ddfd8c1216498",
+      "CategoricalHazard.lean": "01fe7f853be6eceac5b02685424035379ad4c8e72eeea6f9aa02767f31b2bd8e",
+      "NegativePinned.lean": "705d925ffd18d3a6995686d1caf894f88f396e966c6d358b49b8a2f6eb3bca2a",
+      "BoundedNextCoupling.lean": "6e3c29bed381bd9ac7ceeb1b724d68c52cf264771b4c18e633c6c3ec589397f2",
+      "StoppingJointLaw.lean": "7120756ecd8188d1c8d2b36d90ddc7576153f86624cadb07097575e3310322a5",
+      "ConstantRows.lean": "c1ef3e49b9b7adf36dd93ce2001c96d19a4c855dd35dc59b6aeee2d6b379745f",
+      "PinnedLaw.lean": "ba333ff57d49f99aaf3998972c0b2aab379746330f21c7f31f3d31f5773e94a1",
+      "FiberRegression.lean": "beb39818fac6fe76b299ccc572f73e75df8a4c34c2f9ccb8b731018bae2d9420",
+      "NegativeBalancing.lean": "78badf1f0c8dc6483d03175b587389dbac91f3a232f440bf5a6d59849899d3f0",
+      "WaitingKernel.lean": "e15cd3f33da4c42e2b7de20f0a6cc33506c49c84abbedbf600ed093d0cd3d989",
+      "ProductEfron.lean": "6a9d426c5ea9d0bfa1c10efd245df08594f82a7f2bb016b823e8aa06f62c8039",
+      "NegativeRepresentation.lean": "34ba849d8efc269cbb535397d3995802327373e9ac45c652aa33c6eb26c2b92e",
+      "CategoricalPair.lean": "065eab7825a52e70096190692dbca55c4742f6419699ada0557fbe8d78c7a90b",
+      "HistoryFactorization.lean": "305febb98a5ba7fdbe15059cd87e4e881f3ef1db5fa2efe20a375c9585822030",
+      "CategoricalNextChoice.lean": "ed2c4d47aa99d56cfcb00adc1701755403bbf1b9f941b2f52bdbdcaa1af034cc",
+      "CappedPrefix.lean": "2e0b3dd2adf26e410ae2d6aed0afb9c9ad79c297c2516e04732c88c8d8bb8b7b",
+      "CategoricalRelabel.lean": "286f5ec473108ba297d2eca0c0ba3ec94ff1fe646ba8b0992552d5c9c75a5a79",
+      "NeighborhoodPermutation.lean": "fd06d109130d50cdbc31dba03178dbbb38bc9ec3da9a82b8dd0e2360c1567c37",
+      "StoppingWaitingCoupling.lean": "a847f9758c4ae74871bc0189df5ee6fc14a9b4bb3ae53e5770c157ba5b56747c",
+      "NegativeHistory.lean": "2bccfd954552b4a67f2c34189dc0c27a98990e4060de2698662e4c3fb9014676",
+      "StoppingTransitionLaws.lean": "16438c108225836880e13b489a7dc6ad56e3845be25cdec64cffa8bd8083e632",
+      "CappedCarrier.lean": "87e30e23c78b1a9acc8d1fd342d8488ea9f63929dca058f70d717044af512eac",
+      "NextStateMoments.lean": "d07760ec3cca93d63c59832b7eecacf46a0053b190cf9e98d53ae22705daae5e",
+      "FixedPriorityComparison.lean": "a216e202e94d2f43dbe8668ae8b8d78c6e5e6b7712eb7ccb805296076a88516c",
+      "CategoricalDensity.lean": "9cf07b275342ab998adaf7371ee3173b5a415d9677f7fb304f8592e0243c9228",
+      "NegativePair.lean": "e4ffb9465b49eb06a2379f32c890138f5e643bb8b766a46c50919f97a99a6336",
+      "CategoricalBoundary.lean": "87132661a5f4b23965ff9dba8ca2271247ce9a108e984f5c2991352d8bcd5d3a",
+      "NegativeRows.lean": "de259e3729ca1b5fab0a0921e5d8530ecf989039c7d3ffce4fc1b9abf9c57ba8",
+      "FiniteCovariance.lean": "ccc87dcf5f8e021f391b2e6ffcfbff72b4a6dfade49ca3aef4debd1535208d03",
+      "LoadSymmetrization.lean": "7d9fb9cc8610e01093a6c4e84f2f3d7f93cc40400ebd8a32d79aab688ab815a9",
+      "CoarseRefinement.lean": "2356debe79aed48d963173c9ed6ad0be542349b6e49e33a30ad84414f08c3982",
+      "IndependentNeighborhoods.lean": "e1023cc78ce4b099417a459dcfcb480ba3464f828bd39847dc4f2b253dbbdc70",
+      "CarrierEfron.lean": "a248ef0d9faa34de5fcd6e7741fc81594c66f154a1846c1640e053f4b26bb5ac",
+      "CappedStrata.lean": "a7b993ced4307cd1f5b518635a3199fa9953cc6f88506f61c69705ad9a4b5243",
+      "LoadMajorization.lean": "d424c406e802dd8b01d41ae110e9b51b3777c6db402315f7e7d4955f6d6015b0",
+      "NegativeSource.lean": "47bdaec283fb86dc836407d637984ff30c392b7ac2d4b9310ef2018569f6c498",
+      "RejectionKernel.lean": "1e4335a0e85f7ad76e15a0b9f281640ac1fc653bbd5e8ef879710091ebb17cfd",
+      "WaitingRefinement.lean": "a7deb0b0e361b837aba58a63f7cfaff8b112af45e978f5a63c23bb6a0eb4ffd5",
+      "CappedEfron.lean": "4de85213dd27412299be6ede31b9c327b8945b95368fbb53bd7bf8e5702cc834",
+      "NegativeQuantile.lean": "b9033824b6bfc2e22d3acbc5afcb56c5b74e50e5040d11d8b2fd936b081bf828",
+      "StoppingLaw.lean": "4a62c8f3ae312fef6ac5509ac59305896148de535ddc232da5fd06ac07abf9f9",
+      "ResidualKernelRows.lean": "b7089c4b0bf83cb15c80a1e2822f25a325bcde05fec88c4289fdc52eea135ef7",
+      "SourceModel.lean": "eb8f0af0f7fbb10db47baa2af82e3bedc4415d6deb22e9a9c1f512a16220ec0f",
+      "CappedSymmetry.lean": "7f7d5df3d68e969ed08acec57691ea3121b16d3a6f26aa9dc48b0a16963f4a37",
+      "AssociationStep.lean": "7088bc67059f58adb091ff65e625b20ef2436b113e1efdec852df1ae6a4ecb29",
+      "StoppingTransitionBridge.lean": "bbceb9f007e06fb25a07ef53512cde3c1114921d2437ffcfcb50a8f19fa5489d",
+      "CappedPinnedLaw.lean": "bce814cfce3499b9631dc68634e8ae687bac05c77339d26e9d3a09fb64605f58",
+      "CategoricalLoadPair.lean": "f4542ee0ae63919464c240f505f5978303217bfaae4b79a6d0e5c21e66eec476",
+      "Audit.lean": "e9c0475b74a064780183f9f0ac59e05a4169be49d2bfbdeb05e3b9b125a04ea5",
+      "AcceptedCount.lean": "c0f91c9aa87c6a941e2faf4bd624ff29431e61e661c5be79d6a762f10c306668",
+      "NegativeUniform.lean": "60ffd59506da2a5c1de7e79d901668e31fecd48796587ad0750808db6fb867cb",
+      "CoarseSaturation.lean": "6a71683242fae1b079d98acab1b67e9951ada20d3f6f222f9c1004885a1cb6ef",
+      "CappedAssociationTools.lean": "d5e9fe2da6be25156a19d9d0493cdfd002221779c8194001c1046a3a98e5e171",
+      "CappedProduct.lean": "d78a2891c07ae412721539bcab8bcbeab7421537e2ada5d02f1ef3ac96ef4541",
+      "MarkedTimeCoupling.lean": "3ba95e69eef10dd80e984d2eeecc280b572cc847be7f367a218c16680b092ab4",
+      "PairApplications.lean": "e972d2042a3396c198e2bd84b2e6b9fbffdae1a429635faf64b5f39661161fa8",
+      "PairCoefficients.lean": "faf2c4e53c8c00d42b6150a4ec0ce33663c6f8035d4952c53db5cb8c83d81e4e",
+      "NegativeStrata.lean": "e4de78f9cc3256957f928025cd3b72d0f4a7649336b139884d7e8f5d3ba6ddd0",
+      "NegativePartition.lean": "67a2fdadc6fbe4f87e9a3ca6ef9a9757ff8880bac8bdd36943b534a2a3c678aa",
+      "CappedAssociation.lean": "65c4823cb7891e3ab0b0f1e31a0e2208d80648e793d216ea653915c0efa10500",
+      "FiniteTransport.lean": "a15ee7803483952225dbdebb7b92d8ccf9394d56636cb3db673b1da6085ed32e",
+      "TieBias.lean": "b81cb51fe70dbd47dccd42e5517abc816cbe9f2384c74d0d3bf1190ee7e2cf1a",
+      "FiniteWaitingLaw.lean": "45d4617043edf2e3dc6831d127da1b8ab96cc2998a41dd7d71bc5c432380d00c",
+      "CategoricalLaw.lean": "49688a5bda5f3138d684e14e2b6972cdbe6daa63bb60c9bdd8faaa5bf82b6eaa",
+      "NegativeAssociation.lean": "0d9d01bdecdfb3013ff93fa0d37bf8236cd29c15fac1a741ab14539f15fec380",
+      "CappedTieComparison.lean": "44797ea3d6b04d8d9688cfba708ca80db4ea62a9cecacdba12fd6e2247842b2a",
+      "NegativeWaiting.lean": "e08ec5df4bdab20912f9fa0cb6836b67dd95669ebc425a946787f08ac0577ed0",
+      "HistoryExtension.lean": "a6a0ddbe7b1cdb6eb51320aa0172755a5ea18f2b47702a996cd06afff492ea43",
+      "UniformCappedLaw.lean": "3cda7ee0016ee307c609cd2d53adb82a967d981784d1f31cbd6bda82ef03eb05",
+      "UniformLoadMass.lean": "29f2dc27fd59332c95cc80af01e2575d67fee1402d3c42a892c8d587339710c3",
+      "StoppingState.lean": "e5bc513bcf2b366ec88e09fc184182424ae4ebb4fa312c4b1b77a9eb315d6b48",
+      "BernoulliCoupling.lean": "82b35a1ad1540303f05ba4248144be15911ae6a43a091c3034a30dd475175ad1",
+      "FiniteMixture.lean": "fbdb76599e923372ea22433b24ee0784c76d63b1a09f6420a1d2726bfa0c61ab",
+      "MarkedLaw.lean": "8d0ca1489554c2d724564b7edd493bc690e0ec406f6390fa7bb007b55b52970c",
+      "LoadBalancing.lean": "5b4ebd9ce8b4741f5616a5c4931140500a611ad3596aeb05d217ed15536ee49e",
+      "EfronBand.lean": "4c431f15392292a5ed4e96d0e703ec13821c42448f29b1864ddec9104b9e8d45",
+      "CategoricalConditioning.lean": "9763e99d290a44a076c0bdaabb0188f8fe618f3fe44484ed578d02bcbd3dacfe",
+      "NeighborhoodChoice.lean": "3422b6eaca2fb1b38f3c089a81f300e8be25248f57bb280ed2f8227928c728ad",
+      "FiniteJointPush.lean": "28e583afd1709a377ecc57cc2dcc3f1ef273cad6a594bb010d34d1c070456da6",
+      "CoarseWaiting.lean": "f09eb4b3d41e2a851dee65b07de79422802471d5c6b1776a4932546c6be766f0",
+      "ActualNextCoupling.lean": "7d1d4c5a5f0dc838a7e3ec39ac80453bf2558ac4a9dfdd4dedc4026595f8d693",
+      "HistoryFiber.lean": "7051d7a5cb284a4977c5b40d3c63e6ea8b94164952c082788953f5d29021f139",
+      "NegativeDensity.lean": "3db475754b464ddaf1397e1a0390cee16e848a3c95c601c3cfbb6fa061176f64",
+      "StoppingMarkMoments.lean": "dbf3fe420dac2f2f0af219e79bd6db3cf6b89faaad2eba7f28577d33e8f7057c",
+      "NegativeStopping.lean": "5031bdd8ad8a99ba131fe13e0e6b981b6498e5d22537e9ab910012331564fb32",
+      "TwoPointMoments.lean": "b9b910e72cd31e4b9cdc821ba72d652410e4e9e0825d4286c31870da502b7f04",
+      "AssociationTarget.lean": "8265256d0112b3e806fb207ace50405de24e50b34443c468632c482e628163b2",
+      "NegativeEfron.lean": "fcdd6f2181214ee790bbb8118caa502a2c0feb357eabff27733e19e9c3330d14",
+      "HistorySaturation.lean": "e77ff62082694847089a8808c044f915861b0752708bcd916910a43b9ec62869",
+      "RefinementMixture.lean": "19756fb0bdb41cf800f666e433325eb8ccba1b76c51fc02bf95f77ac48efb63f",
+      "StoppingExtensions.lean": "ffd274dd329450a96335ab8df25c8d55cb0dcaace1d090d3a8ad6abf465fe382",
+      "NegativeControl.lean": "1b8ff6ad90605c2252c9b4014beeb0e3fbb43da9a88a279e4dcf66dc23f1141d",
+      "CappedCapRegression.lean": "c867a110ed8958ee0a69021288632210684e8942e6df707eb28342faf7e9f7a7",
+      "CappedTies.lean": "2166499555a3977a899d71cce2bfb1517b1644149849dc74994d80f149ecc301",
+      "PinnedMajorization.lean": "3dd54bc0e926b691e6d7a4e291065ac17cc479aa062843686fad5105adf07000",
+      "WaitingOrder.lean": "1416ff8837bb83198bdf11721d1e369c283d7088632a5cbf64d07271633093b4",
+      "CoarseHistorySupport.lean": "16e62ea3b7e417e12788e65a52781522705b46e1f2e1df2d34217cdf8f2f75e2",
+      "FiniteLikelihood.lean": "3dcffc79e6729bc13f7e40982713b41ab03a449dde12f0106ff6f9089116f912"
+    }
+  }
+]
