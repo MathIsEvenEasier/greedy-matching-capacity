@@ -9,8 +9,7 @@ matching size than RANKING:
 
 This resolves the full conjecture following Theorem 2 in Nick Arnosti's
 *Greedy Matching in Bipartite Random Graphs*, under that paper's
-random-neighborhood model. A common capacity is an assumption of the
-original conjecture; it is not an extra restriction added by this proof. The result holds for every finite parameter,
+random-neighborhood model. The conjecture assumes a common capacity. The result holds for all finite sizes,
 for fixed neighborhood-independent job and priority orders, and hence
 also for the source model's independent uniform orders.
 
@@ -83,16 +82,14 @@ The source-model theorem has no extra comparison, association, coupling
 or Markov premise. The certificate uses the standard Lean kernel; no
 independent kernel reimplementation audit is claimed. VibeMathed lists the
 result as Candidate, Lean-checked. A full independent proof and formal
-statement audit remains open. This is a research announcement, without a
-novelty or priority claim.
+statement audit remains open. No priority claim is made.
 
 Authorship and resources
 ------------------------
 
 Prepared by MathIsEvenEasier with OpenAI Codex (GPT-6 Astra).
 Heavy compilation and proof audits were performed in bounded Azure jobs;
-recorded deletion of the final job's resources is included. Publishing and
-browser illustrations do not start cloud compute jobs.
+the resource deletion receipt is included.
 
 Public source build
 -------------------

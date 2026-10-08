@@ -37,7 +37,7 @@
   ],
   "manuscript": {
     "path": "research-note.tex",
-    "sha256": "1c34a5931540e11d35584176d58c94a7a33b758f49d8f8ecfd8cb339b56b986a",
+    "sha256": "967ac30ca6300b23fa33d926886470ca58a7b0f284aaa783d3dbb0e4768d1606",
     "lines": 520
   },
   "archived_research_narrative": {
@@ -485,5 +485,10 @@
       "https://www.jstor.org/stable/2241341",
       "https://doi.org/10.1214/aos/1176350376"
     ]
+  },
+  "editorial_revision": {
+    "date": "2026-10-08",
+    "previous_manuscript_sha256": "1c34a5931540e11d35584176d58c94a7a33b758f49d8f8ecfd8cb339b56b986a",
+    "scope": "Prose edits to the abstract and attribution; mathematical statements, proof and Lean sources unchanged."
   }
 }

@@ -8,7 +8,7 @@ const results = {
     context: 'The capped-load visualization shows how association turns a change of density into an expectation comparison. Lean proves the required finite rational association statement directly.'
   },
   pair: {
-    title: 'Two-bin coefficients', kind: 'Lemma 3 · one calculation, two uses', step: 1,
+    title: 'Two-bin coefficients', kind: 'Lemma 3 · monotonicity and convexity', step: 1,
     statement: 'If every choice row prefers the first of two bins, the normalized coefficients of their product are nondecreasing and discretely convex. Both properties hold even when some factors vanish.',
     formula: 'Δg<sub>k</sub> ≥ 0 &nbsp; and &nbsp; Δ²g<sub>k</sub> ≥ 0',
     foundation: 'Average products over permutations. Taking a first or second difference replaces one or two factors v with u − v. All remaining factors are nonnegative.',
@@ -27,13 +27,13 @@ const results = {
     context: 'Here pᵢ is the conditional probability that bin i is at load q. This is the first inequality in the saturation visualization; keep the old distribution fixed and vary the next-choice preference.'
   },
   hazard: {
-    title: 'The conditional hazard bound', kind: 'Corollary 6 · where the two branches meet', step: 3,
+    title: 'The conditional hazard bound', kind: 'Corollary 6 · saturation probability', step: 3,
     statement: 'For capacity C = q + 1, commonly ordered old choices and an independent ordered next choice create a full bin with probability at least the uniform reference h. All rows uniform give equality.',
     formula: 'Pr(N<sub>Y</sub> = C − 1 | max N < C) ≥ h<sub>b,C</sub>(r)',
     context: 'Two comparisons are needed: first make the next choice uniform; then compare the old loads with the capped uniform reference. This covers every positive integer capacity, on a positive-probability cap event.'
   },
   transition: {
-    title: 'The actual conditional transition', kind: 'Lemma 7 · bringing the bound into the algorithms', step: 4,
+    title: 'The actual conditional transition', kind: 'Lemma 7 · conditional matching law', step: 4,
     statement: 'At a fixed accepted-job count K, condition on the current arrival index and the number a of full bins. Both algorithms have the stated next-success waiting law. Given the next success, the probability of adding a full bin equals h for RV and is at least h for RANKING.',
     formula: 'RV fill probability = h ≤ RANKING fill probability',
     context: 'The additional work is identifying the conditional law: refine the history, factor its weight, and show the residual cap is its entire remaining constraint. Averaging over refinements preserves the hazard bound. The visualization illustrates this history argument.'
