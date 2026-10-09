@@ -12,7 +12,7 @@
 \newcommand{\lean}[1]{\texttt{\detokenize{#1}}}
 \title{Random choice versus a common ranking\\in equal-capacity bipartite matching}
 \author{MathIsEvenEasier\\\small Prepared with OpenAI Codex (GPT-6 Astra)}
-\date{6 October 2026}
+\date{6 October 2026; exposition revised 9 October 2026}
 \begin{document}
 \maketitle
 
@@ -67,11 +67,23 @@ conditional on an arbitrary fixed graph. The proof is in
 Sections~\ref{sec:loads}--\ref{sec:coupling};
 Section~\ref{sec:formal} describes the machine-checked statement.
 
+The comparison is organized around the number of full bins. For a job of
+fixed degree, rejection depends on that number, not on the partial loads
+of the other bins. When the accepted-job count and full-bin count agree,
+RANKING is at least as likely as RANDOM-VERTEX to fill another bin at the
+next acceptance.
+The main difficulty is conditioning on the earlier acceptances: this
+changes the load distribution. Section~\ref{sec:loads} proves the needed
+comparison for capped loads, Section~\ref{sec:history} identifies the
+conditional law, and Section~\ref{sec:coupling} couples successive
+acceptance levels.
+
 \section{A comparison of capped loads}\label{sec:loads}
 For vectors of equal total, $x$ majorizes $y$ when every upper partial
 sum of the decreasing rearrangement of $x$ is at least the corresponding
 sum for $y$. A majorization-increasing statistic therefore increases as
-loads become more concentrated.
+loads become more concentrated. For example, $(2,0)$ majorizes $(1,1)$:
+the totals agree, but the first vector has the larger maximum load.
 
 For $b\geq1$, $q\geq0$ and $0\leq r\leq bq$, write
 \[
@@ -246,7 +258,7 @@ $1,\ldots,n$. For RANKING fix the priority order $1,\ldots,m$;
 relabeling invariance of the neighborhood model makes every fixed
 order have the same output law. Let $\sigma_K$ be the arrival accepting
 the $K$th job, with $\sigma_K=\infty$ if there is no such arrival.
-When $\sigma_K<\infty$, let $A_K$ count the full days just after it.
+When $\sigma_K<\infty$, let $A_K$ count the full bins just after it.
 Put $(\sigma_0,A_0)=(0,0)$. We compare the distribution of this pair
 at each $K$; a level never reached is an absorbing cemetery state.
 The cemetery state is ordered above every finite state; finite states
@@ -272,28 +284,28 @@ This includes $a=0$ and $b=1$.
 \end{lemma}
 \begin{proof}
 Refine the current state to data $\rho$ specifying the set $D$ of
-days full at $\sigma_K$, the
+bins full at $\sigma_K$, the
 destination of every job assigned to $D$, and the acceptance or
 rejection of every arrival through $\sigma_K$. Thus $\rho$ also
-determines each full day's filling time and the full-day set
+determines each full bin's filling time and the full-bin set
 $D_{j-1}$ before every earlier arrival $j$. Let $I$ be the final
-$b$ nonfull days and $J$ the accepted jobs whose destinations in
+$b$ nonfull bins and $J$ the accepted jobs whose destinations in
 $I$ are not yet specified. There are $|J|=K-aC=r$ such jobs.
 
 For a fixed availability set, let $u_j(i)$ be the unconditional
-probability that arrival $j$ chooses available day $i$. If $v$ days
+probability that arrival $j$ chooses available bin $i$. If $v$ bins
 are full, these probabilities are
 \[
  u_j(i)=\frac{1-f_j(v)}{m-v}\quad(\RV),\qquad
  u_j(i)=\frac{\binom{m-s_i}{d_j-1}}{\binom m{d_j}}
        \quad(\RK),
 \]
-where $s_i$ is the position of $i$ among the available days in
+where $s_i$ is the position of $i$ among the available bins in
 priority order. The second formula counts neighborhoods containing
-$i$ and avoiding the $s_i-1$ earlier available days; full days
+$i$ and avoiding the $s_i-1$ earlier available bins; full bins
 are allowed among the other neighbors. Thus the RV row is uniform
 and the RK row is nonincreasing. These formulas depend on which
-days are full, not on the partial loads of available days.
+bins are full, not on the partial loads of available bins.
 
 For proposed destinations $z=(z_j:j\in J)\in I^J$, write
 $N_i(z)=\#\{j\in J:z_j=i\}$. The joint path probability factors as
@@ -327,7 +339,7 @@ same inherited priority order. This argument includes $D=\varnothing$.
 
 Until the next acceptance, rejections leave the loads unchanged.
 Each has probability $f_j(a)$, for every residual load vector and
-every full-day set of size $a$. This proves
+every full-bin set of size $a$. This proves
 \eqref{eq:waitingkernel}. On each fixed positive refinement, conditional also on $S=s$, the fresh
 destination at $s$ is independent of the old residual choices: its row on $I$
 is uniform for RV and nonincreasing for RK. The waiting event has
@@ -352,7 +364,7 @@ RV with its own conditional law; RK stays in the cemetery state.
 Otherwise both current hitting times are finite.
 
 The waiting kernel in Lemma~\ref{lem:allhistory} is increasing in
-the starting index $\sigma_K$ and the full-day count $a$: for
+the starting index $\sigma_K$ and the full-bin count $a$: for
 $s>\sigma_K$ its cumulative probability is
 \[
  \Pr(S\leq s\mid\sigma_K,A_K)
@@ -364,7 +376,7 @@ cumulative distribution functions therefore give
 $S_\RV\leq S_\RK$, including the atom at infinity.
 
 If $S_\RK=\infty$, no new mark comparison is required. Otherwise
-both next hits are finite. If the old full-day counts differ, each
+both next hits are finite. If the old full-bin counts differ, each
 new count is its old value plus zero or one, so the order persists
 under any coupling. If both old counts equal $a$, both current states
 have the same $b=m-a$ and $r=K-aC$. Conditional on their respective
